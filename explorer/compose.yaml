@@ -1,0 +1,9 @@
+services:
+  explorer:
+    build: .
+    ports:
+      - "127.0.0.1:8066:8066"
+    volumes:
+      - ../data:/workspace/data:ro
+      - ../docs:/workspace/docs:ro
+      - ../output:/workspace/output:ro

@@ -1,0 +1,54 @@
+{
+  "anios_evaluados": [
+    2023,
+    2024
+  ],
+  "alpha_fijado": 10,
+  "puntos_excluidos_solo_en_sensibilidad": 9,
+  "metricas": [
+    {
+      "escenario": "red_constante",
+      "modelo": "persistencia",
+      "n": 58,
+      "mae": 136.20689655172413,
+      "rmse": 156.65974550620516
+    },
+    {
+      "escenario": "red_constante",
+      "modelo": "ridge_demografia",
+      "n": 58,
+      "mae": 163.5185500138167,
+      "rmse": 188.51779544016628
+    },
+    {
+      "escenario": "red_constante",
+      "modelo": "ridge_demografia_pm10",
+      "n": 58,
+      "mae": 164.7121076755557,
+      "rmse": 189.60441667515403
+    },
+    {
+      "escenario": "sin_alertas_ubicacion_area",
+      "modelo": "persistencia",
+      "n": 54,
+      "mae": 136.03703703703704,
+      "rmse": 156.59442778979977
+    },
+    {
+      "escenario": "sin_alertas_ubicacion_area",
+      "modelo": "ridge_demografia",
+      "n": 54,
+      "mae": 160.24450204082882,
+      "rmse": 186.51747600401617
+    },
+    {
+      "escenario": "sin_alertas_ubicacion_area",
+      "modelo": "ridge_demografia_pm10",
+      "n": 54,
+      "mae": 160.3441730553548,
+      "rmse": 186.5392686520762
+    }
+  ],
+  "advertencia": "Comparación retrospectiva con datos revisados y selección de red en todo el periodo. No reproduce disponibilidad histórica de publicaciones ni demuestra causalidad o funcionamiento operativo.",
+  "regla_evaluacion": "Cada año se ajusta con años anteriores; datos de t-1 para predecir t. Para 2024 se incluye 2023 en el entrenamiento como evaluación de origen móvil, sin ajustar hiperparámetros."
+}

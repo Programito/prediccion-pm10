@@ -1,0 +1,37 @@
+{
+  "umbral_pm10_ug_m3": 27.0,
+  "regla_evento": "PM10 objetivo > umbral",
+  "umbral_probabilidad_logistica": 0.5,
+  "regla_aviso_logistica": "probabilidad >= umbral",
+  "regla_persistencia": "PM10 hoy > umbral",
+  "ajuste_umbral_con_validacion": false,
+  "parametros_logistica": {
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "class_weight": null
+  },
+  "variables": [
+    "pm10_t",
+    "pm10_t_menos_1",
+    "pm10_t_menos_2",
+    "pm10_t_menos_6",
+    "media_3_dias",
+    "media_7_dias",
+    "media_14_dias",
+    "desviacion_7_dias",
+    "semana_sin",
+    "semana_cos",
+    "mes_sin",
+    "mes_cos",
+    "codigo_estacion"
+  ],
+  "sklearn": "1.9.1",
+  "periodo_entrenamiento_objetivo": "2017–2022",
+  "periodo_validacion_objetivo": "2023",
+  "filas_entrenamiento": 6096,
+  "positivos_entrenamiento": 585,
+  "filas_validacion": 1039,
+  "positivos_validacion": 93,
+  "prueba_2024_evaluada": false
+}

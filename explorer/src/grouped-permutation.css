@@ -1,0 +1,18 @@
+.permutation-workspace p { font-size: 14px; line-height: 1.6; }
+.permutation-workspace .coverage-totals small { font-size: 12px; font-weight: 500; }
+.permutation-picker { display: grid; max-width: 380px; gap: 6px; font-size: 13px; }
+.permutation-toggle { display: inline-flex; gap: 9px; align-items: center; font-size: 13px; }
+.permutation-bars { display: grid; gap: 26px; margin: 14px 0; }
+.permutation-bars > div { display: grid; grid-template-columns: minmax(160px,1fr) 2fr 65px; gap: 16px; align-items: center; font-size: 13px; }
+.permutation-bars small { display: block; margin-top: 4px; color: var(--muted); font-size: 11px; }
+.permutation-track { position: relative; height: 26px; background: #f2f6f0; border-radius: 4px; }
+.permutation-zero { position: absolute; top: -6px; bottom: -6px; border-left: 1px solid #596a63; z-index: 2; }
+.permutation-range { position: absolute; top: 12px; height: 0; border-top: 2px solid #798f83; z-index: 3; }
+.permutation-mean-bar { position: absolute; top: 5px; height: 16px; background: #bfdacb; }
+.permutation-dot { position: absolute; top: 8px; width: 10px; height: 10px; border-radius: 50%; transform: translateX(-50%); background: #206c55; z-index: 4; }
+.permutation-joint .permutation-dot { background: #a26230; }
+.permutation-joint .permutation-mean-bar { background: #e8d5c4; }
+.permutation-workspace caption { text-align: left; padding: 10px; color: var(--muted); font-size: 13px; }
+.permutation-fields { min-width: 260px; white-space: normal; overflow-wrap: anywhere; }
+.permutation-reference-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 15px; }
+@media(max-width:700px) { .permutation-reference-grid { grid-template-columns: 1fr; } .permutation-bars > div { grid-template-columns:minmax(100px,1fr) 1fr 47px; gap:8px; } }

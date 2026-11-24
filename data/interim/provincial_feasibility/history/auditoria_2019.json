@@ -1,0 +1,13 @@
+{
+  "anio": 2019,
+  "puntos_candidatos_fondo_con_horas": 136,
+  "puntos_seleccionados": 126,
+  "dias_punto_combinados": 46638,
+  "dias_validos": 45531,
+  "negativos_seleccionados_para_revision": 0,
+  "maxima_diferencia_diario_horario": null,
+  "archivo_diario": "miteco_diarios_2019.zip",
+  "archivo_horario": "miteco_horarios_2019.zip",
+  "archivo_metadatos": "miteco_estaciones_2019.xlsx",
+  "hoja_estaciones": "Estaciones evaluación 2019"
+}

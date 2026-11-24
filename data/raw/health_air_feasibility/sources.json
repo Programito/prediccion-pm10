@@ -1,0 +1,24 @@
+{
+  "download_date": "2026-11-15",
+  "status": "Archivos originales, sin transformar. Muestra de viabilidad de 2024. No se ha validado el panel multianual.",
+  "files": [
+    {
+      "file": "ine_morbilidad_residencia_2024_79536.csv",
+      "source_url": "https://www.ine.es/jaxi/files/tpx/csv_bdsc/79536.csv",
+      "bytes": 673821,
+      "sha256": "9f6ae3ee71ce6ad682f9e84d7b9d235d689494a8a87598e30fd4e8dc68e40ee5"
+    },
+    {
+      "file": "miteco_datos_diarios_2024.zip",
+      "source_url": "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/sgalsi/atm%C3%B3sfera-y-calidad-del-aire/evaluaci%C3%B3n-2024/Datos_DD_2024.zip",
+      "bytes": 565613,
+      "sha256": "ddc257838a900c044bdfc8997e31f8ee305a8f0fecbd1cc3fa9826884fa37ada"
+    },
+    {
+      "file": "miteco_metainformacion_2024.xlsx",
+      "source_url": "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/sgalsi/atm%C3%B3sfera-y-calidad-del-aire/evaluaci%C3%B3n-2024/Metainformacion_2024.xlsx",
+      "bytes": 104601,
+      "sha256": "eda6940fd97049f7c20cc6f17573f54a377a7fcbd1ab9f1e1bb7dc9cf6d919a5"
+    }
+  ]
+}

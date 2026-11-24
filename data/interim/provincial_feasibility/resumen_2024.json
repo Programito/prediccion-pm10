@@ -1,0 +1,20 @@
+{
+  "anio": 2024,
+  "puntos_revisados": 489,
+  "estaciones_seleccionadas": 144,
+  "territorios_con_cruce": 43,
+  "territorios_sin_indicador_pm10": [
+    "Girona",
+    "Huesca",
+    "Palencia",
+    "Segovia",
+    "Soria",
+    "Tarragona",
+    "Teruel",
+    "Valladolid",
+    "Zamora"
+  ],
+  "territorios_con_una_estacion": 14,
+  "territorios_con_dos_o_mas_estaciones": 29,
+  "nota": "Prueba de un año; falta evaluar continuidad histórica, representatividad territorial y demografía. No se han entrenado modelos ni inferido causalidad."
+}

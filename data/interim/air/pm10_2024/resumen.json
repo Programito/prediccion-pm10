@@ -1,0 +1,28 @@
+{
+  "anio": 2024,
+  "contaminante": "PM10",
+  "unidad": "µg/m3",
+  "filas_diarias_normalizadas": 178304,
+  "estados_diarios": {
+    "valida": 163058,
+    "ausente": 15245,
+    "negativa_pendiente_revision": 1
+  },
+  "filas_horarias_normalizadas": 3326208,
+  "estados_horarios": {
+    "valida": 3263056,
+    "ausente": 63152
+  },
+  "dias_punto_combinados": 178304,
+  "puntos_muestreo": 489,
+  "estaciones": 488,
+  "codigos_provinciales": 52,
+  "puntos_con_cobertura_75": 445,
+  "filas_solapadas_mismo_punto_dia": 138592,
+  "solapamientos_con_ambas_medidas_validas": 135775,
+  "diferencia_maxima_solapamientos": 0.5,
+  "puntos_sin_metadatos_estacion": 0,
+  "minimo_horas_diarias": 18,
+  "minimo_cobertura_anual": 0.75,
+  "advertencia": "Criterios exploratorios, sin evaluación normativa ni exposición provincial. No se han unido datos sanitarios."
+}

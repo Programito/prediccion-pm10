@@ -1,0 +1,72 @@
+{
+  "experiment": "barcelona",
+  "scope": "Provincia; tres puntos de fondo, una estación urbana y dos suburbanas",
+  "training": [
+    "2017-01-01",
+    "2022-12-31"
+  ],
+  "validation": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "test": [
+    "2024-01-01",
+    "2024-12-31"
+  ],
+  "features": [
+    "pm10_t",
+    "pm10_t_menos_1",
+    "pm10_t_menos_2",
+    "pm10_t_menos_6",
+    "media_3_dias",
+    "media_7_dias",
+    "media_14_dias",
+    "desviacion_7_dias",
+    "semana_sin",
+    "semana_cos",
+    "mes_sin",
+    "mes_cos",
+    "codigo_estacion"
+  ],
+  "training_rows": 5367,
+  "validation_rows": 889,
+  "source": "data/interim/experiments/barcelona/tabla_modelos_completa.csv",
+  "sha256_source": "e70d31176daad7d7ccf8408f2077e93f524baacea0ef2be7f496862ecb646109",
+  "sha256_stations": "5254e4bbcbef7aa81b640af36de4131e8f0b102374221faeb99a37657a0870fe",
+  "parameters": {
+    "ridge": {
+      "alpha": 10.0,
+      "solver": "svd"
+    },
+    "random_forest": {
+      "n_estimators": 200,
+      "max_depth": 12,
+      "min_samples_leaf": 5,
+      "max_features": 1.0,
+      "bootstrap": true,
+      "random_state": 42,
+      "n_jobs": 2
+    }
+  },
+  "test_models_fixed_before_fit": [
+    "ridge",
+    "persistencia"
+  ],
+  "selection": "Ridge fijado para replicar la especificación de Madrid, incluso si el bosque mejora en validación de Barcelona",
+  "retrain_after_validation": false,
+  "hyperparameter_search": false,
+  "non_negative_prediction": true,
+  "common_high_level_threshold": 27,
+  "station_selection": "Tres mayores coberturas mínimas anuales 2017–2024; ocho años y sin cambios >100 m ni de área; desempate cobertura media y código",
+  "limitations": [
+    "Selección por disponibilidad histórica, incluida 2024",
+    "Modelos ajustados por territorio; no prueba de transferencia del modelo de Madrid",
+    "Emisión UTC simulada y datos revisados"
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1"
+  }
+}

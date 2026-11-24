@@ -1,0 +1,17 @@
+.statistics-intro, .statistics-notes { padding: 16px; font-size: 13px; line-height: 1.6; }
+.statistics-intro h3 { margin: 0 0 7px; font-size: 17px; }
+.statistics-intro p + p { margin-top: 6px; }
+.statistics-table { min-width: 1150px; }
+.statistics-period { color: var(--accent); }
+.statistics-quality { margin: 16px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.statistics-quality > summary { padding: 12px; font-weight: 600; cursor: pointer; background: #f3f7f2; }
+.statistics-quality > p { padding: 8px 12px; font-size: 13px; line-height: 1.6; }
+.statistics-table caption { padding: 10px 16px; text-align: left; color: var(--muted); font-size: 12px; }
+.statistics-table th:first-child { min-width: 185px; max-width: 270px; white-space: normal; overflow-wrap: anywhere; }
+.statistics-table td { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.statistics-table details { font-weight: 400; line-height: 1.5; }
+.statistics-notes dl { display: grid; gap: 10px; }
+.statistics-notes dt { font-weight: 700; }
+.statistics-notes dd { margin: 2px 0 0; }
+.statistics-notes p { overflow-wrap: anywhere; }
+

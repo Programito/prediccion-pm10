@@ -1,0 +1,52 @@
+{
+  "scope": "Madrid",
+  "pcaTraining": "2017–2022",
+  "ldaTraining": "2021–2022",
+  "validation": 2023,
+  "threshold": 27.0,
+  "numericFeatures": [
+    "pm10_t",
+    "pm10_t_menos_1",
+    "pm10_t_menos_2",
+    "pm10_t_menos_6",
+    "media_3_dias",
+    "media_7_dias",
+    "media_14_dias",
+    "desviacion_7_dias",
+    "semana_sin",
+    "semana_cos",
+    "mes_sin",
+    "mes_cos"
+  ],
+  "pcaSolver": "full",
+  "pcaWhiten": false,
+  "ldaParameters": {
+    "solver": "eigen",
+    "shrinkage": "auto",
+    "n_components": 1,
+    "priors": "training proportions"
+  },
+  "scaleFit": "training only",
+  "completeCases": true,
+  "outlierClipping": false,
+  "cutSelection": "2023: maximize onsets, then positives, then fewer false alarms, then higher cut; same total FP budget as persistence",
+  "falseAlarmBudget": 37,
+  "pcaTrainingRows": 6096,
+  "pcaValidationRows": 1039,
+  "ldaTrainingRows": 2001,
+  "ldaValidationRows": 1039,
+  "sourceHashes": {
+    "data/interim/pm10_prediction/tabla_modelos_completa.csv": "961c3697268f6a51b0af5ff9da9afd1cc6a3bbf8072c37d3770296e19e257e8f",
+    "data/interim/pm10_weather/tabla_pm10_meteo.csv": "8d371ee129505699e5fa38ddcac48bde456b9da89650321853d43d52f81c111f",
+    "data/interim/pm10_weather/esquema_comparacion.json": "23ac929c5661c7818d6fd0e409d63e8ec6c1d11941889581830745a31faaf133",
+    "output/pm10_weather_validation/predicciones_validacion_2023.csv": "60fddb99a630d8c62398bf3f09305f552dffd8bb7797d6a0a7ea20be820cf24f",
+    "output/pm10_weather_validation/configuracion.json": "71cca83b620dcb766b4325a88523c5b4396246372c385b9f2afcb627caf94114"
+  },
+  "newFinalTestEvaluation": false,
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.9.1",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sources": {
+    "docs/reference/pm10_final_protocol.json": "08d81dc2c67c953fcd7b24e94a5806c866595c0bf3caacd5c47894e48ef46fb4",
+    "models/pm10/validation_2023/ridge.joblib": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673",
+    "data/interim/pm10_prediction/tabla_modelos_completa.csv": "961c3697268f6a51b0af5ff9da9afd1cc6a3bbf8072c37d3770296e19e257e8f",
+    "output/pm10_final_2024/predicciones_regresion.csv": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad",
+    "output/pm10_regression_validation/coeficientes_ridge.csv": "d25b3945d995e1e6139b1897bfeb4e3f66a7417ba94654bf3d41a9c5f84b14b3",
+    "output/pm10_regression_validation/importancias_random_forest.csv": "29b6b56b831c73cb85e601a29459024fc8708ce9ad783fa5952cd018ab7a7ac0",
+    "models/pm10/validation_2023/random_forest.joblib": "0a5523a966bcb12f393c09c3edc69edd0c0636e6bb1a3e0c2fcf7b6b9cf644ef"
+  },
+  "cases": 1013,
+  "maximum_reconstruction_error": 7.105427357601002e-15,
+  "refit": false,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0"
+  }
+}

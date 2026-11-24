@@ -1,0 +1,3 @@
+﻿codigo_estacion,NOMBRE,fecha_ultima_observacion,fecha_objetivo,pm10_t,pm10_objetivo,modelo,prediccion,prediccion_negativa_corregida,error,error_absoluto,error_cuadrado,tramo
+28079060,TRES OLIVOS,2024-10-30,2024-10-31,77.0,156.0,ridge,45.72616728762264,False,-110.27383271237736,110.27383271237736,12160.318181077386,elevado
+28079060,TRES OLIVOS,2024-10-30,2024-10-31,77.0,156.0,persistencia,77.0,False,-79.0,79.0,6241.0,elevado

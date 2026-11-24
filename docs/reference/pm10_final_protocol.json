@@ -1,0 +1,50 @@
+{
+  "anio_objetivo": 2024,
+  "particion": "prueba_reservada",
+  "entrenamiento": "2017–2022",
+  "validacion": "2023",
+  "estaciones": [
+    "28079060",
+    "28080003",
+    "28133002"
+  ],
+  "umbral_pm10_ug_m3": 27.0,
+  "umbral_probabilidad_logistica": 0.2085124546747814,
+  "origen_corte": "candidato_con_limite_de_falsas_alarmas en comparacion_umbrales_2023.csv",
+  "cohorte": "filas completas de las tres estaciones",
+  "reajuste": false,
+  "referencia_regresion": "pm10_t",
+  "restriccion_ridge": "max(0, prediccion)",
+  "referencia_clasificacion": "pm10_t > 27",
+  "evento": "pm10_objetivo > 27",
+  "aviso_logistica": "probabilidad >= umbral_probabilidad_logistica",
+  "comienzo": "pm10_t <= 27 y pm10_objetivo > 27",
+  "metricas_regresion": [
+    "mae",
+    "rmse",
+    "sesgo"
+  ],
+  "metricas_clasificacion": [
+    "vp",
+    "fp",
+    "fn",
+    "vn",
+    "precision",
+    "recall",
+    "f1"
+  ],
+  "entradas": {
+    "tabla": {
+      "ruta": "data/interim/pm10_prediction/tabla_modelos_completa.csv",
+      "sha256": "961c3697268f6a51b0af5ff9da9afd1cc6a3bbf8072c37d3770296e19e257e8f"
+    },
+    "ridge": {
+      "ruta": "models/pm10/validation_2023/ridge.joblib",
+      "sha256": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673"
+    },
+    "logistica": {
+      "ruta": "models/pm10/validation_2023/logistica.joblib",
+      "sha256": "1327ef5c4b1f0ec12874e9d70bf6366b42236368d401da19eec133916ca7253a"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+﻿variable_transformada,importancia_impureza
+numeric__pm10_t,0.6479909553745664
+numeric__media_14_dias,0.05224438398869473
+numeric__semana_sin,0.04530086069136228
+numeric__media_7_dias,0.037774365973551806
+numeric__pm10_t_menos_2,0.035000846161483634
+numeric__desviacion_7_dias,0.034778005839635646
+numeric__pm10_t_menos_6,0.033660766402598054
+numeric__pm10_t_menos_1,0.033439942628697004
+numeric__media_3_dias,0.029045388811923117
+numeric__mes_sin,0.017519665320621113
+numeric__mes_cos,0.015332701276442338
+numeric__semana_cos,0.008212221207248615
+station__codigo_estacion_08263001,0.004511643847715962
+station__codigo_estacion_08184006,0.0027888456054941486
+station__codigo_estacion_08202001,0.0023994068699652016

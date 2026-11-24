@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tmp/
+explorer/node_modules/
+explorer/dist/
+data/raw/**/*.csv
+data/raw/**/*.zip
+data/raw/**/*.xls
+data/raw/**/*.xlsx
+data/raw/**/*.parquet
+output/delivery/

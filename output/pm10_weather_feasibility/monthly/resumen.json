@@ -1,0 +1,10 @@
+{
+  "fechas_solicitadas": 60,
+  "fechas_completas": 60,
+  "filas": 180,
+  "filas_completas": 180,
+  "mensajes": 240,
+  "bytes_grib": 174756544,
+  "bytes_indices": 7349865,
+  "segundos": 80.8
+}

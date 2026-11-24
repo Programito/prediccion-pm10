@@ -1,0 +1,12 @@
+.window-picker { display: grid; gap: 6px; max-width: 550px; font-size: 13px; }
+.window-ablation p { font-size: 14px; line-height: 1.6; }
+.window-ablation .window-rate { font-size: 23px; }
+.window-ablation caption { text-align: left; font-size: 13px; color: var(--muted); padding: 10px; }
+.window-error-bars { display: grid; gap: 13px; }
+.window-error-bars > div { display: grid; grid-template-columns: minmax(180px,1fr) 1fr 60px; align-items: center; gap: 15px; font-size: 13px; }
+.window-error-bars i { display: block; height: 13px; border-radius: 4px; background: #eef3ed; overflow: hidden; }
+.window-error-bars b { display: block; height: 100%; background: #657a90; }
+.window-error-bars .ridge_actual { background: #28715c; }
+.window-error-bars .ridge_sin14_mismo_train { background: #406da1; }
+.window-error-bars .ridge_sin14_train_ampliado { background: #a4652e; }
+@media(max-width:650px) { .window-error-bars > div { grid-template-columns:minmax(120px,1fr) 1fr 42px; gap:8px; } }

@@ -1,0 +1,9 @@
+{
+  "retrieved_on": "2026-11-15",
+  "file": "ine_poblacion_provincias_edad_56945.csv",
+  "source_url": "https://www.ine.es/jaxiT3/files/t/csv_bdsc/56945.csv",
+  "catalog_url": "https://www.ine.es/jaxiT3/Tabla.htm?t=56945",
+  "bytes": 191370573,
+  "sha256": "cc9d102b2a43c3dc3d220f8b9877c6e8a37d6165d09cb063f4311179793aa152",
+  "note": "Serie histórica oficial revisada ECP; no son versiones publicadas en cada fecha histórica."
+}

@@ -1,0 +1,11 @@
+.coverage-totals { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin: 0; }
+.coverage-totals dt { font-size: 13px; color: var(--muted); }
+.coverage-totals dd { margin: 6px 0 0; font-size: 29px; font-weight: 750; }
+.coverage-audit h3 { margin: 0; font-size: 17px; }
+.coverage-reasons { display: grid; gap: 12px; }
+.coverage-reasons > div { display: grid; grid-template-columns: minmax(180px, 1fr) 2fr 40px; gap: 14px; align-items: center; font-size: 13px; }
+.coverage-reasons i { display: block; height: 12px; background: #eef3ed; border-radius: 4px; overflow: hidden; }
+.coverage-reasons b { display: block; height: 100%; background: #a65c30; }
+.coverage-detail td:nth-last-child(-n+2) { min-width: 200px; max-width: 330px; white-space: normal; overflow-wrap: anywhere; }
+.coverage-audit details table { margin-top: 14px; }
+@media(max-width: 650px) { .coverage-totals { grid-template-columns: repeat(2, minmax(0, 1fr)); } .coverage-reasons > div { grid-template-columns: minmax(115px, 1fr) 1fr 32px; gap: 7px; } }

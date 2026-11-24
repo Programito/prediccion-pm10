@@ -1,0 +1,31 @@
+{
+  "clave": [
+    "codigo_estacion",
+    "fecha_objetivo"
+  ],
+  "predictores_base": [
+    "pm10_t",
+    "pm10_t_menos_1",
+    "pm10_t_menos_2",
+    "pm10_t_menos_6",
+    "media_3_dias",
+    "media_7_dias",
+    "media_14_dias",
+    "desviacion_7_dias",
+    "semana_sin",
+    "semana_cos",
+    "mes_sin",
+    "mes_cos",
+    "codigo_estacion"
+  ],
+  "predictores_meteorologicos": [
+    "viento_10m_mediodia_ms",
+    "precipitacion_diaria_mm"
+  ],
+  "umbral_pm10_elevado_ug_m3": 27.0,
+  "criterio_cohorte": "fila_comun_utilizable",
+  "periodo_objetivo": [
+    "2021-01-01",
+    "2024-12-31"
+  ]
+}

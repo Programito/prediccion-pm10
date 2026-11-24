@@ -1,0 +1,61 @@
+{
+  "entrenamiento": "2021–2022",
+  "validacion_y_seleccion_umbral": "2023",
+  "filas_entrenamiento": 2001,
+  "filas_validacion": 1039,
+  "predictores": {
+    "logistica_sin_meteo": [
+      "pm10_t",
+      "pm10_t_menos_1",
+      "pm10_t_menos_2",
+      "pm10_t_menos_6",
+      "media_3_dias",
+      "media_7_dias",
+      "media_14_dias",
+      "desviacion_7_dias",
+      "semana_sin",
+      "semana_cos",
+      "mes_sin",
+      "mes_cos",
+      "codigo_estacion"
+    ],
+    "logistica_con_meteo": [
+      "pm10_t",
+      "pm10_t_menos_1",
+      "pm10_t_menos_2",
+      "pm10_t_menos_6",
+      "media_3_dias",
+      "media_7_dias",
+      "media_14_dias",
+      "desviacion_7_dias",
+      "semana_sin",
+      "semana_cos",
+      "mes_sin",
+      "mes_cos",
+      "codigo_estacion",
+      "viento_10m_mediodia_ms",
+      "precipitacion_diaria_mm"
+    ]
+  },
+  "umbral_pm10_ug_m3": 27.0,
+  "limite_falsas_alarmas_validacion": 37,
+  "origen_limite": "falsas alarmas de persistencia en las mismas filas",
+  "orden_seleccion": [
+    "más comienzos detectados",
+    "más positivos detectados",
+    "menos falsas alarmas",
+    "corte más alto"
+  ],
+  "cortes_probabilidad": {
+    "logistica_sin_meteo": 0.20072870154329542,
+    "logistica_con_meteo": 0.19904472278306495
+  },
+  "parametros_logistica": {
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "class_weight": null
+  },
+  "sha256_tabla": "8d371ee129505699e5fa38ddcac48bde456b9da89650321853d43d52f81c111f",
+  "sklearn": "1.9.1"
+}

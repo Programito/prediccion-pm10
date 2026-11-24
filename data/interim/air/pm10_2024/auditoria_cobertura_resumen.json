@@ -1,0 +1,13 @@
+{
+  "anio": 2024,
+  "contaminante": "PM10",
+  "filas_punto_mes": 5868,
+  "puntos_auditados": 489,
+  "puntos_baja_cobertura_anual": 44,
+  "baja_cobertura_con_algun_mes_sin_validos": 17,
+  "baja_cobertura_sin_meses_totalmente_vacios": 27,
+  "dias_sin_registro_total": 670,
+  "meses_sin_validos_total": 100,
+  "cuadre_con_resumen_anual": true,
+  "nota": "Sin mediciones válidas no significa que la estación estuviera activa, averiada o cerrada. No se infiere la causa de las ausencias ni se certifica la exactitud física de los sensores."
+}

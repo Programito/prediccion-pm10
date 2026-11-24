@@ -1,0 +1,5 @@
+{
+  "output\\pm10_final_2024\\predicciones_regresion.csv": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad",
+  "output\\pm10_bootstrap\\analisis.json": "7131c60cb108f97bac51efab20176c105ea155ebd2107a3a3ba8ee7dd8ca8637",
+  "models\\pm10\\validation_2023\\ridge.joblib": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673"
+}

@@ -1,0 +1,26 @@
+{
+  "puntos_revisados": 44,
+  "por_tipo_estacion": {
+    "FONDO": 27,
+    "INDUSTRIAL": 13,
+    "TRAFICO": 4
+  },
+  "por_tecnica": {
+    "M": 28,
+    "49": 8,
+    "46": 4,
+    "A": 3,
+    "47": 1
+  },
+  "por_motivo_revision": {
+    "revisar_plan_muestreo_manual": 28,
+    "revisar_meses_sin_medidas": 14,
+    "revisar_cobertura_discontinua": 2
+  },
+  "altas_estacion_durante_2024": 0,
+  "bajas_estacion_durante_2024": 3,
+  "intervalos_declarados_que_recortan_anio": 0,
+  "manuales_con_datos_todos_los_meses": 25,
+  "exclusiones_automaticas": 0,
+  "nota": "El 75 % es un filtro exploratorio, no una regla universal para muestreo manual. Las fechas de estación no demuestran la actividad del equipo ni la causa de los huecos."
+}

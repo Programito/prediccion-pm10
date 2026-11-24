@@ -1,0 +1,203 @@
+﻿group,label,repetition,mae,delta_mae,method
+recent,PM10 reciente y retardos,1,6.265607853483908,1.7558565231136223,within_station_circular_shift
+recent,PM10 reciente y retardos,2,6.224556054438539,1.7148047240682533,within_station_circular_shift
+recent,PM10 reciente y retardos,3,6.21985285322709,1.7101015228568048,within_station_circular_shift
+recent,PM10 reciente y retardos,4,6.062416724047895,1.5526653936776098,within_station_circular_shift
+recent,PM10 reciente y retardos,5,6.224179954874601,1.7144286245043157,within_station_circular_shift
+recent,PM10 reciente y retardos,6,6.201560182283321,1.6918088519130352,within_station_circular_shift
+recent,PM10 reciente y retardos,7,6.355343619014666,1.8455922886443803,within_station_circular_shift
+recent,PM10 reciente y retardos,8,6.247466110353681,1.7377147799833956,within_station_circular_shift
+recent,PM10 reciente y retardos,9,6.322019778264565,1.8122684478942794,within_station_circular_shift
+recent,PM10 reciente y retardos,10,6.298434976914084,1.7886836465437987,within_station_circular_shift
+recent,PM10 reciente y retardos,11,6.104493032697542,1.5947417023272568,within_station_circular_shift
+recent,PM10 reciente y retardos,12,6.3785455536700635,1.868794223299778,within_station_circular_shift
+recent,PM10 reciente y retardos,13,6.043739700574406,1.5339883702041206,within_station_circular_shift
+recent,PM10 reciente y retardos,14,6.3243405795174406,1.8145892491471551,within_station_circular_shift
+recent,PM10 reciente y retardos,15,6.176134388664587,1.6663830582943016,within_station_circular_shift
+recent,PM10 reciente y retardos,16,6.222843108706028,1.7130917783357429,within_station_circular_shift
+recent,PM10 reciente y retardos,17,6.309566554672636,1.7998152243023506,within_station_circular_shift
+recent,PM10 reciente y retardos,18,6.185409749317807,1.6756584189475214,within_station_circular_shift
+recent,PM10 reciente y retardos,19,6.181811323761942,1.672059993391657,within_station_circular_shift
+recent,PM10 reciente y retardos,20,6.3270303522581965,1.8172790218879111,within_station_circular_shift
+recent,PM10 reciente y retardos,21,6.151838354590877,1.6420870242205918,within_station_circular_shift
+recent,PM10 reciente y retardos,22,6.1768110379491725,1.667059707578887,within_station_circular_shift
+recent,PM10 reciente y retardos,23,6.213754624109979,1.7040032937396932,within_station_circular_shift
+recent,PM10 reciente y retardos,24,6.2323211488750045,1.7225698185047191,within_station_circular_shift
+recent,PM10 reciente y retardos,25,6.412203804656711,1.9024524742864255,within_station_circular_shift
+recent,PM10 reciente y retardos,26,6.304562328152925,1.7948109977826396,within_station_circular_shift
+recent,PM10 reciente y retardos,27,6.200473408660327,1.6907220782900412,within_station_circular_shift
+recent,PM10 reciente y retardos,28,6.3087463351673065,1.7989950047970211,within_station_circular_shift
+recent,PM10 reciente y retardos,29,6.371849894688369,1.8620985643180834,within_station_circular_shift
+recent,PM10 reciente y retardos,30,6.1018783026937,1.5921269723234142,within_station_circular_shift
+recent,PM10 reciente y retardos,31,6.476197336965183,1.9664460065948974,within_station_circular_shift
+recent,PM10 reciente y retardos,32,6.451708054636852,1.941956724266567,within_station_circular_shift
+recent,PM10 reciente y retardos,33,6.197191115360031,1.6874397849897456,within_station_circular_shift
+recent,PM10 reciente y retardos,34,6.100700999258527,1.5909496688882419,within_station_circular_shift
+recent,PM10 reciente y retardos,35,6.1883235291090175,1.678572198738732,within_station_circular_shift
+recent,PM10 reciente y retardos,36,6.217295114384174,1.7075437840138887,within_station_circular_shift
+recent,PM10 reciente y retardos,37,6.3238450481046655,1.81409371773438,within_station_circular_shift
+recent,PM10 reciente y retardos,38,6.132068300143422,1.622316969773137,within_station_circular_shift
+recent,PM10 reciente y retardos,39,6.310454059783922,1.8007027294136364,within_station_circular_shift
+recent,PM10 reciente y retardos,40,6.18525321417554,1.6755018838052544,within_station_circular_shift
+recent,PM10 reciente y retardos,41,6.1326567008378925,1.622905370467607,within_station_circular_shift
+recent,PM10 reciente y retardos,42,6.056918539289296,1.547167208919011,within_station_circular_shift
+recent,PM10 reciente y retardos,43,6.398454645827672,1.888703315457387,within_station_circular_shift
+recent,PM10 reciente y retardos,44,6.265344490275077,1.7555931599047918,within_station_circular_shift
+recent,PM10 reciente y retardos,45,5.974294500437654,1.464543170067369,within_station_circular_shift
+recent,PM10 reciente y retardos,46,6.214950103723757,1.7051987733534713,within_station_circular_shift
+recent,PM10 reciente y retardos,47,6.282485346659035,1.7727340162887497,within_station_circular_shift
+recent,PM10 reciente y retardos,48,6.105303598671411,1.5955522683011258,within_station_circular_shift
+recent,PM10 reciente y retardos,49,6.052502165267044,1.5427508348967587,within_station_circular_shift
+recent,PM10 reciente y retardos,50,6.315332178245909,1.805580847875624,within_station_circular_shift
+windows,Medias y variabilidad,1,5.0200121023957625,0.510260772025477,within_station_circular_shift
+windows,Medias y variabilidad,2,4.980610425149726,0.4708590947794402,within_station_circular_shift
+windows,Medias y variabilidad,3,4.911504337166749,0.4017530067964632,within_station_circular_shift
+windows,Medias y variabilidad,4,4.922947473893402,0.4131961435231162,within_station_circular_shift
+windows,Medias y variabilidad,5,5.049686299939012,0.5399349695687263,within_station_circular_shift
+windows,Medias y variabilidad,6,5.026378288342407,0.5166269579721217,within_station_circular_shift
+windows,Medias y variabilidad,7,5.09728558433367,0.5875342539633843,within_station_circular_shift
+windows,Medias y variabilidad,8,5.007443124854347,0.4976917944840613,within_station_circular_shift
+windows,Medias y variabilidad,9,5.045396526031134,0.535645195660849,within_station_circular_shift
+windows,Medias y variabilidad,10,5.045403311216824,0.5356519808465388,within_station_circular_shift
+windows,Medias y variabilidad,11,5.013117309307781,0.503365978937496,within_station_circular_shift
+windows,Medias y variabilidad,12,5.187550253424577,0.6777989230542918,within_station_circular_shift
+windows,Medias y variabilidad,13,4.933937061513996,0.4241857311437105,within_station_circular_shift
+windows,Medias y variabilidad,14,5.066426661374486,0.5566753310042003,within_station_circular_shift
+windows,Medias y variabilidad,15,4.94654217239881,0.4367908420285245,within_station_circular_shift
+windows,Medias y variabilidad,16,4.943487634403302,0.4337363040330162,within_station_circular_shift
+windows,Medias y variabilidad,17,5.092608545657067,0.5828572152867819,within_station_circular_shift
+windows,Medias y variabilidad,18,5.014185913936939,0.5044345835666535,within_station_circular_shift
+windows,Medias y variabilidad,19,5.004463390364555,0.4947120599942698,within_station_circular_shift
+windows,Medias y variabilidad,20,4.992717002190089,0.48296567181980343,within_station_circular_shift
+windows,Medias y variabilidad,21,4.941804610795454,0.4320532804251682,within_station_circular_shift
+windows,Medias y variabilidad,22,5.056498256896162,0.5467469265258762,within_station_circular_shift
+windows,Medias y variabilidad,23,5.048855210710988,0.5391038803407024,within_station_circular_shift
+windows,Medias y variabilidad,24,4.895634172857479,0.3858828424871934,within_station_circular_shift
+windows,Medias y variabilidad,25,5.143762341551143,0.6340110111808572,within_station_circular_shift
+windows,Medias y variabilidad,26,5.029630954941926,0.5198796245716402,within_station_circular_shift
+windows,Medias y variabilidad,27,5.011793783747657,0.5020424533773715,within_station_circular_shift
+windows,Medias y variabilidad,28,5.1021516647485985,0.5924003343783131,within_station_circular_shift
+windows,Medias y variabilidad,29,4.9986935489715245,0.4889422186012391,within_station_circular_shift
+windows,Medias y variabilidad,30,4.975066920591903,0.4653155902216177,within_station_circular_shift
+windows,Medias y variabilidad,31,5.066107876122358,0.5563565457520729,within_station_circular_shift
+windows,Medias y variabilidad,32,5.096743997910867,0.5869926675405814,within_station_circular_shift
+windows,Medias y variabilidad,33,4.943728692658141,0.43397736228785533,within_station_circular_shift
+windows,Medias y variabilidad,34,4.9275258309940995,0.41777450062381405,within_station_circular_shift
+windows,Medias y variabilidad,35,5.011207436770633,0.5014561064003473,within_station_circular_shift
+windows,Medias y variabilidad,36,4.998330379725006,0.48857904935472085,within_station_circular_shift
+windows,Medias y variabilidad,37,5.0413627932956855,0.5316114629254001,within_station_circular_shift
+windows,Medias y variabilidad,38,4.935248887547138,0.4254975571768522,within_station_circular_shift
+windows,Medias y variabilidad,39,5.037817093086924,0.528065762716639,within_station_circular_shift
+windows,Medias y variabilidad,40,4.94291739714469,0.4331660667744046,within_station_circular_shift
+windows,Medias y variabilidad,41,5.019619442617344,0.5098681122470587,within_station_circular_shift
+windows,Medias y variabilidad,42,4.854555713592403,0.3448043832221179,within_station_circular_shift
+windows,Medias y variabilidad,43,5.166363518109871,0.6566121877395856,within_station_circular_shift
+windows,Medias y variabilidad,44,4.8771536738171894,0.36740234344690403,within_station_circular_shift
+windows,Medias y variabilidad,45,4.911883927849696,0.40213259747941077,within_station_circular_shift
+windows,Medias y variabilidad,46,5.0025969057424815,0.4928455753721961,within_station_circular_shift
+windows,Medias y variabilidad,47,5.028517798391077,0.5187664680207913,within_station_circular_shift
+windows,Medias y variabilidad,48,5.0355205810362635,0.5257692506659781,within_station_circular_shift
+windows,Medias y variabilidad,49,4.94060875918696,0.4308574288166742,within_station_circular_shift
+windows,Medias y variabilidad,50,5.022777673316772,0.5130263429464863,within_station_circular_shift
+calendar,Calendario,1,4.873226138745124,0.36347480837483825,within_station_circular_shift
+calendar,Calendario,2,4.704369914823692,0.19461858445340674,within_station_circular_shift
+calendar,Calendario,3,4.731117966189418,0.22136663581913218,within_station_circular_shift
+calendar,Calendario,4,4.788572456352505,0.27882112598222,within_station_circular_shift
+calendar,Calendario,5,4.824141870812707,0.3143905404424219,within_station_circular_shift
+calendar,Calendario,6,4.730446582960156,0.22069525258987088,within_station_circular_shift
+calendar,Calendario,7,4.835695339562129,0.3259440091918435,within_station_circular_shift
+calendar,Calendario,8,4.876555996488693,0.3668046661184077,within_station_circular_shift
+calendar,Calendario,9,4.647261215751596,0.13750988538131015,within_station_circular_shift
+calendar,Calendario,10,4.637926071368429,0.1281747409981433,within_station_circular_shift
+calendar,Calendario,11,4.734181907036454,0.22443057666616895,within_station_circular_shift
+calendar,Calendario,12,4.816751970889112,0.3070006405188268,within_station_circular_shift
+calendar,Calendario,13,4.841385172078013,0.3316338417077276,within_station_circular_shift
+calendar,Calendario,14,4.787150680444011,0.2773993500737255,within_station_circular_shift
+calendar,Calendario,15,4.7192922975775025,0.20954096720721704,within_station_circular_shift
+calendar,Calendario,16,4.6532545178478,0.14350318747751434,within_station_circular_shift
+calendar,Calendario,17,4.681158886000515,0.17140755563022925,within_station_circular_shift
+calendar,Calendario,18,4.886299924146571,0.3765485937762856,within_station_circular_shift
+calendar,Calendario,19,4.614938587162999,0.10518725679271324,within_station_circular_shift
+calendar,Calendario,20,4.715561667024634,0.20581033665434845,within_station_circular_shift
+calendar,Calendario,21,4.79185568835795,0.28210435798766476,within_station_circular_shift
+calendar,Calendario,22,4.765475168220546,0.25572383785026087,within_station_circular_shift
+calendar,Calendario,23,4.707278269482064,0.19752693911177843,within_station_circular_shift
+calendar,Calendario,24,4.751431078867456,0.24167974849717044,within_station_circular_shift
+calendar,Calendario,25,4.646369323855411,0.1366179934851255,within_station_circular_shift
+calendar,Calendario,26,4.685417822798459,0.17566649242817345,within_station_circular_shift
+calendar,Calendario,27,4.749218057089007,0.23946672671872182,within_station_circular_shift
+calendar,Calendario,28,4.856480571025987,0.34672924065570143,within_station_circular_shift
+calendar,Calendario,29,4.8124807477529075,0.30272941738262205,within_station_circular_shift
+calendar,Calendario,30,4.854393530920076,0.34464220054979045,within_station_circular_shift
+calendar,Calendario,31,4.707011126633224,0.197259796262939,within_station_circular_shift
+calendar,Calendario,32,4.832912313028834,0.32316098265854887,within_station_circular_shift
+calendar,Calendario,33,4.742110740237689,0.23235940986740378,within_station_circular_shift
+calendar,Calendario,34,4.658154695672003,0.14840336530171783,within_station_circular_shift
+calendar,Calendario,35,4.66623010594014,0.15647877556985446,within_station_circular_shift
+calendar,Calendario,36,4.785900128466842,0.2761487980965569,within_station_circular_shift
+calendar,Calendario,37,4.873221217454635,0.36346988708434935,within_station_circular_shift
+calendar,Calendario,38,4.8840095059264454,0.37425817555616003,within_station_circular_shift
+calendar,Calendario,39,4.677948826295136,0.16819749592485067,within_station_circular_shift
+calendar,Calendario,40,4.725490942661941,0.21573961229165572,within_station_circular_shift
+calendar,Calendario,41,4.75255865482026,0.24280732444997444,within_station_circular_shift
+calendar,Calendario,42,4.742013660781074,0.23226233041078892,within_station_circular_shift
+calendar,Calendario,43,4.787471177409771,0.27771984703948593,within_station_circular_shift
+calendar,Calendario,44,4.812360098449995,0.3026087680797094,within_station_circular_shift
+calendar,Calendario,45,4.935680934414569,0.4259296040442839,within_station_circular_shift
+calendar,Calendario,46,4.695320732108871,0.1855694017385856,within_station_circular_shift
+calendar,Calendario,47,4.757690625552633,0.24793929518234759,within_station_circular_shift
+calendar,Calendario,48,4.672760275442088,0.16300894507180264,within_station_circular_shift
+calendar,Calendario,49,4.62192622023903,0.11217488986874447,within_station_circular_shift
+calendar,Calendario,50,4.725529975162093,0.21577864479180775,within_station_circular_shift
+station,Estación,1,4.582498041403456,0.07274671103317054,station_cyclic_relabel
+station,Estación,2,4.5425168133924,0.03276548302211424,station_cyclic_relabel
+joint_history,Historial completo · sensibilidad conjunta,1,7.423818271257904,2.9140669408876185,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,2,7.248860931840002,2.7391096014697167,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,3,7.376177671769835,2.866426341399549,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,4,7.132472090541998,2.6227207601717124,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,5,7.4504493674902,2.9406980371199145,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,6,7.330695085676185,2.8209437553058994,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,7,7.613079257828126,3.1033279274578405,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,8,7.440303305156642,2.930551974786357,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,9,7.541088768709786,3.0313374383395004,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,10,7.5851066390448025,3.075355308674517,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,11,7.337601186408589,2.827849856038304,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,12,7.8018584223722165,3.292107092001931,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,13,7.084109262564424,2.5743579321941388,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,14,7.584739445585697,3.0749881152154117,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,15,7.204849635061031,2.6950983046907453,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,16,7.2331306169409455,2.72337928657066,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,17,7.502216936689938,2.9924656063196524,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,18,7.328496032611847,2.8187447022415615,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,19,7.3091015567175885,2.799350226347303,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,20,7.621594291342702,3.1118429609724165,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,21,7.172940415677583,2.6631890853072973,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,22,7.359045340369689,2.8492940099994035,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,23,7.51577879314661,3.0060274627763244,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,24,7.351721668007931,2.8419703376376457,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,25,7.725845428153063,3.2160940977827774,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,26,7.414993127142253,2.9052417967719677,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,27,7.494033435455875,2.9842821050855894,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,28,7.478178453330858,2.9684271229605725,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,29,7.518527851997315,3.0087765216270297,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,30,7.310545862258469,2.800794531888184,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,31,7.779600844072269,3.269849513701984,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,32,7.810340142458024,3.3005888120877387,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,33,7.220819648052113,2.7110683176818275,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,34,7.168534096094507,2.6587827657242213,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,35,7.304597406927999,2.7948460765577137,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,36,7.286526704300244,2.7767753739299588,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,37,7.51405018743593,3.0042988570656446,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,38,7.285083717152417,2.7753323867821313,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,39,7.510525595763776,3.000774265393491,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,40,7.26774165609199,2.757990325721704,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,41,7.267506989953399,2.757755659583114,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,42,7.115561306683061,2.6058099763127753,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,43,7.705011085994253,3.195259755623968,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,44,7.347185654839295,2.83743432446901,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,45,7.02890063073389,2.5191493003636047,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,46,7.387542148964294,2.8777908185940086,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,47,7.631204544385181,3.1214532140148954,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,48,7.396292026307404,2.8865406959371187,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,49,7.220220777206139,2.7104694468358534,within_station_circular_shift
+joint_history,Historial completo · sensibilidad conjunta,50,7.527293648480856,3.0175423181105705,within_station_circular_shift

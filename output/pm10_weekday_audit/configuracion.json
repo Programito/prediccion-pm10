@@ -1,0 +1,38 @@
+{
+  "filas_entrenamiento": 6096,
+  "filas_validacion": 1039,
+  "parametros_ridge": {
+    "alpha": 10.0,
+    "solver": "svd"
+  },
+  "variables_numericas_con_dia_semana": [
+    "pm10_t",
+    "pm10_t_menos_1",
+    "pm10_t_menos_2",
+    "pm10_t_menos_6",
+    "media_3_dias",
+    "media_7_dias",
+    "media_14_dias",
+    "desviacion_7_dias",
+    "semana_sin",
+    "semana_cos",
+    "mes_sin",
+    "mes_cos"
+  ],
+  "variables_numericas_sin_dia_semana": [
+    "pm10_t",
+    "pm10_t_menos_1",
+    "pm10_t_menos_2",
+    "pm10_t_menos_6",
+    "media_3_dias",
+    "media_7_dias",
+    "media_14_dias",
+    "desviacion_7_dias",
+    "mes_sin",
+    "mes_cos"
+  ],
+  "variable_categorica": "codigo_estacion",
+  "umbral_pm10_elevado_ug_m3": 27.0,
+  "regla_elevado": "PM10 observado > umbral",
+  "prueba_2024_evaluada": false
+}

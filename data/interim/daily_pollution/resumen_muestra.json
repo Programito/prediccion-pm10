@@ -1,0 +1,26 @@
+{
+  "filas": 8766,
+  "dias_validos": 8705,
+  "dias_no_validos": 61,
+  "estaciones": [
+    {
+      "codigo_estacion": "28079060",
+      "NOMBRE": "TRES OLIVOS",
+      "TIPO_AREA": "URBANA",
+      "cobertura_minima": 0.9643835616438357
+    },
+    {
+      "codigo_estacion": "28080003",
+      "NOMBRE": "MAJADAHONDA",
+      "TIPO_AREA": "SUBURBANA",
+      "cobertura_minima": 0.9781420765027322
+    },
+    {
+      "codigo_estacion": "28133002",
+      "NOMBRE": "SAN MARTIN DE VALDEIGLESIAS ",
+      "TIPO_AREA": "RURAL",
+      "cobertura_minima": 0.9863013698630136
+    }
+  ],
+  "nota": "Muestra exploratoria elegida por cobertura histórica; no hay imputación, variables predictivas ni entrenamiento todavía. No representa toda la exposición provincial."
+}

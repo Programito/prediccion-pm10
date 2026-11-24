@@ -1,0 +1,276 @@
+{
+  "id": "barcelona",
+  "name": "Barcelona (provincia)",
+  "n": 889,
+  "baselineMae": 4.509751330370285,
+  "rows": [
+    {
+      "group": "recent",
+      "label": "PM10 reciente y retardos",
+      "features": [
+        "pm10_t",
+        "pm10_t_menos_1",
+        "pm10_t_menos_2",
+        "pm10_t_menos_6"
+      ],
+      "kind": "primary",
+      "method": "within_station_circular_shift",
+      "repetitions": 50,
+      "mean": 1.7208700842585836,
+      "median": 1.7115966505962739,
+      "std": 0.1109848951595659,
+      "minimum": 1.464543170067369,
+      "maximum": 1.9664460065948974,
+      "meanPermutedMae": 6.23062141462887
+    },
+    {
+      "group": "windows",
+      "label": "Medias y variabilidad",
+      "features": [
+        "media_3_dias",
+        "media_7_dias",
+        "media_14_dias",
+        "desviacion_7_dias"
+      ],
+      "kind": "primary",
+      "method": "within_station_circular_shift",
+      "repetitions": 50,
+      "mean": 0.4975723348821759,
+      "median": 0.5027042161574338,
+      "std": 0.07162332781996696,
+      "minimum": 0.3448043832221179,
+      "maximum": 0.6777989230542918,
+      "meanPermutedMae": 5.007323665252461
+    },
+    {
+      "group": "calendar",
+      "label": "Calendario",
+      "features": [
+        "semana_sin",
+        "semana_cos",
+        "mes_sin",
+        "mes_cos"
+      ],
+      "kind": "primary",
+      "method": "within_station_circular_shift",
+      "repetitions": 50,
+      "mean": 0.24576849719629856,
+      "median": 0.2359130682930628,
+      "std": 0.07987421512396399,
+      "minimum": 0.10518725679271324,
+      "maximum": 0.4259296040442839,
+      "meanPermutedMae": 4.755519827566584
+    },
+    {
+      "group": "station",
+      "label": "Estación",
+      "features": [
+        "codigo_estacion"
+      ],
+      "kind": "primary",
+      "method": "station_cyclic_relabel",
+      "repetitions": 2,
+      "mean": 0.05275609702764239,
+      "median": 0.05275609702764239,
+      "std": 0.028270997446783453,
+      "minimum": 0.03276548302211424,
+      "maximum": 0.07274671103317054,
+      "meanPermutedMae": 4.562507427397928
+    },
+    {
+      "group": "joint_history",
+      "label": "Historial completo · sensibilidad conjunta",
+      "features": [
+        "pm10_t",
+        "pm10_t_menos_1",
+        "pm10_t_menos_2",
+        "pm10_t_menos_6",
+        "media_3_dias",
+        "media_7_dias",
+        "media_14_dias",
+        "desviacion_7_dias"
+      ],
+      "kind": "sensitivity",
+      "method": "within_station_circular_shift",
+      "repetitions": 50,
+      "mean": 2.895566628890657,
+      "median": 2.872108579996779,
+      "std": 0.1897050614654286,
+      "minimum": 2.5191493003636047,
+      "maximum": 3.3005888120877387,
+      "meanPermutedMae": 7.405317959260942
+    }
+  ],
+  "stationMappings": [
+    {
+      "repetition": 1,
+      "mapping": {
+        "08184006": "08263001",
+        "08202001": "08184006",
+        "08263001": "08202001"
+      }
+    },
+    {
+      "repetition": 2,
+      "mapping": {
+        "08184006": "08202001",
+        "08202001": "08263001",
+        "08263001": "08184006"
+      }
+    }
+  ],
+  "seed": 20261121,
+  "minimumShiftRows": 14,
+  "referenceFeatures": {
+    "ridge": [
+      {
+        "variable_transformada": "numeric__pm10_t",
+        "coeficiente": 4.88487869090086
+      },
+      {
+        "variable_transformada": "numeric__pm10_t_menos_1",
+        "coeficiente": -1.0103769882307343
+      },
+      {
+        "variable_transformada": "numeric__pm10_t_menos_2",
+        "coeficiente": -0.1403629026708654
+      },
+      {
+        "variable_transformada": "numeric__pm10_t_menos_6",
+        "coeficiente": 0.4073417387686374
+      },
+      {
+        "variable_transformada": "numeric__media_3_dias",
+        "coeficiente": 1.4582448289368155
+      },
+      {
+        "variable_transformada": "numeric__media_7_dias",
+        "coeficiente": 0.3896744973462399
+      },
+      {
+        "variable_transformada": "numeric__media_14_dias",
+        "coeficiente": 0.8880973137649144
+      },
+      {
+        "variable_transformada": "numeric__desviacion_7_dias",
+        "coeficiente": -0.8104577506761085
+      },
+      {
+        "variable_transformada": "numeric__semana_sin",
+        "coeficiente": 1.1309035050283096
+      },
+      {
+        "variable_transformada": "numeric__semana_cos",
+        "coeficiente": -0.0433045763105384
+      },
+      {
+        "variable_transformada": "numeric__mes_sin",
+        "coeficiente": -0.2290532423853314
+      },
+      {
+        "variable_transformada": "numeric__mes_cos",
+        "coeficiente": 0.3825531151979378
+      },
+      {
+        "variable_transformada": "station__codigo_estacion_08184006",
+        "coeficiente": -0.2745981041000668
+      },
+      {
+        "variable_transformada": "station__codigo_estacion_08202001",
+        "coeficiente": -0.3291190228901086
+      },
+      {
+        "variable_transformada": "station__codigo_estacion_08263001",
+        "coeficiente": 0.6037171269901682
+      }
+    ],
+    "forest": [
+      {
+        "variable_transformada": "numeric__pm10_t",
+        "importancia_impureza": 0.6479909553745664
+      },
+      {
+        "variable_transformada": "numeric__media_14_dias",
+        "importancia_impureza": 0.0522443839886947
+      },
+      {
+        "variable_transformada": "numeric__semana_sin",
+        "importancia_impureza": 0.0453008606913622
+      },
+      {
+        "variable_transformada": "numeric__media_7_dias",
+        "importancia_impureza": 0.0377743659735518
+      },
+      {
+        "variable_transformada": "numeric__pm10_t_menos_2",
+        "importancia_impureza": 0.0350008461614836
+      },
+      {
+        "variable_transformada": "numeric__desviacion_7_dias",
+        "importancia_impureza": 0.0347780058396356
+      },
+      {
+        "variable_transformada": "numeric__pm10_t_menos_6",
+        "importancia_impureza": 0.033660766402598
+      },
+      {
+        "variable_transformada": "numeric__pm10_t_menos_1",
+        "importancia_impureza": 0.033439942628697
+      },
+      {
+        "variable_transformada": "numeric__media_3_dias",
+        "importancia_impureza": 0.0290453888119231
+      },
+      {
+        "variable_transformada": "numeric__mes_sin",
+        "importancia_impureza": 0.0175196653206211
+      },
+      {
+        "variable_transformada": "numeric__mes_cos",
+        "importancia_impureza": 0.0153327012764423
+      },
+      {
+        "variable_transformada": "numeric__semana_cos",
+        "importancia_impureza": 0.0082122212072486
+      },
+      {
+        "variable_transformada": "station__codigo_estacion_08263001",
+        "importancia_impureza": 0.0045116438477159
+      },
+      {
+        "variable_transformada": "station__codigo_estacion_08184006",
+        "importancia_impureza": 0.0027888456054941
+      },
+      {
+        "variable_transformada": "station__codigo_estacion_08202001",
+        "importancia_impureza": 0.0023994068699652
+      }
+    ]
+  },
+  "sourceHashes": {
+    "data/interim/experiments/barcelona/tabla_supervisada.csv": "554ca1acca61b376e235953b3270cbd45238aedbfa86457e04b137f749c0d2b2",
+    "models/experiments/barcelona/ridge.joblib": "26a28e97c4b2264556dfd77d255a09c3911631c9165f1cb91029ed53a75c8d0b",
+    "output/experiments/barcelona/validacion/predicciones.csv": "c6dc8880235fdec5003551aa699a11323764fd9e994c6245f55a5d5e5fec05f0",
+    "output/experiments/barcelona/prueba_2024/predicciones.csv": "be922e2b2b123bc3bbecc706ed0364cebde0cf8b2ef250bacc31049004255e39",
+    "output/experiments/barcelona/validacion/variables_ridge.csv": "d75da0a6eb7396c6dd1069b29b0129d6747462a9efdf5e18c312bf365cf317f1",
+    "output/experiments/barcelona/validacion/variables_random_forest.csv": "503b7030f4228b543d215ea0f38d320330e66e9ff013f6872922234d488b473c"
+  },
+  "originalValidationMatches": true,
+  "stations": [
+    {
+      "code": "08184006",
+      "name": "RUBÍ (CA N'ORIOL)",
+      "n": 216
+    },
+    {
+      "code": "08202001",
+      "name": "SANT CELONI (CARLES DAMM)",
+      "n": 362
+    },
+    {
+      "code": "08263001",
+      "name": "SANT VICENÇ DELS HORTS (RIBOT - SANT MIQUEL)",
+      "n": 311
+    }
+  ]
+}

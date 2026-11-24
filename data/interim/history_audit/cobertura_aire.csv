@@ -1,0 +1,19 @@
+﻿anio,contaminante,filas_estacion_mes,codigos_provinciales_con_valores,estaciones_con_valores,celdas_diarias_no_vacias,formato_original,miembro_zip
+2016,PM10,2011,35,173,34691,.xlsx,Diarios/PM10_DD_2016.xlsx
+2016,PM2.5,1260,34,106,18427,.xlsx,Diarios/PM25_DD_2016.xlsx
+2017,PM10,5559,50,463,137427,.csv,PM10_DD_2017.csv
+2017,PM2.5,2923,45,238,64318,.csv,PM2.5_DD_2017.csv
+2018,PM10,5498,50,460,136947,.csv,PM10_DD_2018.csv
+2018,PM2.5,2961,45,242,66379,.csv,PM2.5_DD_2018.csv
+2019,PM10,1799,27,150,32872,.csv,PM10_DD_2019.csv
+2019,PM2.5,1261,35,106,18803,.csv,PM25_DD_2019.csv
+2020,PM10,1767,30,151,32363,.csv,PM10_DD_2020.csv
+2020,PM2.5,1277,35,108,18445,.csv,PM2.5_DD_2020.csv
+2021,PM10,1755,37,153,34919,.csv,Datos_diarios/PM10_DD_2021.csv
+2021,PM2.5,1270,35,107,20716,.csv,Datos_diarios/PM25_DD_2021.csv
+2022,PM10,6193,51,484,164387,.csv,Datos diarios 2022/PM10_DD_2022.csv
+2022,PM2.5,3919,47,308,96111,.csv,Datos diarios 2022/PM2.5_DD_2022.csv
+2023,PM10,1372,27,115,32470,.csv,Datos diarios 2023/PM10_DD_2023.csv
+2023,PM2.5,1174,35,100,20935,.csv,Datos diarios 2023/PM2.5_DD_2023.csv
+2024,PM10,5846,52,488,163059,.csv,PM10_DD_2024.csv
+2024,PM2.5,3946,49,323,102400,.csv,PM2.5_DD_2024.csv

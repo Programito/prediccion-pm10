@@ -1,0 +1,9 @@
+﻿anio,puntos_candidatos_fondo_con_horas,puntos_seleccionados,dias_punto_combinados,dias_validos,negativos_seleccionados_para_revision,maxima_diferencia_diario_horario,archivo_diario,archivo_horario,archivo_metadatos,hoja_estaciones
+2017,106,99,38690,35936,0,2.77125,miteco_diarios_2017.zip,miteco_horarios_2017.zip,miteco_estaciones_2017.xlsx,estaciones_evaluacion_2017
+2018,135,123,47657,44396,0,0.5,miteco_diarios_2018.zip,miteco_horarios_2018.zip,miteco_estaciones_2018.xlsx,Estaciones evaluación 2018
+2019,136,126,46638,45531,0,,miteco_diarios_2019.zip,miteco_horarios_2019.zip,miteco_estaciones_2019.xlsx,Estaciones evaluación 2019
+2020,129,120,44195,43020,0,,miteco_diarios_2020.zip,miteco_horarios_2020.zip,miteco_estaciones_2020.xlsx,Estaciones
+2021,144,128,47823,46615,0,,miteco_diarios_2021.zip,miteco_horarios_2021.zip,miteco_estaciones_2021.xlsx,Estaciones
+2022,141,136,51465,48230,0,0.5,miteco_diarios_2022.zip,miteco_horarios_2022.zip,miteco_estaciones_2022.xlsx,Estaciones
+2023,146,138,50869,49669,0,,miteco_diarios_2023.zip,miteco_horarios_2023.zip,miteco_estaciones_2023.xlsx,Estaciones2023
+2024,154,144,56364,51930,0,0.5,miteco_diarios_2024.zip,miteco_horarios_2024.zip,miteco_estaciones_2024.xlsx,Estaciones_2024

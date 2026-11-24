@@ -1,0 +1,16 @@
+﻿variable_transformada,coeficiente
+numeric__pm10_t,4.88487869090086
+numeric__pm10_t_menos_1,-1.0103769882307343
+numeric__pm10_t_menos_2,-0.1403629026708654
+numeric__pm10_t_menos_6,0.40734173876863744
+numeric__media_3_dias,1.4582448289368157
+numeric__media_7_dias,0.3896744973462399
+numeric__media_14_dias,0.8880973137649144
+numeric__desviacion_7_dias,-0.8104577506761085
+numeric__semana_sin,1.1309035050283096
+numeric__semana_cos,-0.043304576310538426
+numeric__mes_sin,-0.22905324238533145
+numeric__mes_cos,0.38255311519793783
+station__codigo_estacion_08184006,-0.27459810410006685
+station__codigo_estacion_08202001,-0.3291190228901086
+station__codigo_estacion_08263001,0.6037171269901682

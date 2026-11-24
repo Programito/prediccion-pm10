@@ -1,0 +1,64 @@
+﻿nombre_fuente,nivel_original,codigo_ccaa,codigo_provincia
+Total Nacional,nacional,,
+Andalucía,comunidad_autonoma,01,
+Almería,provincia,01,04
+Cádiz,provincia,01,11
+Córdoba,provincia,01,14
+Granada,provincia,01,18
+Huelva,provincia,01,21
+Jaén,provincia,01,23
+Málaga,provincia,01,29
+Sevilla,provincia,01,41
+Aragón,comunidad_autonoma,02,
+Huesca,provincia,02,22
+Teruel,provincia,02,44
+Zaragoza,provincia,02,50
+"Asturias, Principado de",comunidad_autonoma,03,33
+"Balears, Illes",comunidad_autonoma,04,07
+Canarias,comunidad_autonoma,05,
+"Palmas, Las",provincia,05,35
+Santa Cruz de Tenerife,provincia,05,38
+Cantabria,comunidad_autonoma,06,39
+Castilla y León,comunidad_autonoma,07,
+Ávila,provincia,07,05
+Burgos,provincia,07,09
+León,provincia,07,24
+Palencia,provincia,07,34
+Salamanca,provincia,07,37
+Segovia,provincia,07,40
+Soria,provincia,07,42
+Valladolid,provincia,07,47
+Zamora,provincia,07,49
+Castilla - La Mancha,comunidad_autonoma,08,
+Albacete,provincia,08,02
+Ciudad Real,provincia,08,13
+Cuenca,provincia,08,16
+Guadalajara,provincia,08,19
+Toledo,provincia,08,45
+Cataluña,comunidad_autonoma,09,
+Barcelona,provincia,09,08
+Girona,provincia,09,17
+Lleida,provincia,09,25
+Tarragona,provincia,09,43
+Comunitat Valenciana,comunidad_autonoma,10,
+Alicante/Alacant,provincia,10,03
+Castellón/Castelló,provincia,10,12
+Valencia/València,provincia,10,46
+Extremadura,comunidad_autonoma,11,
+Badajoz,provincia,11,06
+Cáceres,provincia,11,10
+Galicia,comunidad_autonoma,12,
+"Coruña, A",provincia,12,15
+Lugo,provincia,12,27
+Ourense,provincia,12,32
+Pontevedra,provincia,12,36
+"Madrid, Comunidad de",comunidad_autonoma,13,28
+"Murcia, Región de",comunidad_autonoma,14,30
+"Navarra, Comunidad Foral de",comunidad_autonoma,15,31
+País Vasco,comunidad_autonoma,16,
+Araba/Álava,provincia,16,01
+Bizkaia,provincia,16,48
+Gipuzkoa,provincia,16,20
+"Rioja, La",comunidad_autonoma,17,26
+Ceuta,ciudad_autonoma,18,51
+Melilla,ciudad_autonoma,19,52

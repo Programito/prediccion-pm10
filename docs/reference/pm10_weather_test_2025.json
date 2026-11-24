@@ -1,0 +1,19 @@
+{
+  "anio_objetivo": 2025,
+  "entrenamiento": "2021–2022",
+  "seleccion_de_cortes": "2023",
+  "umbral_pm10_ug_m3": 27.0,
+  "cortes": {
+    "logistica_sin_meteo": 0.20072870154329542,
+    "logistica_con_meteo": 0.19904472278306495
+  },
+  "modelo_archivo": "models/pm10/weather_validation_2023/logisticas_gfs.joblib",
+  "modelo_sha256": "d553ed9777b09332c2122fa5167e2e311e7d46a39115f5e2ba0bda0aa9c0f01c",
+  "gfs_sha256": "739d9bbbedb2e2e357c56ee494a952ce0788780d47c055a4da63165ea7832dc9",
+  "cohorte": "mismas filas completas para ambos modelos y persistencia",
+  "criterio_primario": "comienzos detectados y falsas alarmas totales y cuando hoy no es elevado",
+  "criterio_secundario": "matriz de confusión, precisión, recall y F1 globales, por contexto y por estación",
+  "regla_horaria": "Media UTC de al menos 18 observaciones de una hora verificadas, fin de intervalo alineado a hora exacta",
+  "verificacion_fuente_alternativa": "Confirmar identificación de los puntos de muestreo y contrastar las horas o días comparables de 2024 antes de evaluar 2025",
+  "reajuste": false
+}

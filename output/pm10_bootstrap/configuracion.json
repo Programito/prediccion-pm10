@@ -1,0 +1,32 @@
+{
+  "source": "output/pm10_final_2024/predicciones_regresion.csv",
+  "sha256_source": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad",
+  "calendar": [
+    "2024-01-01",
+    "2024-12-31"
+  ],
+  "calendar_days": 366,
+  "method": "overlapping_non_circular_moving_blocks",
+  "replicates": 5000,
+  "seed": 20261119,
+  "block_days": [
+    7,
+    14,
+    28
+  ],
+  "primary_block_days": 14,
+  "interval": "percentile",
+  "nominal_coverage": 0.95,
+  "quantiles": [
+    0.025,
+    0.975
+  ],
+  "quantile_method": "linear",
+  "statistic": "sum(AE Ridge - AE persistence) / resampled evaluated station-days",
+  "stations_resampled_together": true,
+  "missing_calendar_dates": "zero count and zero sum; no imputed observations",
+  "selection": "posthoc diagnostic conditional on fixed models and evaluated 2024 sample",
+  "refit": false,
+  "numpy": "2.3.5",
+  "pandas": "3.0.1"
+}

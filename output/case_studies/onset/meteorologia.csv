@@ -1,0 +1,2 @@
+﻿codigo_estacion,fecha_objetivo,inicio_ciclo_utc,latitud_gfs,longitud_gfs,viento_10m_mediodia_ms,precipitacion_diaria_mm,estado_viento,estado_precipitacion
+28079060,2025-08-05,2025-08-04T12:00:00Z,40.5,-3.75,1.2827681079692106,0.0,valido,valido

@@ -1,0 +1,382 @@
+{
+  "train": "2017–2022",
+  "validation": "2023",
+  "models": {
+    "ridge_actual": "Ridge actual · 14 días",
+    "ridge_sin14_mismo_train": "Sin media de 14 días · mismo entrenamiento",
+    "ridge_sin14_train_ampliado": "Sin media de 14 días · entrenamiento ampliado",
+    "persistencia": "Persistencia"
+  },
+  "experiments": [
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "counts": {
+        "train_common": 6096,
+        "train_expanded": 6305,
+        "validation_common": 1039,
+        "validation_additional": 23,
+        "validation_expanded": 1062,
+        "calendar_validation": 1095
+      },
+      "coverage": [
+        {
+          "station": "28079060",
+          "name": "TRES OLIVOS",
+          "calendar": 365,
+          "common": 309,
+          "additional": 23,
+          "expanded": 332,
+          "trainingCommon": 2003,
+          "trainingExpanded": 2079
+        },
+        {
+          "station": "28080003",
+          "name": "MAJADAHONDA",
+          "calendar": 365,
+          "common": 365,
+          "additional": 0,
+          "expanded": 365,
+          "trainingCommon": 2115,
+          "trainingExpanded": 2150
+        },
+        {
+          "station": "28133002",
+          "name": "SAN MARTIN DE VALDEIGLESIAS",
+          "calendar": 365,
+          "common": 365,
+          "additional": 0,
+          "expanded": 365,
+          "trainingCommon": 1978,
+          "trainingExpanded": 2076
+        }
+      ],
+      "metrics": [
+        {
+          "cohorte": "adicional",
+          "modelo": "persistencia",
+          "n": 23,
+          "mae": 6.04429336789301,
+          "sesgo": -0.7019624159212259,
+          "negativas_corregidas": 0,
+          "rmse": 8.084367007644603
+        },
+        {
+          "cohorte": "adicional",
+          "modelo": "ridge_sin14_mismo_train",
+          "n": 23,
+          "mae": 4.737279193243636,
+          "sesgo": -0.9014137900754279,
+          "negativas_corregidas": 0,
+          "rmse": 6.8839183678613125
+        },
+        {
+          "cohorte": "adicional",
+          "modelo": "ridge_sin14_train_ampliado",
+          "n": 23,
+          "mae": 4.745341792671135,
+          "sesgo": -0.8605449960045284,
+          "negativas_corregidas": 0,
+          "rmse": 6.8669822562397185
+        },
+        {
+          "cohorte": "ampliada",
+          "modelo": "persistencia",
+          "n": 1062,
+          "mae": 5.159111561674782,
+          "sesgo": 0.04696866367589324,
+          "negativas_corregidas": 0,
+          "rmse": 8.346146257010798
+        },
+        {
+          "cohorte": "ampliada",
+          "modelo": "ridge_sin14_mismo_train",
+          "n": 1062,
+          "mae": 4.845060768671982,
+          "sesgo": 0.2615835418530138,
+          "negativas_corregidas": 0,
+          "rmse": 7.524620937778426
+        },
+        {
+          "cohorte": "ampliada",
+          "modelo": "ridge_sin14_train_ampliado",
+          "n": 1062,
+          "mae": 4.849827739454382,
+          "sesgo": 0.2720229662039534,
+          "negativas_corregidas": 0,
+          "rmse": 7.520567680626091
+        },
+        {
+          "cohorte": "comun",
+          "modelo": "persistencia",
+          "n": 1039,
+          "mae": 5.139516584251279,
+          "sesgo": 0.0635475037439719,
+          "negativas_corregidas": 0,
+          "rmse": 8.351848350327634
+        },
+        {
+          "cohorte": "comun",
+          "modelo": "ridge_actual",
+          "n": 1039,
+          "mae": 4.82554198469372,
+          "sesgo": 0.24090448638564368,
+          "negativas_corregidas": 0,
+          "rmse": 7.510487854248442
+        },
+        {
+          "cohorte": "comun",
+          "modelo": "ridge_sin14_mismo_train",
+          "n": 1039,
+          "mae": 4.847446693825835,
+          "sesgo": 0.28732842985527957,
+          "negativas_corregidas": 0,
+          "rmse": 7.538187904053185
+        },
+        {
+          "cohorte": "comun",
+          "modelo": "ridge_sin14_train_ampliado",
+          "n": 1039,
+          "mae": 4.852140710364886,
+          "sesgo": 0.2970942492942278,
+          "negativas_corregidas": 0,
+          "rmse": 7.534394485130847
+        }
+      ],
+      "sampleLevels": [
+        {
+          "cohort": "comun",
+          "n": 1039,
+          "elevated": 93
+        },
+        {
+          "cohort": "adicional",
+          "n": 23,
+          "elevated": 2
+        },
+        {
+          "cohort": "ampliada",
+          "n": 1062,
+          "elevated": 95
+        }
+      ],
+      "threshold": 27,
+      "originalValidationMatches": true,
+      "maxTrainingDate": "2022-12-31",
+      "maxValidationDate": "2023-12-31",
+      "sources": [
+        {
+          "path": "data/interim/pm10_prediction/tabla_supervisada_pm10.csv",
+          "sha256": "48c65d358f3fcbf29e8e45aa9048bd1d2eda610377dcd6989104ad43551332d5"
+        },
+        {
+          "path": "models/pm10/validation_2023/ridge.joblib",
+          "sha256": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673"
+        },
+        {
+          "path": "output/pm10_regression_validation/predicciones_validacion_2023.csv",
+          "sha256": "efb2f79f5ee290d024cbc3be2eeeeb5952981d0b969e1ca6ca8f287ab31972b9"
+        },
+        {
+          "path": "output/pm10_final_2024/predicciones_regresion.csv",
+          "sha256": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad"
+        }
+      ],
+      "modelHashes": {
+        "ridge_sin14_mismo_train": "f986a3b9d480832a5473f85d85fb7706686cee38c57197f8bca0ddba24184165",
+        "ridge_sin14_train_ampliado": "56ace64215d10723d79326d7feaf20b7422b5455eb31fdafff2d07097d06911d"
+      }
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona (provincia)",
+      "counts": {
+        "train_common": 5367,
+        "train_expanded": 5852,
+        "validation_common": 889,
+        "validation_additional": 90,
+        "validation_expanded": 979,
+        "calendar_validation": 1095
+      },
+      "coverage": [
+        {
+          "station": "08184006",
+          "name": "RUBÍ (CA N'ORIOL)",
+          "calendar": 365,
+          "common": 216,
+          "additional": 66,
+          "expanded": 282,
+          "trainingCommon": 1739,
+          "trainingExpanded": 1924
+        },
+        {
+          "station": "08202001",
+          "name": "SANT CELONI (CARLES DAMM)",
+          "calendar": 365,
+          "common": 362,
+          "additional": 3,
+          "expanded": 365,
+          "trainingCommon": 1856,
+          "trainingExpanded": 1989
+        },
+        {
+          "station": "08263001",
+          "name": "SANT VICENÇ DELS HORTS (RIBOT - SANT MIQUEL)",
+          "calendar": 365,
+          "common": 311,
+          "additional": 21,
+          "expanded": 332,
+          "trainingCommon": 1772,
+          "trainingExpanded": 1939
+        }
+      ],
+      "metrics": [
+        {
+          "cohorte": "adicional",
+          "modelo": "persistencia",
+          "n": 90,
+          "mae": 4.252592986088408,
+          "sesgo": -0.4937795878585351,
+          "negativas_corregidas": 0,
+          "rmse": 5.3834542886998875
+        },
+        {
+          "cohorte": "adicional",
+          "modelo": "ridge_sin14_mismo_train",
+          "n": 90,
+          "mae": 3.734936451095374,
+          "sesgo": -0.39546764808321105,
+          "negativas_corregidas": 0,
+          "rmse": 5.142510271488076
+        },
+        {
+          "cohorte": "adicional",
+          "modelo": "ridge_sin14_train_ampliado",
+          "n": 90,
+          "mae": 3.7623448646063196,
+          "sesgo": -0.38049342506165684,
+          "negativas_corregidas": 0,
+          "rmse": 5.187165062875291
+        },
+        {
+          "cohorte": "ampliada",
+          "modelo": "persistencia",
+          "n": 979,
+          "mae": 4.948746024450463,
+          "sesgo": -0.03947304420397266,
+          "negativas_corregidas": 0,
+          "rmse": 7.060710732867193
+        },
+        {
+          "cohorte": "ampliada",
+          "modelo": "ridge_sin14_mismo_train",
+          "n": 979,
+          "mae": 4.453445081096115,
+          "sesgo": -0.2851772078394979,
+          "negativas_corregidas": 0,
+          "rmse": 6.316139692872343
+        },
+        {
+          "cohorte": "ampliada",
+          "modelo": "ridge_sin14_train_ampliado",
+          "n": 979,
+          "mae": 4.46492213461743,
+          "sesgo": -0.2930463829270231,
+          "negativas_corregidas": 0,
+          "rmse": 6.323858653109786
+        },
+        {
+          "cohorte": "comun",
+          "modelo": "persistencia",
+          "n": 889,
+          "mae": 5.019222709998927,
+          "sesgo": 0.006519744242495993,
+          "negativas_corregidas": 0,
+          "rmse": 7.208790993760502
+        },
+        {
+          "cohorte": "comun",
+          "modelo": "ridge_actual",
+          "n": 889,
+          "mae": 4.509751330370285,
+          "sesgo": -0.2440601238297307,
+          "negativas_corregidas": 0,
+          "rmse": 6.406102947364841
+        },
+        {
+          "cohorte": "comun",
+          "modelo": "ridge_sin14_mismo_train",
+          "n": 889,
+          "mae": 4.5261849873954025,
+          "sesgo": -0.2740116964537452,
+          "negativas_corregidas": 0,
+          "rmse": 6.4230118769094435
+        },
+        {
+          "cohorte": "comun",
+          "modelo": "ridge_sin14_train_ampliado",
+          "n": 889,
+          "mae": 4.5360491923238415,
+          "sesgo": -0.28419347652419186,
+          "negativas_corregidas": 0,
+          "rmse": 6.427739027489556
+        }
+      ],
+      "sampleLevels": [
+        {
+          "cohort": "comun",
+          "n": 889,
+          "elevated": 275
+        },
+        {
+          "cohort": "adicional",
+          "n": 90,
+          "elevated": 18
+        },
+        {
+          "cohort": "ampliada",
+          "n": 979,
+          "elevated": 293
+        }
+      ],
+      "threshold": 27,
+      "originalValidationMatches": true,
+      "maxTrainingDate": "2022-12-31",
+      "maxValidationDate": "2023-12-31",
+      "sources": [
+        {
+          "path": "data/interim/experiments/barcelona/tabla_supervisada.csv",
+          "sha256": "554ca1acca61b376e235953b3270cbd45238aedbfa86457e04b137f749c0d2b2"
+        },
+        {
+          "path": "models/experiments/barcelona/ridge.joblib",
+          "sha256": "26a28e97c4b2264556dfd77d255a09c3911631c9165f1cb91029ed53a75c8d0b"
+        },
+        {
+          "path": "output/experiments/barcelona/validacion/predicciones.csv",
+          "sha256": "c6dc8880235fdec5003551aa699a11323764fd9e994c6245f55a5d5e5fec05f0"
+        },
+        {
+          "path": "output/experiments/barcelona/prueba_2024/predicciones.csv",
+          "sha256": "be922e2b2b123bc3bbecc706ed0364cebde0cf8b2ef250bacc31049004255e39"
+        }
+      ],
+      "modelHashes": {
+        "ridge_sin14_mismo_train": "09ccb412a415f578dcfab4022e42671899916ab51fe5f86a8e68a1e16ff502e5",
+        "ridge_sin14_train_ampliado": "0b17b41a62de791f729e8aaaec26da29bffafd59e60d35bb80725e32be9ea45f"
+      }
+    }
+  ],
+  "originalArtifactsUnchanged": true,
+  "originalArtifactHashes": {
+    "models/pm10/validation_2023/logistica.joblib": "1327ef5c4b1f0ec12874e9d70bf6366b42236368d401da19eec133916ca7253a",
+    "models/pm10/validation_2023/random_forest.joblib": "0a5523a966bcb12f393c09c3edc69edd0c0636e6bb1a3e0c2fcf7b6b9cf644ef",
+    "models/pm10/validation_2023/ridge.joblib": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673",
+    "models/pm10/weather_validation_2023/logisticas_gfs.joblib": "d553ed9777b09332c2122fa5167e2e311e7d46a39115f5e2ba0bda0aa9c0f01c",
+    "models/experiments/barcelona/random_forest.joblib": "9b93f2395e883298c3d626298a2ec922d0ff3a440bfeb71b9f8ce05bee7f0f9f",
+    "models/experiments/barcelona/ridge.joblib": "26a28e97c4b2264556dfd77d255a09c3911631c9165f1cb91029ed53a75c8d0b",
+    "output/pm10_final_2024/predicciones_regresion.csv": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad",
+    "output/experiments/barcelona/prueba_2024/predicciones.csv": "be922e2b2b123bc3bbecc706ed0364cebde0cf8b2ef250bacc31049004255e39"
+  },
+  "interpretation": "Comparación exploratoria de validación; ningún modelo se promueve automáticamente. 2024 ya es conocido y se conserva sin nueva evaluación."
+}

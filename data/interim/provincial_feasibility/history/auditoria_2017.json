@@ -1,0 +1,13 @@
+{
+  "anio": 2017,
+  "puntos_candidatos_fondo_con_horas": 106,
+  "puntos_seleccionados": 99,
+  "dias_punto_combinados": 38690,
+  "dias_validos": 35936,
+  "negativos_seleccionados_para_revision": 0,
+  "maxima_diferencia_diario_horario": 2.77125,
+  "archivo_diario": "miteco_diarios_2017.zip",
+  "archivo_horario": "miteco_horarios_2017.zip",
+  "archivo_metadatos": "miteco_estaciones_2017.xlsx",
+  "hoja_estaciones": "estaciones_evaluacion_2017"
+}

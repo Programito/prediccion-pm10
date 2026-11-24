@@ -1,0 +1,170 @@
+[
+  {
+    "name": "environment",
+    "exit_code": 0,
+    "seconds": 0.11,
+    "log": "01_environment.log"
+  },
+  {
+    "name": "dependencies",
+    "exit_code": 0,
+    "seconds": 0.83,
+    "log": "02_dependencies.log"
+  },
+  {
+    "name": "tests",
+    "exit_code": 0,
+    "seconds": 12.04,
+    "log": "03_tests.log"
+  },
+  {
+    "name": "prepare_health",
+    "exit_code": 0,
+    "seconds": 1.08,
+    "log": "04_prepare_health.log"
+  },
+  {
+    "name": "prepare_demographics",
+    "exit_code": 0,
+    "seconds": 3.18,
+    "log": "05_prepare_demographics.log"
+  },
+  {
+    "name": "prepare_air",
+    "exit_code": 0,
+    "seconds": 34.32,
+    "log": "06_prepare_air.log"
+  },
+  {
+    "name": "audit_air_coverage",
+    "exit_code": 0,
+    "seconds": 1.33,
+    "log": "07_audit_air_coverage.log"
+  },
+  {
+    "name": "provincial_prototype",
+    "exit_code": 0,
+    "seconds": 0.98,
+    "log": "08_provincial_prototype.log"
+  },
+  {
+    "name": "historical_feasibility",
+    "exit_code": 0,
+    "seconds": 21.7,
+    "log": "09_historical_feasibility.log"
+  },
+  {
+    "name": "initial_health_comparison",
+    "exit_code": 0,
+    "seconds": 1.05,
+    "log": "10_initial_health_comparison.log"
+  },
+  {
+    "name": "pollution_sample",
+    "exit_code": 0,
+    "seconds": 5.15,
+    "log": "11_pollution_sample.log"
+  },
+  {
+    "name": "prepare_pm10_forecast",
+    "exit_code": 0,
+    "seconds": 1.13,
+    "log": "12_prepare_pm10_forecast.log"
+  },
+  {
+    "name": "audit_pm10_quality",
+    "exit_code": 1,
+    "seconds": 2.06,
+    "log": "13_audit_pm10_quality.log"
+  },
+  {
+    "name": "train_pm10_regression",
+    "exit_code": 0,
+    "seconds": 4.3,
+    "log": "14_train_pm10_regression.log"
+  },
+  {
+    "name": "audit_pm10_quality",
+    "exit_code": 0,
+    "seconds": 3.46,
+    "log": "15_audit_pm10_quality.log"
+  },
+  {
+    "name": "train_pm10_classification",
+    "exit_code": 0,
+    "seconds": 2.31,
+    "log": "16_train_pm10_classification.log"
+  },
+  {
+    "name": "audit_pm10_classification_thresholds",
+    "exit_code": 0,
+    "seconds": 1.16,
+    "log": "17_audit_pm10_classification_thresholds.log"
+  },
+  {
+    "name": "audit_pm10_weekday",
+    "exit_code": 0,
+    "seconds": 2.21,
+    "log": "18_audit_pm10_weekday.log"
+  },
+  {
+    "name": "prepare_pm10_weather",
+    "exit_code": 0,
+    "seconds": 1.01,
+    "log": "19_prepare_pm10_weather.log"
+  },
+  {
+    "name": "compare_pm10_weather",
+    "exit_code": 0,
+    "seconds": 2.1,
+    "log": "20_compare_pm10_weather.log"
+  },
+  {
+    "name": "evaluate_pm10_final",
+    "exit_code": 0,
+    "seconds": 2.12,
+    "log": "21_evaluate_pm10_final.log"
+  },
+  {
+    "name": "evaluate_pm10_weather_2025",
+    "exit_code": 0,
+    "seconds": 2.96,
+    "log": "22_evaluate_pm10_weather_2025.log"
+  },
+  {
+    "name": "explain_pm10_models",
+    "exit_code": 0,
+    "seconds": 2.2,
+    "log": "23_explain_pm10_models.log"
+  },
+  {
+    "name": "evaluate_pm10_business",
+    "exit_code": 0,
+    "seconds": 0.15,
+    "log": "24_evaluate_pm10_business.log"
+  },
+  {
+    "name": "document_sources",
+    "exit_code": 1,
+    "seconds": 3.66,
+    "log": "25_document_sources.log"
+  },
+  {
+    "name": "station_review",
+    "exit_code": 0,
+    "seconds": 1.48,
+    "log": "26_station_review.log"
+  },
+  {
+    "name": "document_sources",
+    "exit_code": 0,
+    "seconds": 5.09,
+    "log": "27_document_sources.log"
+  },
+  {
+    "name": "demo",
+    "exit_code": 0,
+    "seconds": 0.15,
+    "log": "28_demo.log"
+  }
+]

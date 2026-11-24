@@ -1,0 +1,33 @@
+{
+  "anios_ambas_fuentes": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "archivos_descargados": 36,
+  "bytes_descargados": 350576089,
+  "errores_descarga": [],
+  "celdas_diarias_no_vacias_pm": 1195669,
+  "celdas_horarias_no_vacias_pm_no2_csv": 70935311,
+  "horarios_xlsx_pendientes_perfil": [
+    {
+      "anio": 2016,
+      "contaminante": "PM10"
+    },
+    {
+      "anio": 2016,
+      "contaminante": "PM2.5"
+    },
+    {
+      "anio": 2016,
+      "contaminante": "NO2"
+    }
+  ],
+  "advertencia": "Presencia de datos no garantiza cobertura anual suficiente ni representatividad provincial. No se han unido fuentes, ajustado por edad ni validado comparabilidad de tasas entre años."
+}

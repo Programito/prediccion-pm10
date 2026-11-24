@@ -1,0 +1,11 @@
+.error-months { min-width: 650px; }
+.error-months td, .error-sensitivity td { font-variant-numeric: tabular-nums; }
+.error-delta { display: grid; grid-template-columns: minmax(70px, 1fr) 8ch; gap: 12px; align-items: center; }
+.error-delta strong { text-align: right; }
+.error-delta-track { position: relative; display: block; height: 14px; background: #edf2ee; }
+.error-delta-track::before { content: ''; position: absolute; left: 50%; height: 100%; border-left: 1px solid var(--muted); }
+.error-delta-track i { position: absolute; top: 3px; height: 8px; }
+.ridge-favored { background: #28715c; }
+.baseline-favored { background: #a34c20; }
+.error-sensitivity { min-width: 650px; }
+.error-sensitivity small { display: block; margin-top: 5px; max-width: 480px; font-size: 11px; color: var(--muted); font-weight: 450; }

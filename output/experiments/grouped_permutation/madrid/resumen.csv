@@ -1,0 +1,6 @@
+﻿group,label,features,kind,method,repetitions,mean,median,std,minimum,maximum,meanPermutedMae
+recent,PM10 reciente y retardos,pm10_t|pm10_t_menos_1|pm10_t_menos_2|pm10_t_menos_6,primary,within_station_circular_shift,50,1.9239934191858352,1.9160269366831768,0.09033062043516575,1.7254257812590748,2.1262369541209107,6.749535403879555
+windows,Medias y variabilidad,media_3_dias|media_7_dias|media_14_dias|desviacion_7_dias,primary,within_station_circular_shift,50,0.8741443996457322,0.8597264902378909,0.11192571774551995,0.6779398965626084,1.0677036046690125,5.699686384339451
+calendar,Calendario,semana_sin|semana_cos|mes_sin|mes_cos,primary,within_station_circular_shift,50,0.1025159128984047,0.10202731703121737,0.037591395716769484,0.01585581131584668,0.1761904893944708,4.928057897592124
+station,Estación,codigo_estacion,primary,station_cyclic_relabel,2,-0.002283261280522364,-0.002283261280522364,0.012019119933968826,-0.01078206248972613,0.006215539928681402,4.823258723413197
+joint_history,Historial completo · sensibilidad conjunta,pm10_t|pm10_t_menos_1|pm10_t_menos_2|pm10_t_menos_6|media_3_dias|media_7_dias|media_14_dias|desviacion_7_dias,sensitivity,within_station_circular_shift,50,3.355316974760993,3.3397998966323925,0.21686878215992073,2.8997941773588156,3.748399580822979,8.18085895945471

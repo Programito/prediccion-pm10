@@ -1,0 +1,14 @@
+.explanation-bars { list-style: none; display: grid; gap: 9px; margin: 0; padding: 0; }
+.explanation-bars li { display: grid; grid-template-columns: minmax(100px, 1.2fr) minmax(60px, 1fr) 6ch; align-items: center; gap: 10px; font-size: 12px; }
+.explanation-bars strong { justify-self: end; font-variant-numeric: tabular-nums; }
+.signed-bar { position: relative; display: block; width: 100%; height: 14px; background: #edf2ee; }
+.signed-bar::before { content: ''; position: absolute; left: 50%; height: 100%; border-left: 1px solid var(--muted); }
+.signed-bar i { position: absolute; top: 3px; height: 8px; }
+.signed-bar .positive { background: #28715c; }
+.signed-bar .negative { background: #a34c20; }
+.forest-bars .metric-track span { background: #506da0; }
+.prediction-equation { padding: 12px; border-radius: 8px; background: #edf4ed; font-size: 14px; font-variant-numeric: tabular-nums; }
+.contribution-table { min-width: 650px; }
+.contribution-table td { font-variant-numeric: tabular-nums; }
+.contribution-value { display: grid; grid-template-columns: minmax(60px, 1fr) 7ch; align-items: center; gap: 12px; }
+.contribution-value strong { text-align: right; }

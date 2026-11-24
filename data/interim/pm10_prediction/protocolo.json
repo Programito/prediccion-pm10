@@ -1,0 +1,29 @@
+{
+  "objetivo": "PM10 medio del día siguiente",
+  "unidad": "µg/m3",
+  "variables_numericas": [
+    "pm10_t",
+    "pm10_t_menos_1",
+    "pm10_t_menos_2",
+    "pm10_t_menos_6",
+    "media_3_dias",
+    "media_7_dias",
+    "media_14_dias",
+    "desviacion_7_dias",
+    "semana_sin",
+    "semana_cos",
+    "mes_sin",
+    "mes_cos"
+  ],
+  "variable_categorica": "codigo_estacion",
+  "entrenamiento": "2017-2022 según fecha objetivo",
+  "validacion": "2023 según fecha objetivo",
+  "prueba_reservada": "2024 según fecha objetivo",
+  "umbral_clasificacion": 27.0,
+  "cuantil": 0.9,
+  "interpolacion_cuantil": "linear",
+  "comparacion": "objetivo > umbral",
+  "origen_umbral": "Objetivos válidos de entrenamiento; no usa validación ni prueba.",
+  "metricas_2024_calculadas": false,
+  "advertencia": "Evaluación retrospectiva; emisión UTC simulada supone disponibilidad inmediata del dato del día anterior. Fuentes revisadas y estaciones elegidas por cobertura histórica; clasificación relativa, no sanitaria ni legal."
+}

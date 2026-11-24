@@ -1,0 +1,24 @@
+erDiagram
+  direction LR
+  ALTAS_PROVINCIA ||--o| PANEL_SANITARIO : "provincia y año tras elegir diagnóstico"
+  DEMOGRAFIA_PROVINCIA ||--o| PANEL_SANITARIO : "provincia y año"
+
+  ALTAS_PROVINCIA {
+    string codigo_provincia PK
+    int anio PK
+    string codigo_diagnostico PK
+    decimal tasa_altas_por_100000
+  }
+  DEMOGRAFIA_PROVINCIA {
+    string codigo_provincia PK
+    int anio PK
+    int poblacion_total
+    decimal proporcion_65_mas
+  }
+  PANEL_SANITARIO {
+    string codigo_provincia PK
+    int anio PK
+    decimal tasa_altas_por_100000
+    int poblacion_total
+    decimal media_pm10_estaciones_fondo
+  }

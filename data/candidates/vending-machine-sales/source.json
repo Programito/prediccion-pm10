@@ -1,0 +1,10 @@
+{
+  "source": "https://www.kaggle.com/datasets/awesomeasingh/vending-machine-sales",
+  "review_date": "2026-11-15",
+  "version": 5,
+  "license": "CC0: Public Domain",
+  "description": "This dataset represents vending machine data from various locations in Central New Jersey. The locations include a library, a mall, office location and a manufacturing locations. Data scientists can make use of the data to understand trends, user behavior and overall preferences by consumers at different locations. \n\nThe location and machine data is as follows \n(1) Gutten Plans - Frozen dough specialist company that operates 24/5 .  Vending machine assigned is GuttenPlans x1367\n(2) EB Public Library - Public library that has high foot traffic 5-6 days a week. Vending machine : EB Public Library x1380\n(3) Brunswick Sq Mall - Mall with average foot traffic 7 days a week. Vending machine(s) : BSQ Mall x1364 - Zales & BSQ Mall x1366 - ATT\n(4) Earle Asphalt - A construction engineering firm that operates 5 days a week. Vending machine :  Earle Asphalt x1371\n",
+  "sha256": {
+    "vending_machine_sales.csv": "cb4e8371db53b2eafab47a5ae4e7e3b019b4c79db7fba769f4cd88e01fc9bacb"
+  }
+}

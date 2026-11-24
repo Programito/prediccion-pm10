@@ -1,0 +1,53 @@
+﻿codigo_provincia,territorio,anios_con_indicador,todos_los_anios,anios_sin_indicador,minimo_estaciones_en_periodo,maximo_estaciones_en_periodo,anios_con_dos_o_mas_estaciones
+01,Araba/Álava,8,True,,2,2,8
+02,Albacete,8,True,,1,1,0
+03,Alicante/Alacant,8,True,,1,2,2
+04,Almería,8,True,,1,2,7
+05,Ávila,8,True,,1,1,0
+06,Badajoz,3,False,2017 | 2020 | 2021 | 2022 | 2023,0,3,3
+07,"Balears, Illes",8,True,,7,9,8
+08,Barcelona,8,True,,4,8,8
+09,Burgos,8,True,,1,2,4
+10,Cáceres,3,False,2017 | 2020 | 2021 | 2022 | 2023,0,3,3
+11,Cádiz,8,True,,1,4,7
+12,Castellón/Castelló,8,True,,2,2,8
+13,Ciudad Real,8,True,,1,1,0
+14,Córdoba,7,False,2017,0,2,6
+15,"Coruña, A",8,True,,2,2,8
+16,Cuenca,8,True,,1,1,0
+17,Girona,0,False,2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024,0,0,0
+18,Granada,8,True,,2,3,8
+19,Guadalajara,8,True,,1,2,2
+20,Gipuzkoa,8,True,,2,5,8
+21,Huelva,7,False,2017,0,1,0
+22,Huesca,0,False,2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024,0,0,0
+23,Jaén,7,False,2017,0,1,0
+24,León,8,True,,1,3,6
+25,Lleida,2,False,2017 | 2018 | 2019 | 2020 | 2021 | 2022,0,2,1
+26,"Rioja, La",8,True,,1,1,0
+27,Lugo,5,False,2017 | 2020 | 2021,0,1,0
+28,"Madrid, Comunidad de",8,True,,17,19,8
+29,Málaga,7,False,2017,0,2,6
+30,"Murcia, Región de",8,True,,2,2,8
+31,"Navarra, Comunidad Foral de",8,True,,4,6,8
+32,Ourense,8,True,,1,1,0
+33,"Asturias, Principado de",8,True,,7,7,8
+34,Palencia,0,False,2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024,0,0,0
+35,"Palmas, Las",8,True,,3,6,8
+36,Pontevedra,7,False,2017,0,1,0
+37,Salamanca,8,True,,1,2,4
+38,Santa Cruz de Tenerife,8,True,,7,10,8
+39,Cantabria,8,True,,7,7,8
+40,Segovia,0,False,2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024,0,0,0
+41,Sevilla,7,False,2017,0,6,7
+42,Soria,3,False,2017 | 2018 | 2020 | 2022 | 2024,0,1,0
+43,Tarragona,0,False,2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024,0,0,0
+44,Teruel,0,False,2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024,0,0,0
+45,Toledo,8,True,,3,3,8
+46,Valencia/València,8,True,,4,5,8
+47,Valladolid,0,False,2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024,0,0,0
+48,Bizkaia,8,True,,3,9,8
+49,Zamora,2,False,2017 | 2020 | 2021 | 2022 | 2023 | 2024,0,1,0
+50,Zaragoza,8,True,,1,2,5
+51,Ceuta,6,False,2017 | 2018,0,1,0
+52,Melilla,2,False,2017 | 2018 | 2019 | 2020 | 2021 | 2022,0,1,0

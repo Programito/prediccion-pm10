@@ -1,0 +1,11 @@
+{
+  "source": "https://www.kaggle.com/datasets/ihelon/coffee-sales",
+  "review_date": "2026-11-15",
+  "version": 21,
+  "license": "CC0: Public Domain",
+  "description": "# Overview\nThis dataset contains detailed records of coffee sales from a vending machine. \nThe vending machine is the work of a dataset author who is committed to providing an open dataset to the community.\nIt is intended for analysis of purchasing patterns, sales trends, and customer preferences related to coffee products.\n\n# Data Collection Period\nThe dataset spans from March 2024 to Present time, capturing daily transaction data. And new information continues to be added.\n\n# Tasks\n- Time Series Exploratory Data Analysis\n- Next day/week/month sales\n- Specific customer purchases\n\n# Author\nYaroslav Isaienkov @ihelon\n",
+  "sha256": {
+    "index_1.csv": "2a600445a1836da436a3e890e1e1cce0ecf279d369d3a9e280db3ea0d06b594e",
+    "index_2.csv": "793d2eaff83354112c274c6c8ab53af0198196b782892a213773b62283813149"
+  }
+}

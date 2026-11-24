@@ -1,0 +1,28 @@
+﻿anio,contaminante,estado,miembro_zip,codigos_provinciales_con_valores,estaciones_con_valores,filas_estacion_dia,celdas_horarias_no_vacias
+2016,PM10,xlsx_descargado_pendiente_perfil,Horarios/PM10_HH_2016.xlsx,,,,
+2016,PM2.5,xlsx_descargado_pendiente_perfil,Horarios/PM2.5_HH_2016.xlsx,,,,
+2016,NO2,xlsx_descargado_pendiente_perfil,Horarios/NO2_HH_2016.xlsx,,,,
+2017,PM10,csv_perfilado,PM10_HH_2017.csv,41.0,301.0,105748.0,2485572.0
+2017,PM2.5,csv_perfilado,PM25_HH_2017.csv,24.0,135.0,46769.0,1089670.0
+2017,NO2,csv_perfilado,NO2_HH_2017.csv,50.0,497.0,174127.0,4104293.0
+2018,PM10,csv_perfilado,PM10_HH_2018.csv,46.0,370.0,127822.0,3004435.0
+2018,PM2.5,csv_perfilado,PM25_HH_2018.csv,26.0,146.0,50671.0,1189736.0
+2018,NO2,csv_perfilado,NO2_HH_2018.csv,50.0,533.0,185890.0,4385369.0
+2019,PM10,csv_perfilado,PM10_HH_2019.csv,47.0,374.0,131217.0,3088291.0
+2019,PM2.5,csv_perfilado,PM25_HH_2019.csv,27.0,154.0,53499.0,1259007.0
+2019,NO2,csv_perfilado,NO2_HH_2019.csv,51.0,534.0,186395.0,4403858.0
+2020,PM10,csv_perfilado,PM10_HH_2020.csv,45.0,355.0,123865.0,2909665.0
+2020,PM2.5,csv_perfilado,PM25_HH_2020.csv,26.0,159.0,54573.0,1281837.0
+2020,NO2,csv_perfilado,NO2_HH_2020.csv,51.0,520.0,182560.0,4310118.0
+2021,PM10,csv_perfilado,Datos_horarios/PM10_HH_2021.csv,45.0,375.0,128792.0,3028445.0
+2021,PM2.5,csv_perfilado,Datos_horarios/PM25_HH_2021.csv,37.0,220.0,72210.0,1697918.0
+2021,NO2,csv_perfilado,Datos_horarios/NO2_HH_2021.csv,51.0,547.0,188954.0,4464177.0
+2022,PM10,csv_perfilado,Datos horarios 2022/PM10_HH_2022.csv,45.0,371.0,130335.0,3062958.0
+2022,PM2.5,csv_perfilado,Datos horarios 2022/PM25_HH_2022.csv,38.0,219.0,75746.0,1779246.0
+2022,NO2,csv_perfilado,Datos horarios 2022/NO2_HH_2022.csv,51.0,528.0,184924.0,4366203.0
+2023,PM10,csv_perfilado,Datos horarios 2023/PM10_HH_2023.csv,47.0,379.0,132791.0,3120872.0
+2023,PM2.5,csv_perfilado,Datos horarios 2023/PM25_HH_2023.csv,38.0,222.0,76844.0,1806196.0
+2023,NO2,csv_perfilado,Datos horarios 2023/NO2_HH_2023.csv,52.0,535.0,185934.0,4384315.0
+2024,PM10,csv_perfilado,PM10_HH_2024.csv,50.0,395.0,138592.0,3263056.0
+2024,PM2.5,csv_perfilado,PM25_HH_2024.csv,40.0,242.0,84661.0,1993694.0
+2024,NO2,csv_perfilado,NO2_HH_2024.csv,52.0,535.0,188659.0,4456380.0

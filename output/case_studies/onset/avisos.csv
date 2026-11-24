@@ -1,0 +1,4 @@
+﻿codigo_estacion,fecha_objetivo,NOMBRE,pm10_t,pm10_objetivo,observado,contexto,modelo,aviso,probabilidad_elevado
+28079060,2025-08-05,TRES OLIVOS,24.416666666666668,42.333333333333336,1,hoy_no_elevado,persistencia,0,
+28079060,2025-08-05,TRES OLIVOS,24.416666666666668,42.333333333333336,1,hoy_no_elevado,logistica_sin_meteo,0,0.1591161741760336
+28079060,2025-08-05,TRES OLIVOS,24.416666666666668,42.333333333333336,1,hoy_no_elevado,logistica_con_meteo,1,0.211683981625138

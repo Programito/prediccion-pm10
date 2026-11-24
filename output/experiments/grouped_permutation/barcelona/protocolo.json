@@ -1,0 +1,75 @@
+{
+  "experiment": "barcelona",
+  "year": 2023,
+  "n": 889,
+  "seed": 20261121,
+  "repeats": 50,
+  "minimumShiftEvaluatedRows": 14,
+  "groups": {
+    "recent": {
+      "label": "PM10 reciente y retardos",
+      "features": [
+        "pm10_t",
+        "pm10_t_menos_1",
+        "pm10_t_menos_2",
+        "pm10_t_menos_6"
+      ]
+    },
+    "windows": {
+      "label": "Medias y variabilidad",
+      "features": [
+        "media_3_dias",
+        "media_7_dias",
+        "media_14_dias",
+        "desviacion_7_dias"
+      ]
+    },
+    "calendar": {
+      "label": "Calendario",
+      "features": [
+        "semana_sin",
+        "semana_cos",
+        "mes_sin",
+        "mes_cos"
+      ]
+    },
+    "station": {
+      "label": "Estación",
+      "features": [
+        "codigo_estacion"
+      ]
+    }
+  },
+  "sensitivityFeatures": [
+    "pm10_t",
+    "pm10_t_menos_1",
+    "pm10_t_menos_2",
+    "pm10_t_menos_6",
+    "media_3_dias",
+    "media_7_dias",
+    "media_14_dias",
+    "desviacion_7_dias"
+  ],
+  "sourceHashes": {
+    "data/interim/experiments/barcelona/tabla_supervisada.csv": "554ca1acca61b376e235953b3270cbd45238aedbfa86457e04b137f749c0d2b2",
+    "models/experiments/barcelona/ridge.joblib": "26a28e97c4b2264556dfd77d255a09c3911631c9165f1cb91029ed53a75c8d0b",
+    "output/experiments/barcelona/validacion/predicciones.csv": "c6dc8880235fdec5003551aa699a11323764fd9e994c6245f55a5d5e5fec05f0",
+    "output/experiments/barcelona/prueba_2024/predicciones.csv": "be922e2b2b123bc3bbecc706ed0364cebde0cf8b2ef250bacc31049004255e39",
+    "output/experiments/barcelona/validacion/variables_ridge.csv": "d75da0a6eb7396c6dd1069b29b0129d6747462a9efdf5e18c312bf365cf317f1",
+    "output/experiments/barcelona/validacion/variables_random_forest.csv": "503b7030f4228b543d215ea0f38d320330e66e9ff013f6872922234d488b473c"
+  },
+  "refit": false,
+  "newTestEvaluation": false,
+  "metric": "MAE",
+  "predictionRule": "max(0, prediction)",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "temporalMethod": "Circular shifts in chronologically ordered complete-case rows, independently within station; same shifts for all numeric groups",
+  "categoricalMethod": "Enumerate the non-identity cyclic relabelings of station codes; with three stations, two mappings",
+  "interpretation": "Monte Carlo variation is not a confidence interval; validation already used, exploratory diagnostic"
+}

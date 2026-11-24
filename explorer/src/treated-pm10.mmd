@@ -1,0 +1,35 @@
+erDiagram
+  direction LR
+
+  PM10_DIARIO {
+    string codigo_estacion PK
+    date fecha PK
+    decimal pm10_valido "µg/m³"
+  }
+  PM10_SUPERVISADO {
+    string codigo_estacion PK
+    date fecha_objetivo PK
+    date fecha_ultima_observacion
+    decimal pm10_t
+    decimal pm10_objetivo
+    boolean fila_utilizable
+  }
+  GFS_DIARIO["PREVISION_METEOROLOGICA_DIARIA"] {
+    string codigo_estacion PK
+    date fecha_objetivo PK
+    datetime inicio_ciclo_utc
+    decimal viento_10m_mediodia_ms
+    decimal precipitacion_diaria_mm
+  }
+  PM10_CON_GFS["PM10_CON_PREVISION_METEOROLOGICA"] {
+    string codigo_estacion PK
+    date fecha_objetivo PK
+    decimal pm10_objetivo
+    decimal viento_10m_mediodia_ms
+    decimal precipitacion_diaria_mm
+    boolean fila_comun_utilizable
+  }
+
+  PM10_DIARIO ||--o| PM10_SUPERVISADO : "estación y fecha de observación"
+  PM10_SUPERVISADO ||--o| PM10_CON_GFS : "estación y fecha objetivo"
+  GFS_DIARIO ||--o| PM10_CON_GFS : "estación y fecha objetivo"

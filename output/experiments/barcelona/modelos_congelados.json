@@ -1,0 +1,7 @@
+{
+  "sha256_protocolo": "36628a3478df5d4a8d1e69fbf206f480caccdf454b37784a4e999593dbec9442",
+  "models": {
+    "ridge": "26a28e97c4b2264556dfd77d255a09c3911631c9165f1cb91029ed53a75c8d0b",
+    "random_forest": "9b93f2395e883298c3d626298a2ec922d0ff3a440bfeb71b9f8ce05bee7f0f9f"
+  }
+}

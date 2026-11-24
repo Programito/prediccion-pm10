@@ -1,0 +1,24 @@
+{
+  "anios": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "filas_provincia_anio_por_panel": 416,
+  "filas_con_pm10_red_variable": 316,
+  "territorios_con_pm10_todos_anios_red_variable": 31,
+  "puntos_elegibles_todos_anios": 82,
+  "territorios_red_constante": 29,
+  "filas_con_pm10_red_constante": 232,
+  "territorios_red_constante_con_dos_o_mas_estaciones_todos_anios": 15,
+  "puntos_constantes_con_coordenadas_declaradas_distintas": 33,
+  "pendiente": "2016 sigue fuera de esta prueba por formato Excel horario. Faltan demografía, revisión de comparabilidad sanitaria y representatividad, y validación predictiva temporal.",
+  "advertencia": "Red constante significa mismo punto elegible, no prueba de idéntica ubicación o equipo. Cruces descriptivos del mismo año; no son aún tablas predictivas.",
+  "puntos_constantes_con_diferencia_coordenadas_mayor_100m": 5,
+  "puntos_constantes_con_tipo_area_distinto": 4
+}

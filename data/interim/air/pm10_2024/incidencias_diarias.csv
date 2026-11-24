@@ -1,0 +1,2 @@
+﻿codigo_provincia,codigo_estacion,punto_muestreo,magnitud,fecha,tecnica,columna_original,valor_original,concentracion,estado,contaminante,unidad,archivo_origen,miembro_zip
+27,27058999,27058999_10_M,10,2024-12-20,M,D20,-1.0,-1.0,negativa_pendiente_revision,PM10,µg/m3,miteco_diarios_2024.zip,PM10_DD_2024.csv

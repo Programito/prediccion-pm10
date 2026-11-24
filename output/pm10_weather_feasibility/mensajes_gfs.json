@@ -1,0 +1,210 @@
+[
+  {
+    "campo": "rain_start",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20211113/12/atmos/gfs.t12z.pgrb2.0p25.f012",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20211113/12/atmos/gfs.t12z.pgrb2.0p25.f012.idx",
+    "rango": [
+      434005486,
+      434434546
+    ],
+    "bytes": 429061,
+    "sha256": "282e20d39e7f21524ba3839b599cf33a3561e437d12fafc000895e3d0ab2b841",
+    "inicio_ciclo_utc": "2021-11-13T12:00:00Z",
+    "validez_utc": "2021-11-14T00:00:00Z"
+  },
+  {
+    "campo": "wind_u",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20211113/12/atmos/gfs.t12z.pgrb2.0p25.f024",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20211113/12/atmos/gfs.t12z.pgrb2.0p25.f024.idx",
+    "rango": [
+      426980947,
+      427946154
+    ],
+    "bytes": 965208,
+    "sha256": "182568c6f64346e9a0dedaabc9fde9d9b8feaa51b69c83d02f24845ff2774573",
+    "inicio_ciclo_utc": "2021-11-13T12:00:00Z",
+    "validez_utc": "2021-11-14T12:00:00Z"
+  },
+  {
+    "campo": "wind_v",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20211113/12/atmos/gfs.t12z.pgrb2.0p25.f024",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20211113/12/atmos/gfs.t12z.pgrb2.0p25.f024.idx",
+    "rango": [
+      427946155,
+      428893024
+    ],
+    "bytes": 946870,
+    "sha256": "7ccb2322c8fdbb1e3f1192b979ee6471e4d0cc9d5dc6f83fbca732d9a38d02f0",
+    "inicio_ciclo_utc": "2021-11-13T12:00:00Z",
+    "validez_utc": "2021-11-14T12:00:00Z"
+  },
+  {
+    "campo": "rain_end",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20211113/12/atmos/gfs.t12z.pgrb2.0p25.f036",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20211113/12/atmos/gfs.t12z.pgrb2.0p25.f036.idx",
+    "rango": [
+      434941974,
+      435495098
+    ],
+    "bytes": 553125,
+    "sha256": "245c110d7b6d00559af8458b79a0a2f4a9cb0679cc2a2782f1d06096a312417d",
+    "inicio_ciclo_utc": "2021-11-13T12:00:00Z",
+    "validez_utc": "2021-11-15T00:00:00Z"
+  },
+  {
+    "campo": "rain_start",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20220314/12/atmos/gfs.t12z.pgrb2.0p25.f012",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20220314/12/atmos/gfs.t12z.pgrb2.0p25.f012.idx",
+    "rango": [
+      427408075,
+      427846178
+    ],
+    "bytes": 438104,
+    "sha256": "8fda6ca5787857bb7cc0e9176b6bcc688fdc63de04457a7041a1e018b4f76b2d",
+    "inicio_ciclo_utc": "2022-03-14T12:00:00Z",
+    "validez_utc": "2022-03-15T00:00:00Z"
+  },
+  {
+    "campo": "wind_u",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20220314/12/atmos/gfs.t12z.pgrb2.0p25.f024",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20220314/12/atmos/gfs.t12z.pgrb2.0p25.f024.idx",
+    "rango": [
+      427941075,
+      428915566
+    ],
+    "bytes": 974492,
+    "sha256": "4bf372dc6b9b319ecb008b48b1bd7ce9f904115b8361ab25e94e28862050d8f1",
+    "inicio_ciclo_utc": "2022-03-14T12:00:00Z",
+    "validez_utc": "2022-03-15T12:00:00Z"
+  },
+  {
+    "campo": "wind_v",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20220314/12/atmos/gfs.t12z.pgrb2.0p25.f024",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20220314/12/atmos/gfs.t12z.pgrb2.0p25.f024.idx",
+    "rango": [
+      428915567,
+      429862867
+    ],
+    "bytes": 947301,
+    "sha256": "4bd96dada15d34c173d415260c5f4f0714ce1e99a2a6e7b060966771a3ca71b3",
+    "inicio_ciclo_utc": "2022-03-14T12:00:00Z",
+    "validez_utc": "2022-03-15T12:00:00Z"
+  },
+  {
+    "campo": "rain_end",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20220314/12/atmos/gfs.t12z.pgrb2.0p25.f036",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20220314/12/atmos/gfs.t12z.pgrb2.0p25.f036.idx",
+    "rango": [
+      432710197,
+      433273255
+    ],
+    "bytes": 563059,
+    "sha256": "8c08afca29b47989fda88a08de4da3f9fa6d06e97cc7b67f618ca0df549dcb56",
+    "inicio_ciclo_utc": "2022-03-14T12:00:00Z",
+    "validez_utc": "2022-03-16T00:00:00Z"
+  },
+  {
+    "campo": "rain_start",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20230808/12/atmos/gfs.t12z.pgrb2.0p25.f012",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20230808/12/atmos/gfs.t12z.pgrb2.0p25.f012.idx",
+    "rango": [
+      428584370,
+      429022099
+    ],
+    "bytes": 437730,
+    "sha256": "7829559a5eddf2e9e07e053e0213215a2e9b22146d11a3d89fcce2a7cba527cc",
+    "inicio_ciclo_utc": "2023-08-08T12:00:00Z",
+    "validez_utc": "2023-08-09T00:00:00Z"
+  },
+  {
+    "campo": "wind_u",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20230808/12/atmos/gfs.t12z.pgrb2.0p25.f024",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20230808/12/atmos/gfs.t12z.pgrb2.0p25.f024.idx",
+    "rango": [
+      428354805,
+      429341023
+    ],
+    "bytes": 986219,
+    "sha256": "c4b4a0b32d876a41fc0da80da2610342ae547faf94f05077cba3ce365d59dafe",
+    "inicio_ciclo_utc": "2023-08-08T12:00:00Z",
+    "validez_utc": "2023-08-09T12:00:00Z"
+  },
+  {
+    "campo": "wind_v",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20230808/12/atmos/gfs.t12z.pgrb2.0p25.f024",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20230808/12/atmos/gfs.t12z.pgrb2.0p25.f024.idx",
+    "rango": [
+      429341024,
+      430299048
+    ],
+    "bytes": 958025,
+    "sha256": "9e7c5c633d922e737c4c0a8e79e0b379df35ffd354161e16bad6afd65e2cf7b5",
+    "inicio_ciclo_utc": "2023-08-08T12:00:00Z",
+    "validez_utc": "2023-08-09T12:00:00Z"
+  },
+  {
+    "campo": "rain_end",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20230808/12/atmos/gfs.t12z.pgrb2.0p25.f036",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20230808/12/atmos/gfs.t12z.pgrb2.0p25.f036.idx",
+    "rango": [
+      422506571,
+      423079851
+    ],
+    "bytes": 573281,
+    "sha256": "3467caa8f01ae69af45c4430a049ce02fba8a347ff952b2e79f949e42f72fe7c",
+    "inicio_ciclo_utc": "2023-08-08T12:00:00Z",
+    "validez_utc": "2023-08-10T00:00:00Z"
+  },
+  {
+    "campo": "rain_start",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251230/12/atmos/gfs.t12z.pgrb2.0p25.f012",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251230/12/atmos/gfs.t12z.pgrb2.0p25.f012.idx",
+    "rango": [
+      430027993,
+      430448245
+    ],
+    "bytes": 420253,
+    "sha256": "26b05b643c040859632d3030beeff4f6a33ef6c2b3bdfe55f909027a5745fcb4",
+    "inicio_ciclo_utc": "2025-12-30T12:00:00Z",
+    "validez_utc": "2025-12-31T00:00:00Z"
+  },
+  {
+    "campo": "wind_u",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251230/12/atmos/gfs.t12z.pgrb2.0p25.f024",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251230/12/atmos/gfs.t12z.pgrb2.0p25.f024.idx",
+    "rango": [
+      425990850,
+      426959935
+    ],
+    "bytes": 969086,
+    "sha256": "d6efd2d38cf9c8aadce05cd01871c81c7cb7268c4e00d50e3a667c1e94fb3809",
+    "inicio_ciclo_utc": "2025-12-30T12:00:00Z",
+    "validez_utc": "2025-12-31T12:00:00Z"
+  },
+  {
+    "campo": "wind_v",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251230/12/atmos/gfs.t12z.pgrb2.0p25.f024",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251230/12/atmos/gfs.t12z.pgrb2.0p25.f024.idx",
+    "rango": [
+      426959936,
+      427910100
+    ],
+    "bytes": 950165,
+    "sha256": "46ccc16681a76b56381ee7f7589f674fa2495726cb22e02390ed33682b7edac9",
+    "inicio_ciclo_utc": "2025-12-30T12:00:00Z",
+    "validez_utc": "2025-12-31T12:00:00Z"
+  },
+  {
+    "campo": "rain_end",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251230/12/atmos/gfs.t12z.pgrb2.0p25.f036",
+    "indice": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251230/12/atmos/gfs.t12z.pgrb2.0p25.f036.idx",
+    "rango": [
+      434536578,
+      435086870
+    ],
+    "bytes": 550293,
+    "sha256": "7c9ade785dc7110d5209243e0638cedf2ea0b73069301ede9a950bbda28cd753",
+    "inicio_ciclo_utc": "2025-12-30T12:00:00Z",
+    "validez_utc": "2026-01-01T00:00:00Z"
+  }
+]

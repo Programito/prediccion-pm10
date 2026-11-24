@@ -1,0 +1,39 @@
+{
+  "catalog_url": "https://eeadmz1-downloads-api-appservice.azurewebsites.net/ParquetFile/urls",
+  "catalog_method": "POST",
+  "catalog_query": {
+    "countries": [
+      "ES"
+    ],
+    "cities": [],
+    "pollutants": [
+      "PM10"
+    ],
+    "dataset": 2,
+    "source": "API",
+    "dateTimeStart": "2024-01-01T00:00:00Z",
+    "dateTimeEnd": "2025-01-02T00:00:00Z",
+    "aggregationType": "hour"
+  },
+  "file_method": "GET",
+  "sources": {
+    "28079060_10_47": {
+      "file": "SP_28079060_10_47.parquet",
+      "url": "https://eeadmz1batchservice02.blob.core.windows.net/airquality-p-e1a/ES/SP_28079060_10_47.parquet",
+      "bytes": 1448230,
+      "sha256": "96bd7eac5f1c822c721b9caefe9975c760082e7a85c652b28d3c514ea197abb3"
+    },
+    "28080003_10_49": {
+      "file": "SP_28080003_10_49.parquet",
+      "url": "https://eeadmz1batchservice02.blob.core.windows.net/airquality-p-e1a/ES/SP_28080003_10_49.parquet",
+      "bytes": 1425916,
+      "sha256": "e96c9455253557fc8ed3f545f6d7ad23df0d3581f82e75eb14cb3a61d3569f1d"
+    },
+    "28133002_10_49": {
+      "file": "SP_28133002_10_49.parquet",
+      "url": "https://eeadmz1batchservice02.blob.core.windows.net/airquality-p-e1a/ES/SP_28133002_10_49.parquet",
+      "bytes": 1212924,
+      "sha256": "ebe711663bcffad79345065dabcf5d889cedb2bc1830a8cbe99d0845537dfe03"
+    }
+  }
+}

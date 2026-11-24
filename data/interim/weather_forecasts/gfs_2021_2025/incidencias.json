@@ -1,0 +1,122 @@
+[
+  {
+    "fecha_objetivo": "2021-01-01",
+    "plazo_h": 12,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20201231/12/gfs.t12z.pgrb2.0p25.f012.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-01-01",
+    "plazo_h": 24,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20201231/12/gfs.t12z.pgrb2.0p25.f024.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-01-01",
+    "plazo_h": 36,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20201231/12/gfs.t12z.pgrb2.0p25.f036.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-04",
+    "plazo_h": 12,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210203/12/gfs.t12z.pgrb2.0p25.f012.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-04",
+    "plazo_h": 24,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210203/12/gfs.t12z.pgrb2.0p25.f024.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-04",
+    "plazo_h": 36,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210203/12/gfs.t12z.pgrb2.0p25.f036.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-05",
+    "plazo_h": 12,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210204/12/gfs.t12z.pgrb2.0p25.f012.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-05",
+    "plazo_h": 24,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210204/12/gfs.t12z.pgrb2.0p25.f024.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-05",
+    "plazo_h": 36,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210204/12/gfs.t12z.pgrb2.0p25.f036.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-07",
+    "plazo_h": 12,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210206/12/gfs.t12z.pgrb2.0p25.f012.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-07",
+    "plazo_h": 24,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210206/12/gfs.t12z.pgrb2.0p25.f024.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-07",
+    "plazo_h": 36,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210206/12/gfs.t12z.pgrb2.0p25.f036.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-08",
+    "plazo_h": 12,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210207/12/gfs.t12z.pgrb2.0p25.f012.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-08",
+    "plazo_h": 24,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210207/12/gfs.t12z.pgrb2.0p25.f024.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  },
+  {
+    "fecha_objetivo": "2021-02-08",
+    "plazo_h": 36,
+    "campo": "indice",
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210207/12/gfs.t12z.pgrb2.0p25.f036.idx",
+    "error": "HTTP Error 404: Not Found",
+    "permanente": true
+  }
+]

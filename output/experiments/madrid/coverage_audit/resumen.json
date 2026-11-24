@@ -1,0 +1,6753 @@
+{
+  "year": 2024,
+  "threshold": 27,
+  "reasonLabels": {
+    "evaluada": "Fila evaluable",
+    "sin_objetivo": "Falta la observación objetivo",
+    "sin_ultimo_dia": "Falta el último día observado",
+    "historial_3d": "Falla el bloque de 3 días",
+    "historial_7d": "Falla el bloque de 7 días",
+    "historial_14d": "Falla la media de 14 días",
+    "otras_variables": "Faltan otras variables"
+  },
+  "groups": [
+    {
+      "station": "todas",
+      "month": 0,
+      "calendar": 1098,
+      "evaluated": 1013,
+      "excluded": 85,
+      "unknownTarget": 14,
+      "observedExcluded": 71,
+      "elevatedObserved": 117,
+      "elevatedExcluded": 10,
+      "otherObserved": 967,
+      "otherExcluded": 61,
+      "reasons": {
+        "evaluada": 1013,
+        "sin_objetivo": 14,
+        "sin_ultimo_dia": 7,
+        "historial_3d": 14,
+        "historial_7d": 22,
+        "historial_14d": 28,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "calendar": 93,
+      "evaluated": 93,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 1,
+      "elevatedExcluded": 0,
+      "otherObserved": 92,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 93,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "calendar": 87,
+      "evaluated": 87,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 4,
+      "elevatedExcluded": 0,
+      "otherObserved": 83,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 87,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "calendar": 93,
+      "evaluated": 93,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 17,
+      "elevatedExcluded": 0,
+      "otherObserved": 76,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 93,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "calendar": 90,
+      "evaluated": 90,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 10,
+      "elevatedExcluded": 0,
+      "otherObserved": 80,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 90,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "calendar": 93,
+      "evaluated": 86,
+      "excluded": 7,
+      "unknownTarget": 3,
+      "observedExcluded": 4,
+      "elevatedObserved": 0,
+      "elevatedExcluded": 0,
+      "otherObserved": 90,
+      "otherExcluded": 4,
+      "reasons": {
+        "evaluada": 86,
+        "sin_objetivo": 3,
+        "sin_ultimo_dia": 1,
+        "historial_3d": 2,
+        "historial_7d": 1,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "calendar": 90,
+      "evaluated": 76,
+      "excluded": 14,
+      "unknownTarget": 1,
+      "observedExcluded": 13,
+      "elevatedObserved": 9,
+      "elevatedExcluded": 3,
+      "otherObserved": 80,
+      "otherExcluded": 10,
+      "reasons": {
+        "evaluada": 76,
+        "sin_objetivo": 1,
+        "sin_ultimo_dia": 1,
+        "historial_3d": 2,
+        "historial_7d": 3,
+        "historial_14d": 7,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "calendar": 93,
+      "evaluated": 75,
+      "excluded": 18,
+      "unknownTarget": 1,
+      "observedExcluded": 17,
+      "elevatedObserved": 17,
+      "elevatedExcluded": 2,
+      "otherObserved": 75,
+      "otherExcluded": 15,
+      "reasons": {
+        "evaluada": 75,
+        "sin_objetivo": 1,
+        "sin_ultimo_dia": 1,
+        "historial_3d": 2,
+        "historial_7d": 7,
+        "historial_14d": 7,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "calendar": 93,
+      "evaluated": 86,
+      "excluded": 7,
+      "unknownTarget": 2,
+      "observedExcluded": 5,
+      "elevatedObserved": 25,
+      "elevatedExcluded": 1,
+      "otherObserved": 66,
+      "otherExcluded": 4,
+      "reasons": {
+        "evaluada": 86,
+        "sin_objetivo": 2,
+        "sin_ultimo_dia": 1,
+        "historial_3d": 2,
+        "historial_7d": 2,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "calendar": 90,
+      "evaluated": 66,
+      "excluded": 24,
+      "unknownTarget": 6,
+      "observedExcluded": 18,
+      "elevatedObserved": 2,
+      "elevatedExcluded": 0,
+      "otherObserved": 82,
+      "otherExcluded": 18,
+      "reasons": {
+        "evaluada": 66,
+        "sin_objetivo": 6,
+        "sin_ultimo_dia": 2,
+        "historial_3d": 4,
+        "historial_7d": 5,
+        "historial_14d": 7,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "calendar": 93,
+      "evaluated": 93,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 15,
+      "elevatedExcluded": 0,
+      "otherObserved": 78,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 93,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "calendar": 90,
+      "evaluated": 81,
+      "excluded": 9,
+      "unknownTarget": 1,
+      "observedExcluded": 8,
+      "elevatedObserved": 10,
+      "elevatedExcluded": 2,
+      "otherObserved": 79,
+      "otherExcluded": 6,
+      "reasons": {
+        "evaluada": 81,
+        "sin_objetivo": 1,
+        "sin_ultimo_dia": 1,
+        "historial_3d": 2,
+        "historial_7d": 4,
+        "historial_14d": 1,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "calendar": 93,
+      "evaluated": 87,
+      "excluded": 6,
+      "unknownTarget": 0,
+      "observedExcluded": 6,
+      "elevatedObserved": 7,
+      "elevatedExcluded": 2,
+      "otherObserved": 86,
+      "otherExcluded": 4,
+      "reasons": {
+        "evaluada": 87,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 6,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "calendar": 366,
+      "evaluated": 329,
+      "excluded": 37,
+      "unknownTarget": 3,
+      "observedExcluded": 34,
+      "elevatedObserved": 56,
+      "elevatedExcluded": 7,
+      "otherObserved": 307,
+      "otherExcluded": 27,
+      "reasons": {
+        "evaluada": 329,
+        "sin_objetivo": 3,
+        "sin_ultimo_dia": 3,
+        "historial_3d": 6,
+        "historial_7d": 11,
+        "historial_14d": 14,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 1,
+      "elevatedExcluded": 0,
+      "otherObserved": 30,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "calendar": 29,
+      "evaluated": 29,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 2,
+      "elevatedExcluded": 0,
+      "otherObserved": 27,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 29,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 6,
+      "elevatedExcluded": 0,
+      "otherObserved": 25,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "calendar": 30,
+      "evaluated": 30,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 3,
+      "elevatedExcluded": 0,
+      "otherObserved": 27,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 30,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 0,
+      "elevatedExcluded": 0,
+      "otherObserved": 31,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "calendar": 30,
+      "evaluated": 26,
+      "excluded": 4,
+      "unknownTarget": 1,
+      "observedExcluded": 3,
+      "elevatedObserved": 5,
+      "elevatedExcluded": 1,
+      "otherObserved": 24,
+      "otherExcluded": 2,
+      "reasons": {
+        "evaluada": 26,
+        "sin_objetivo": 1,
+        "sin_ultimo_dia": 1,
+        "historial_3d": 2,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "calendar": 31,
+      "evaluated": 13,
+      "excluded": 18,
+      "unknownTarget": 1,
+      "observedExcluded": 17,
+      "elevatedObserved": 10,
+      "elevatedExcluded": 2,
+      "otherObserved": 20,
+      "otherExcluded": 15,
+      "reasons": {
+        "evaluada": 13,
+        "sin_objetivo": 1,
+        "sin_ultimo_dia": 1,
+        "historial_3d": 2,
+        "historial_7d": 7,
+        "historial_14d": 7,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 17,
+      "elevatedExcluded": 0,
+      "otherObserved": 14,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "calendar": 30,
+      "evaluated": 30,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 0,
+      "elevatedExcluded": 0,
+      "otherObserved": 30,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 30,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 6,
+      "elevatedExcluded": 0,
+      "otherObserved": 25,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "calendar": 30,
+      "evaluated": 21,
+      "excluded": 9,
+      "unknownTarget": 1,
+      "observedExcluded": 8,
+      "elevatedObserved": 3,
+      "elevatedExcluded": 2,
+      "otherObserved": 26,
+      "otherExcluded": 6,
+      "reasons": {
+        "evaluada": 21,
+        "sin_objetivo": 1,
+        "sin_ultimo_dia": 1,
+        "historial_3d": 2,
+        "historial_7d": 4,
+        "historial_14d": 1,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "calendar": 31,
+      "evaluated": 25,
+      "excluded": 6,
+      "unknownTarget": 0,
+      "observedExcluded": 6,
+      "elevatedObserved": 3,
+      "elevatedExcluded": 2,
+      "otherObserved": 28,
+      "otherExcluded": 4,
+      "reasons": {
+        "evaluada": 25,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 6,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "calendar": 366,
+      "evaluated": 335,
+      "excluded": 31,
+      "unknownTarget": 8,
+      "observedExcluded": 23,
+      "elevatedObserved": 23,
+      "elevatedExcluded": 1,
+      "otherObserved": 335,
+      "otherExcluded": 22,
+      "reasons": {
+        "evaluada": 335,
+        "sin_objetivo": 8,
+        "sin_ultimo_dia": 3,
+        "historial_3d": 6,
+        "historial_7d": 7,
+        "historial_14d": 7,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 0,
+      "elevatedExcluded": 0,
+      "otherObserved": 31,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "calendar": 29,
+      "evaluated": 29,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 0,
+      "elevatedExcluded": 0,
+      "otherObserved": 29,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 29,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 5,
+      "elevatedExcluded": 0,
+      "otherObserved": 26,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "calendar": 30,
+      "evaluated": 30,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 4,
+      "elevatedExcluded": 0,
+      "otherObserved": 26,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 30,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 0,
+      "elevatedExcluded": 0,
+      "otherObserved": 31,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "calendar": 30,
+      "evaluated": 30,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 2,
+      "elevatedExcluded": 0,
+      "otherObserved": 28,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 30,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 3,
+      "elevatedExcluded": 0,
+      "otherObserved": 28,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "calendar": 31,
+      "evaluated": 24,
+      "excluded": 7,
+      "unknownTarget": 2,
+      "observedExcluded": 5,
+      "elevatedObserved": 1,
+      "elevatedExcluded": 1,
+      "otherObserved": 28,
+      "otherExcluded": 4,
+      "reasons": {
+        "evaluada": 24,
+        "sin_objetivo": 2,
+        "sin_ultimo_dia": 1,
+        "historial_3d": 2,
+        "historial_7d": 2,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "calendar": 30,
+      "evaluated": 6,
+      "excluded": 24,
+      "unknownTarget": 6,
+      "observedExcluded": 18,
+      "elevatedObserved": 0,
+      "elevatedExcluded": 0,
+      "otherObserved": 24,
+      "otherExcluded": 18,
+      "reasons": {
+        "evaluada": 6,
+        "sin_objetivo": 6,
+        "sin_ultimo_dia": 2,
+        "historial_3d": 4,
+        "historial_7d": 5,
+        "historial_14d": 7,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 5,
+      "elevatedExcluded": 0,
+      "otherObserved": 26,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "calendar": 30,
+      "evaluated": 30,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 2,
+      "elevatedExcluded": 0,
+      "otherObserved": 28,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 30,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 1,
+      "elevatedExcluded": 0,
+      "otherObserved": 30,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "calendar": 366,
+      "evaluated": 349,
+      "excluded": 17,
+      "unknownTarget": 3,
+      "observedExcluded": 14,
+      "elevatedObserved": 38,
+      "elevatedExcluded": 2,
+      "otherObserved": 325,
+      "otherExcluded": 12,
+      "reasons": {
+        "evaluada": 349,
+        "sin_objetivo": 3,
+        "sin_ultimo_dia": 1,
+        "historial_3d": 2,
+        "historial_7d": 4,
+        "historial_14d": 7,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 0,
+      "elevatedExcluded": 0,
+      "otherObserved": 31,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "calendar": 29,
+      "evaluated": 29,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 2,
+      "elevatedExcluded": 0,
+      "otherObserved": 27,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 29,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 6,
+      "elevatedExcluded": 0,
+      "otherObserved": 25,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "calendar": 30,
+      "evaluated": 30,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 3,
+      "elevatedExcluded": 0,
+      "otherObserved": 27,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 30,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "calendar": 31,
+      "evaluated": 24,
+      "excluded": 7,
+      "unknownTarget": 3,
+      "observedExcluded": 4,
+      "elevatedObserved": 0,
+      "elevatedExcluded": 0,
+      "otherObserved": 28,
+      "otherExcluded": 4,
+      "reasons": {
+        "evaluada": 24,
+        "sin_objetivo": 3,
+        "sin_ultimo_dia": 1,
+        "historial_3d": 2,
+        "historial_7d": 1,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "calendar": 30,
+      "evaluated": 20,
+      "excluded": 10,
+      "unknownTarget": 0,
+      "observedExcluded": 10,
+      "elevatedObserved": 2,
+      "elevatedExcluded": 2,
+      "otherObserved": 28,
+      "otherExcluded": 8,
+      "reasons": {
+        "evaluada": 20,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 3,
+        "historial_14d": 7,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 4,
+      "elevatedExcluded": 0,
+      "otherObserved": 27,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 7,
+      "elevatedExcluded": 0,
+      "otherObserved": 24,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "calendar": 30,
+      "evaluated": 30,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 2,
+      "elevatedExcluded": 0,
+      "otherObserved": 28,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 30,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 4,
+      "elevatedExcluded": 0,
+      "otherObserved": 27,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "calendar": 30,
+      "evaluated": 30,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 5,
+      "elevatedExcluded": 0,
+      "otherObserved": 25,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 30,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "calendar": 31,
+      "evaluated": 31,
+      "excluded": 0,
+      "unknownTarget": 0,
+      "observedExcluded": 0,
+      "elevatedObserved": 3,
+      "elevatedExcluded": 0,
+      "otherObserved": 28,
+      "otherExcluded": 0,
+      "reasons": {
+        "evaluada": 31,
+        "sin_objetivo": 0,
+        "sin_ultimo_dia": 0,
+        "historial_3d": 0,
+        "historial_7d": 0,
+        "historial_14d": 0,
+        "otras_variables": 0
+      }
+    }
+  ],
+  "features": [
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "pm10_t",
+      "missing": 14,
+      "missingWithTarget": 7,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "pm10_t_menos_1",
+      "missing": 14,
+      "missingWithTarget": 11,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "pm10_t_menos_2",
+      "missing": 14,
+      "missingWithTarget": 13,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "pm10_t_menos_6",
+      "missing": 14,
+      "missingWithTarget": 10,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "media_3_dias",
+      "missing": 28,
+      "missingWithTarget": 21,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "media_7_dias",
+      "missing": 53,
+      "missingWithTarget": 43,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "media_14_dias",
+      "missing": 81,
+      "missingWithTarget": 71,
+      "soleMissingWithTarget": 28
+    },
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "desviacion_7_dias",
+      "missing": 53,
+      "missingWithTarget": 43,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 0,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 1,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 2,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 3,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 4,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "pm10_t",
+      "missing": 3,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "pm10_t_menos_1",
+      "missing": 3,
+      "missingWithTarget": 2,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "pm10_t_menos_2",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "media_3_dias",
+      "missing": 5,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "media_7_dias",
+      "missing": 6,
+      "missingWithTarget": 4,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "media_14_dias",
+      "missing": 6,
+      "missingWithTarget": 4,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "desviacion_7_dias",
+      "missing": 6,
+      "missingWithTarget": 4,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 5,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "pm10_t",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "pm10_t_menos_1",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "pm10_t_menos_2",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "pm10_t_menos_6",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "media_3_dias",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "media_7_dias",
+      "missing": 6,
+      "missingWithTarget": 6,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "media_14_dias",
+      "missing": 13,
+      "missingWithTarget": 13,
+      "soleMissingWithTarget": 7
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "desviacion_7_dias",
+      "missing": 6,
+      "missingWithTarget": 6,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 6,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "pm10_t",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "pm10_t_menos_1",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "pm10_t_menos_2",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "pm10_t_menos_6",
+      "missing": 2,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "media_3_dias",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "media_7_dias",
+      "missing": 11,
+      "missingWithTarget": 10,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "media_14_dias",
+      "missing": 18,
+      "missingWithTarget": 17,
+      "soleMissingWithTarget": 7
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "desviacion_7_dias",
+      "missing": 11,
+      "missingWithTarget": 10,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 7,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "pm10_t",
+      "missing": 2,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "pm10_t_menos_1",
+      "missing": 2,
+      "missingWithTarget": 2,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "pm10_t_menos_2",
+      "missing": 2,
+      "missingWithTarget": 2,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "media_3_dias",
+      "missing": 4,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "media_7_dias",
+      "missing": 6,
+      "missingWithTarget": 5,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "media_14_dias",
+      "missing": 6,
+      "missingWithTarget": 5,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "desviacion_7_dias",
+      "missing": 6,
+      "missingWithTarget": 5,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 8,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "pm10_t",
+      "missing": 6,
+      "missingWithTarget": 2,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "pm10_t_menos_1",
+      "missing": 6,
+      "missingWithTarget": 4,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "pm10_t_menos_2",
+      "missing": 6,
+      "missingWithTarget": 5,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "pm10_t_menos_6",
+      "missing": 8,
+      "missingWithTarget": 5,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "media_3_dias",
+      "missing": 10,
+      "missingWithTarget": 6,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "media_7_dias",
+      "missing": 17,
+      "missingWithTarget": 11,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "media_14_dias",
+      "missing": 24,
+      "missingWithTarget": 18,
+      "soleMissingWithTarget": 7
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "desviacion_7_dias",
+      "missing": 17,
+      "missingWithTarget": 11,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 9,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 10,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "pm10_t",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "pm10_t_menos_1",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "pm10_t_menos_2",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "pm10_t_menos_6",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "media_3_dias",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "media_7_dias",
+      "missing": 7,
+      "missingWithTarget": 7,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "media_14_dias",
+      "missing": 8,
+      "missingWithTarget": 8,
+      "soleMissingWithTarget": 1
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "desviacion_7_dias",
+      "missing": 7,
+      "missingWithTarget": 7,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 11,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "media_14_dias",
+      "missing": 6,
+      "missingWithTarget": 6,
+      "soleMissingWithTarget": 6
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "todas",
+      "month": 12,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "pm10_t",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "pm10_t_menos_1",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "pm10_t_menos_2",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "pm10_t_menos_6",
+      "missing": 3,
+      "missingWithTarget": 2,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "media_3_dias",
+      "missing": 9,
+      "missingWithTarget": 9,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "media_7_dias",
+      "missing": 21,
+      "missingWithTarget": 20,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "media_14_dias",
+      "missing": 35,
+      "missingWithTarget": 34,
+      "soleMissingWithTarget": 14
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "desviacion_7_dias",
+      "missing": 21,
+      "missingWithTarget": 20,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 0,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 1,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 2,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 3,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 4,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 5,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "pm10_t",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "pm10_t_menos_1",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "pm10_t_menos_2",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "media_3_dias",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "media_7_dias",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "media_14_dias",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "desviacion_7_dias",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 6,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "pm10_t",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "pm10_t_menos_1",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "pm10_t_menos_2",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "pm10_t_menos_6",
+      "missing": 2,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "media_3_dias",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "media_7_dias",
+      "missing": 11,
+      "missingWithTarget": 10,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "media_14_dias",
+      "missing": 18,
+      "missingWithTarget": 17,
+      "soleMissingWithTarget": 7
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "desviacion_7_dias",
+      "missing": 11,
+      "missingWithTarget": 10,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 7,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 8,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 9,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 10,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "pm10_t",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "pm10_t_menos_1",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "pm10_t_menos_2",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "pm10_t_menos_6",
+      "missing": 1,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "media_3_dias",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "media_7_dias",
+      "missing": 7,
+      "missingWithTarget": 7,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "media_14_dias",
+      "missing": 8,
+      "missingWithTarget": 8,
+      "soleMissingWithTarget": 1
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "desviacion_7_dias",
+      "missing": 7,
+      "missingWithTarget": 7,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 11,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "media_14_dias",
+      "missing": 6,
+      "missingWithTarget": 6,
+      "soleMissingWithTarget": 6
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28079060",
+      "month": 12,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "pm10_t",
+      "missing": 8,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "pm10_t_menos_1",
+      "missing": 8,
+      "missingWithTarget": 6,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "pm10_t_menos_2",
+      "missing": 8,
+      "missingWithTarget": 7,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "pm10_t_menos_6",
+      "missing": 8,
+      "missingWithTarget": 5,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "media_3_dias",
+      "missing": 14,
+      "missingWithTarget": 9,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "media_7_dias",
+      "missing": 23,
+      "missingWithTarget": 16,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "media_14_dias",
+      "missing": 30,
+      "missingWithTarget": 23,
+      "soleMissingWithTarget": 7
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "desviacion_7_dias",
+      "missing": 23,
+      "missingWithTarget": 16,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 0,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 1,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 2,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 3,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 4,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 5,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 6,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 7,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "pm10_t",
+      "missing": 2,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "pm10_t_menos_1",
+      "missing": 2,
+      "missingWithTarget": 2,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "pm10_t_menos_2",
+      "missing": 2,
+      "missingWithTarget": 2,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "media_3_dias",
+      "missing": 4,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "media_7_dias",
+      "missing": 6,
+      "missingWithTarget": 5,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "media_14_dias",
+      "missing": 6,
+      "missingWithTarget": 5,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "desviacion_7_dias",
+      "missing": 6,
+      "missingWithTarget": 5,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 8,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "pm10_t",
+      "missing": 6,
+      "missingWithTarget": 2,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "pm10_t_menos_1",
+      "missing": 6,
+      "missingWithTarget": 4,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "pm10_t_menos_2",
+      "missing": 6,
+      "missingWithTarget": 5,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "pm10_t_menos_6",
+      "missing": 8,
+      "missingWithTarget": 5,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "media_3_dias",
+      "missing": 10,
+      "missingWithTarget": 6,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "media_7_dias",
+      "missing": 17,
+      "missingWithTarget": 11,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "media_14_dias",
+      "missing": 24,
+      "missingWithTarget": 18,
+      "soleMissingWithTarget": 7
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "desviacion_7_dias",
+      "missing": 17,
+      "missingWithTarget": 11,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 9,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 10,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 11,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28080003",
+      "month": 12,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "pm10_t",
+      "missing": 3,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "pm10_t_menos_1",
+      "missing": 3,
+      "missingWithTarget": 2,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "pm10_t_menos_2",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "pm10_t_menos_6",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "media_3_dias",
+      "missing": 5,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "media_7_dias",
+      "missing": 9,
+      "missingWithTarget": 7,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "media_14_dias",
+      "missing": 16,
+      "missingWithTarget": 14,
+      "soleMissingWithTarget": 7
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "desviacion_7_dias",
+      "missing": 9,
+      "missingWithTarget": 7,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 0,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 1,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 2,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 3,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 4,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "pm10_t",
+      "missing": 3,
+      "missingWithTarget": 1,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "pm10_t_menos_1",
+      "missing": 3,
+      "missingWithTarget": 2,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "pm10_t_menos_2",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "media_3_dias",
+      "missing": 5,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "media_7_dias",
+      "missing": 6,
+      "missingWithTarget": 4,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "media_14_dias",
+      "missing": 6,
+      "missingWithTarget": 4,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "desviacion_7_dias",
+      "missing": 6,
+      "missingWithTarget": 4,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 5,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "pm10_t_menos_6",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "media_7_dias",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "media_14_dias",
+      "missing": 10,
+      "missingWithTarget": 10,
+      "soleMissingWithTarget": 7
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "desviacion_7_dias",
+      "missing": 3,
+      "missingWithTarget": 3,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 6,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 7,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 8,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 9,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 10,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 11,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "pm10_t",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "pm10_t_menos_1",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "pm10_t_menos_2",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "pm10_t_menos_6",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "media_3_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "media_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "media_14_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "desviacion_7_dias",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "semana_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "semana_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "mes_sin",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    },
+    {
+      "station": "28133002",
+      "month": 12,
+      "feature": "mes_cos",
+      "missing": 0,
+      "missingWithTarget": 0,
+      "soleMissingWithTarget": 0
+    }
+  ],
+  "episodes": [
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-11-29",
+      "end": "2024-12-02",
+      "peakDate": "2024-11-30",
+      "peak": 44.0,
+      "observedDays": 4,
+      "evaluatedDays": 0,
+      "excludedDays": 4
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-06-06",
+      "end": "2024-06-07",
+      "peakDate": "2024-06-07",
+      "peak": 48.0,
+      "observedDays": 2,
+      "evaluatedDays": 0,
+      "excludedDays": 2
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-07-18",
+      "end": "2024-07-19",
+      "peakDate": "2024-07-19",
+      "peak": 49.0,
+      "observedDays": 2,
+      "evaluatedDays": 1,
+      "excludedDays": 1
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-07-05",
+      "end": "2024-07-05",
+      "peakDate": "2024-07-05",
+      "peak": 35.0,
+      "observedDays": 1,
+      "evaluatedDays": 0,
+      "excludedDays": 1
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-06-28",
+      "end": "2024-06-28",
+      "peakDate": "2024-06-28",
+      "peak": 33.0,
+      "observedDays": 1,
+      "evaluatedDays": 0,
+      "excludedDays": 1
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-08-28",
+      "end": "2024-08-28",
+      "peakDate": "2024-08-28",
+      "peak": 30.0,
+      "observedDays": 1,
+      "evaluatedDays": 0,
+      "excludedDays": 1
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-10-30",
+      "end": "2024-10-31",
+      "peakDate": "2024-10-31",
+      "peak": 156.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-10-30",
+      "end": "2024-10-31",
+      "peakDate": "2024-10-31",
+      "peak": 119.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-10-30",
+      "end": "2024-11-01",
+      "peakDate": "2024-10-31",
+      "peak": 111.0,
+      "observedDays": 3,
+      "evaluatedDays": 3,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-03-19",
+      "end": "2024-03-24",
+      "peakDate": "2024-03-20",
+      "peak": 82.0,
+      "observedDays": 6,
+      "evaluatedDays": 6,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-06-05",
+      "end": "2024-06-08",
+      "peakDate": "2024-06-07",
+      "peak": 82.0,
+      "observedDays": 4,
+      "evaluatedDays": 4,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-10-06",
+      "end": "2024-10-07",
+      "peakDate": "2024-10-06",
+      "peak": 76.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-10-06",
+      "end": "2024-10-06",
+      "peakDate": "2024-10-06",
+      "peak": 63.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-03-19",
+      "end": "2024-03-24",
+      "peakDate": "2024-03-20",
+      "peak": 62.0,
+      "observedDays": 6,
+      "evaluatedDays": 6,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-08-26",
+      "end": "2024-08-29",
+      "peakDate": "2024-08-28",
+      "peak": 61.0,
+      "observedDays": 4,
+      "evaluatedDays": 4,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-03-19",
+      "end": "2024-03-20",
+      "peakDate": "2024-03-20",
+      "peak": 60.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-10-14",
+      "end": "2024-10-15",
+      "peakDate": "2024-10-14",
+      "peak": 58.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-10-06",
+      "end": "2024-10-07",
+      "peakDate": "2024-10-06",
+      "peak": 58.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-04-06",
+      "end": "2024-04-07",
+      "peakDate": "2024-04-07",
+      "peak": 57.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-07-25",
+      "end": "2024-07-31",
+      "peakDate": "2024-07-30",
+      "peak": 56.0,
+      "observedDays": 7,
+      "evaluatedDays": 7,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-03-22",
+      "end": "2024-03-24",
+      "peakDate": "2024-03-23",
+      "peak": 54.0,
+      "observedDays": 3,
+      "evaluatedDays": 3,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-04-15",
+      "end": "2024-04-15",
+      "peakDate": "2024-04-15",
+      "peak": 50.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-06-07",
+      "end": "2024-06-07",
+      "peakDate": "2024-06-07",
+      "peak": 49.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-08-19",
+      "end": "2024-08-24",
+      "peakDate": "2024-08-20",
+      "peak": 48.0,
+      "observedDays": 6,
+      "evaluatedDays": 6,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-11-15",
+      "end": "2024-11-17",
+      "peakDate": "2024-11-15",
+      "peak": 44.0,
+      "observedDays": 3,
+      "evaluatedDays": 3,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-12-18",
+      "end": "2024-12-19",
+      "peakDate": "2024-12-19",
+      "peak": 43.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-07-29",
+      "end": "2024-07-30",
+      "peakDate": "2024-07-30",
+      "peak": 41.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-11-30",
+      "end": "2024-12-01",
+      "peakDate": "2024-12-01",
+      "peak": 41.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-11-15",
+      "end": "2024-11-15",
+      "peakDate": "2024-11-15",
+      "peak": 38.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-08-28",
+      "end": "2024-08-29",
+      "peakDate": "2024-08-28",
+      "peak": 38.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-08-02",
+      "end": "2024-08-02",
+      "peakDate": "2024-08-02",
+      "peak": 37.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-08-07",
+      "end": "2024-08-12",
+      "peakDate": "2024-08-09",
+      "peak": 37.0,
+      "observedDays": 6,
+      "evaluatedDays": 6,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-04-06",
+      "end": "2024-04-07",
+      "peakDate": "2024-04-07",
+      "peak": 37.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-11-30",
+      "end": "2024-12-01",
+      "peakDate": "2024-12-01",
+      "peak": 37.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-07-19",
+      "end": "2024-07-19",
+      "peakDate": "2024-07-19",
+      "peak": 35.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-09-01",
+      "end": "2024-09-02",
+      "peakDate": "2024-09-02",
+      "peak": 35.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-02-01",
+      "end": "2024-02-02",
+      "peakDate": "2024-02-01",
+      "peak": 34.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-04-15",
+      "end": "2024-04-16",
+      "peakDate": "2024-04-16",
+      "peak": 34.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-07-29",
+      "end": "2024-07-30",
+      "peakDate": "2024-07-30",
+      "peak": 34.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-10-14",
+      "end": "2024-10-14",
+      "peakDate": "2024-10-14",
+      "peak": 34.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-04-06",
+      "end": "2024-04-07",
+      "peakDate": "2024-04-07",
+      "peak": 34.0,
+      "observedDays": 2,
+      "evaluatedDays": 2,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-08-21",
+      "end": "2024-08-21",
+      "peakDate": "2024-08-21",
+      "peak": 32.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-11-15",
+      "end": "2024-11-15",
+      "peakDate": "2024-11-15",
+      "peak": 31.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-04-15",
+      "end": "2024-04-15",
+      "peakDate": "2024-04-15",
+      "peak": 31.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-01-30",
+      "end": "2024-01-30",
+      "peakDate": "2024-01-30",
+      "peak": 30.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-06-27",
+      "end": "2024-06-27",
+      "peakDate": "2024-06-27",
+      "peak": 29.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "start": "2024-07-19",
+      "end": "2024-07-19",
+      "peakDate": "2024-07-19",
+      "peak": 29.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-02-01",
+      "end": "2024-02-01",
+      "peakDate": "2024-02-01",
+      "peak": 29.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-08-09",
+      "end": "2024-08-12",
+      "peakDate": "2024-08-11",
+      "peak": 29.0,
+      "observedDays": 4,
+      "evaluatedDays": 4,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-10-15",
+      "end": "2024-10-15",
+      "peakDate": "2024-10-15",
+      "peak": 29.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "start": "2024-12-18",
+      "end": "2024-12-18",
+      "peakDate": "2024-12-18",
+      "peak": 28.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-02-03",
+      "end": "2024-02-03",
+      "peakDate": "2024-02-03",
+      "peak": 28.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS ",
+      "start": "2024-07-26",
+      "end": "2024-07-26",
+      "peakDate": "2024-07-26",
+      "peak": 28.0,
+      "observedDays": 1,
+      "evaluatedDays": 1,
+      "excludedDays": 0
+    }
+  ],
+  "experiment": "madrid",
+  "sources": [
+    {
+      "path": "data/interim/pm10_prediction/tabla_supervisada_pm10.csv",
+      "sha256": "48c65d358f3fcbf29e8e45aa9048bd1d2eda610377dcd6989104ad43551332d5"
+    },
+    {
+      "path": "data/interim/daily_pollution/pm10_madrid_diario_2017_2024.csv",
+      "sha256": "34b48d6f710d3464d9cec3a4db03d6fbb5b67bfb6f24b983b0d9f233a63e84f5"
+    },
+    {
+      "path": "output/pm10_final_2024/predicciones_regresion.csv",
+      "sha256": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad"
+    }
+  ]
+}

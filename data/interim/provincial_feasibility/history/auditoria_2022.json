@@ -1,0 +1,13 @@
+{
+  "anio": 2022,
+  "puntos_candidatos_fondo_con_horas": 141,
+  "puntos_seleccionados": 136,
+  "dias_punto_combinados": 51465,
+  "dias_validos": 48230,
+  "negativos_seleccionados_para_revision": 0,
+  "maxima_diferencia_diario_horario": 0.5,
+  "archivo_diario": "miteco_diarios_2022.zip",
+  "archivo_horario": "miteco_horarios_2022.zip",
+  "archivo_metadatos": "miteco_estaciones_2022.xlsx",
+  "hoja_estaciones": "Estaciones"
+}

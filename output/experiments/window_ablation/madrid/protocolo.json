@@ -1,0 +1,75 @@
+{
+  "experiment": "madrid",
+  "train": [
+    "2017-01-01",
+    "2022-12-31"
+  ],
+  "validation": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "featuresOriginal": [
+    "pm10_t",
+    "pm10_t_menos_1",
+    "pm10_t_menos_2",
+    "pm10_t_menos_6",
+    "media_3_dias",
+    "media_7_dias",
+    "media_14_dias",
+    "desviacion_7_dias",
+    "semana_sin",
+    "semana_cos",
+    "mes_sin",
+    "mes_cos",
+    "codigo_estacion"
+  ],
+  "featuresReduced": [
+    "pm10_t",
+    "pm10_t_menos_1",
+    "pm10_t_menos_2",
+    "pm10_t_menos_6",
+    "media_3_dias",
+    "media_7_dias",
+    "desviacion_7_dias",
+    "semana_sin",
+    "semana_cos",
+    "mes_sin",
+    "mes_cos",
+    "codigo_estacion"
+  ],
+  "parameters": {
+    "alpha": 10.0,
+    "solver": "svd"
+  },
+  "models": {
+    "ridge_actual": "Ridge actual · 14 días",
+    "ridge_sin14_mismo_train": "Sin media de 14 días · mismo entrenamiento",
+    "ridge_sin14_train_ampliado": "Sin media de 14 días · entrenamiento ampliado",
+    "persistencia": "Persistencia"
+  },
+  "inputHashes": {
+    "data/interim/pm10_prediction/tabla_supervisada_pm10.csv": "48c65d358f3fcbf29e8e45aa9048bd1d2eda610377dcd6989104ad43551332d5",
+    "models/pm10/validation_2023/ridge.joblib": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673",
+    "output/pm10_regression_validation/predicciones_validacion_2023.csv": "efb2f79f5ee290d024cbc3be2eeeeb5952981d0b969e1ca6ca8f287ab31972b9",
+    "output/pm10_final_2024/predicciones_regresion.csv": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad"
+  },
+  "cohorts": {
+    "train_common": 6096,
+    "train_expanded": 6305,
+    "validation_common": 1039,
+    "validation_additional": 23,
+    "validation_expanded": 1062,
+    "calendar_validation": 1095
+  },
+  "design": "A: frozen original; B: reduced features with same training cases; C: reduced features with expanded training cases",
+  "negativePredictions": "max(0, prediction)",
+  "imputation": false,
+  "newTestEvaluation": false,
+  "selection": "Exploratory follow-up motivated by known 2024 coverage; 2023 has already been used as validation; not a new independent test",
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.9.1",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  }
+}

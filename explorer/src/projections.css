@@ -1,0 +1,19 @@
+.projection-controls { display: flex; flex-wrap: wrap; gap: 20px; margin: 18px 0; }
+.projection-controls label { display: grid; gap: 6px; }
+.projection-scatter { width: 100%; height: 340px; display: block; }
+.projection-legend { display: flex; gap: 22px; flex-wrap: wrap; font-size: 14px; margin: 15px 0; }
+.projection-legend span { display: flex; align-items: center; gap: 7px; }
+.projection-legend i { width: 12px; height: 12px; display: inline-block; }
+.projection-low { background: #246d7e; }
+.projection-high { background: #ad4f16; }
+.projection-histogram { display: flex; gap: 3px; height: 240px; align-items: end; border-bottom: 1px solid #7b8c84; margin-top: 30px; }
+.projection-histogram > div { display: flex; gap: 2px; height: 100%; align-items: end; flex: 1; }
+.projection-histogram i { display: block; flex: 1; min-height: 0; }
+.projection-axis, .projection-pagination { display: flex; gap: 12px; flex-wrap: wrap; justify-content: space-between; margin: 12px 0; }
+.projection-scree { display: grid; gap: 10px; margin: 24px 0; }
+.projection-scree > div { display: grid; grid-template-columns: 45px minmax(30px, 1fr) 65px; align-items: center; gap: 12px; }
+.projection-scree i { background: #edf2ef; height: 18px; }
+.projection-scree b { display: block; background: #246d7e; height: 100%; }
+.projections-workspace details { margin-top: 18px; }
+.projections-workspace small { overflow-wrap: anywhere; }
+.projections-workspace .table-scroll { max-width: 100%; }

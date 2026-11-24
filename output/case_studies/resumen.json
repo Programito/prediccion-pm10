@@ -1,0 +1,701 @@
+{
+  "threshold": 27,
+  "scope": "Madrid · ejemplos retrospectivos de pruebas ya conocidas",
+  "selection": {
+    "candidates": 906,
+    "median": 10.0,
+    "rule": "PM10 observado ≤ 27; menor distancia a la mediana; desempate por estación y fecha. No se usa el error."
+  },
+  "cases": [
+    {
+      "id": "typical",
+      "title": "Una predicción habitual",
+      "station": "28079060",
+      "name": "Tres Olivos",
+      "date": "2024-04-10",
+      "kind": "regression",
+      "emission": "2024-04-10T00:00:00Z",
+      "lastObservation": "2024-04-09",
+      "predictions": [
+        {
+          "model": "ridge",
+          "value": 12.42189472255752,
+          "absoluteError": 2.4218947225575196
+        },
+        {
+          "model": "persistencia",
+          "value": 6.8,
+          "absoluteError": 3.2
+        }
+      ],
+      "rawPrediction": 12.421894722557521,
+      "intercept": 15.4009697177737,
+      "contributions": [
+        {
+          "feature": "numeric__pm10_t",
+          "coefficient": 6.937178857164643,
+          "transformed": -0.6165839929717306,
+          "contribution": -4.277353439709643
+        },
+        {
+          "feature": "numeric__pm10_t_menos_1",
+          "coefficient": -1.9283014312486069,
+          "transformed": -0.437773110525358,
+          "contribution": 0.8441585155882024
+        },
+        {
+          "feature": "numeric__pm10_t_menos_2",
+          "coefficient": -0.15976201762902445,
+          "transformed": 2.9782107843988217,
+          "contribution": -0.4758049638400753
+        },
+        {
+          "feature": "numeric__pm10_t_menos_6",
+          "coefficient": 0.07412202016835726,
+          "transformed": -0.46553203984765346,
+          "contribution": -0.034506175246604265
+        },
+        {
+          "feature": "numeric__media_3_dias",
+          "coefficient": 2.03002117572645,
+          "transformed": 0.8053238057068125,
+          "contribution": 1.6348243789014427
+        },
+        {
+          "feature": "numeric__media_7_dias",
+          "coefficient": 1.6195030901684053,
+          "transformed": 1.07099211430827,
+          "contribution": 1.734475038668237
+        },
+        {
+          "feature": "numeric__media_14_dias",
+          "coefficient": 0.9147699574853797,
+          "transformed": 0.06869000698174939,
+          "contribution": 0.06283555476636532
+        },
+        {
+          "feature": "numeric__desviacion_7_dias",
+          "coefficient": -2.464064844276552,
+          "transformed": 1.5920168944877602,
+          "contribution": -3.9228328612016226
+        },
+        {
+          "feature": "numeric__semana_sin",
+          "coefficient": 0.8508370823330083,
+          "transformed": 1.3828112479685832,
+          "contribution": 1.1765470876388553
+        },
+        {
+          "feature": "numeric__semana_cos",
+          "coefficient": -0.25763494074485765,
+          "transformed": -0.3145795880604469,
+          "contribution": 0.08104669352949496
+        },
+        {
+          "feature": "numeric__mes_sin",
+          "coefficient": 0.18377145772502074,
+          "transformed": 1.3967923983800559,
+          "contribution": 0.25669057518953076
+        },
+        {
+          "feature": "numeric__mes_cos",
+          "coefficient": -0.05343187663770534,
+          "transformed": -0.001891173110519577,
+          "contribution": 0.00010104892834182752
+        },
+        {
+          "feature": "station__codigo_estacion_28079060",
+          "coefficient": -0.05925644842870383,
+          "transformed": 1.0,
+          "contribution": -0.05925644842870383
+        },
+        {
+          "feature": "station__codigo_estacion_28080003",
+          "coefficient": -0.08887507501525957,
+          "transformed": 0.0,
+          "contribution": -0.0
+        },
+        {
+          "feature": "station__codigo_estacion_28133002",
+          "coefficient": 0.14813152344397718,
+          "transformed": 0.0,
+          "contribution": 0.0
+        }
+      ],
+      "prior": 6.8,
+      "inputs": {
+        "pm10_t": 6.8,
+        "pm10_t_menos_1": 9.3,
+        "pm10_t_menos_2": 57.0,
+        "pm10_t_menos_6": 8.9,
+        "media_3_dias": 24.366666666666664,
+        "media_7_dias": 24.71428571428572,
+        "media_14_dias": 15.871428571428572,
+        "desviacion_7_dias": 22.11473329188997,
+        "semana_sin": 0.9749279121818236,
+        "semana_cos": -0.2225209339563143,
+        "mes_sin": 1.0,
+        "mes_cos": 6.123233995736766e-17
+      },
+      "observed": 10.0,
+      "days": [
+        {
+          "date": "2024-04-07",
+          "observed": 57.0,
+          "ridge": 34.66600816360225,
+          "persistencia": 56.0
+        },
+        {
+          "date": "2024-04-08",
+          "observed": 9.3,
+          "ridge": 33.71259894343394,
+          "persistencia": 57.0
+        },
+        {
+          "date": "2024-04-09",
+          "observed": 6.8,
+          "ridge": 9.972005101957611,
+          "persistencia": 9.3
+        },
+        {
+          "date": "2024-04-10",
+          "observed": 10.0,
+          "ridge": 12.42189472255752,
+          "persistencia": 6.8
+        },
+        {
+          "date": "2024-04-11",
+          "observed": 7.6,
+          "ridge": 11.761723862741308,
+          "persistencia": 10.0
+        },
+        {
+          "date": "2024-04-12",
+          "observed": 25.0,
+          "ridge": 8.55665394658748,
+          "persistencia": 7.6
+        },
+        {
+          "date": "2024-04-13",
+          "observed": 23.0,
+          "ridge": 18.33172870574113,
+          "persistencia": 25.0
+        }
+      ],
+      "evidence": [
+        {
+          "file": "predicciones.csv",
+          "format": "CSV UTF-8",
+          "rows": 2,
+          "sha256": "29a67455680fd9908bdbb94902c6c18b8e3e0c6274dd61f86ea0a03860cd10b6",
+          "url": "/api/case-studies/typical/evidence/predicciones.csv"
+        },
+        {
+          "file": "aportes.csv",
+          "format": "CSV UTF-8",
+          "rows": 15,
+          "sha256": "d3127208a57508100c888e673314819b992681b5cf401e94f52009d5e9b8077f",
+          "url": "/api/case-studies/typical/evidence/aportes.csv"
+        },
+        {
+          "file": "entradas.csv",
+          "format": "CSV UTF-8",
+          "rows": 1,
+          "sha256": "d20c0f15befa0a743e473682ceda3a3a21a617f7645a1503239ac39d66eb7fa7",
+          "url": "/api/case-studies/typical/evidence/entradas.csv"
+        },
+        {
+          "file": "contexto.csv",
+          "format": "CSV UTF-8",
+          "rows": 7,
+          "sha256": "1f7df077074b912212f2d6118728ba60f0bd5f31843ca0d518fd6c9fd5ae0d45",
+          "url": "/api/case-studies/typical/evidence/contexto.csv"
+        }
+      ]
+    },
+    {
+      "id": "peak",
+      "title": "El pico subestimado",
+      "station": "28079060",
+      "name": "Tres Olivos",
+      "date": "2024-10-31",
+      "kind": "regression",
+      "emission": "2024-10-31T00:00:00Z",
+      "lastObservation": "2024-10-30",
+      "predictions": [
+        {
+          "model": "ridge",
+          "value": 45.72616728762264,
+          "absoluteError": 110.27383271237736
+        },
+        {
+          "model": "persistencia",
+          "value": 77.0,
+          "absoluteError": 79.0
+        }
+      ],
+      "rawPrediction": 45.72616728762265,
+      "intercept": 15.4009697177737,
+      "contributions": [
+        {
+          "feature": "numeric__pm10_t",
+          "coefficient": 6.937178857164643,
+          "transformed": 4.411220844886497,
+          "contribution": 30.601427979430557
+        },
+        {
+          "feature": "numeric__pm10_t_menos_1",
+          "coefficient": -1.9283014312486069,
+          "transformed": -0.4592583215618474,
+          "contribution": 0.8855884787805434
+        },
+        {
+          "feature": "numeric__pm10_t_menos_2",
+          "coefficient": -0.15976201762902445,
+          "transformed": -0.7534873436909749,
+          "contribution": 0.12037865828600434
+        },
+        {
+          "feature": "numeric__pm10_t_menos_6",
+          "coefficient": 0.07412202016835726,
+          "transformed": -0.24260919595904293,
+          "contribution": -0.01798268371590512
+        },
+        {
+          "feature": "numeric__media_3_dias",
+          "coefficient": 2.03002117572645,
+          "transformed": 1.33903653722111,
+          "contribution": 2.718272525630272
+        },
+        {
+          "feature": "numeric__media_7_dias",
+          "coefficient": 1.6195030901684053,
+          "transformed": 0.2743263016751339,
+          "contribution": 0.4442722932773495
+        },
+        {
+          "feature": "numeric__media_14_dias",
+          "coefficient": 0.9147699574853797,
+          "transformed": 0.03153343236578457,
+          "contribution": 0.028845836584616848
+        },
+        {
+          "feature": "numeric__desviacion_7_dias",
+          "coefficient": -2.464064844276552,
+          "transformed": 2.0247716788635834,
+          "contribution": -4.989168711574568
+        },
+        {
+          "feature": "numeric__semana_sin",
+          "coefficient": 0.8508370823330083,
+          "transformed": 0.6174251464778033,
+          "contribution": 0.5253282101882044
+        },
+        {
+          "feature": "numeric__semana_cos",
+          "coefficient": -0.25763494074485765,
+          "transformed": -1.2737629050179595,
+          "contribution": 0.32816583055729975
+        },
+        {
+          "feature": "numeric__mes_sin",
+          "coefficient": 0.18377145772502074,
+          "transformed": -1.419020403512631,
+          "contribution": -0.26077544809506337
+        },
+        {
+          "feature": "numeric__mes_cos",
+          "coefficient": -0.05343187663770534,
+          "transformed": -0.0018911731105199247,
+          "contribution": 0.0001010489283418461
+        },
+        {
+          "feature": "station__codigo_estacion_28079060",
+          "coefficient": -0.05925644842870383,
+          "transformed": 1.0,
+          "contribution": -0.05925644842870383
+        },
+        {
+          "feature": "station__codigo_estacion_28080003",
+          "coefficient": -0.08887507501525957,
+          "transformed": 0.0,
+          "contribution": -0.0
+        },
+        {
+          "feature": "station__codigo_estacion_28133002",
+          "coefficient": 0.14813152344397718,
+          "transformed": 0.0,
+          "contribution": 0.0
+        }
+      ],
+      "prior": 77.0,
+      "inputs": {
+        "pm10_t": 77.0,
+        "pm10_t_menos_1": 9.0,
+        "pm10_t_menos_2": 4.9,
+        "pm10_t_menos_6": 12.0,
+        "media_3_dias": 30.3,
+        "media_7_dias": 17.785714285714295,
+        "media_14_dias": 15.614285714285714,
+        "desviacion_7_dias": 26.31307840671805,
+        "semana_sin": 0.4338837391175582,
+        "semana_cos": -0.900968867902419,
+        "mes_sin": -1.0,
+        "mes_cos": -1.8369701987210294e-16
+      },
+      "observed": 156.0,
+      "days": [
+        {
+          "date": "2024-10-28",
+          "observed": 4.9,
+          "ridge": 9.40290586496755,
+          "persistencia": 5.3
+        },
+        {
+          "date": "2024-10-29",
+          "observed": 9.0,
+          "ridge": 9.266714444063105,
+          "persistencia": 4.9
+        },
+        {
+          "date": "2024-10-30",
+          "observed": 77.0,
+          "ridge": 11.929952311177896,
+          "persistencia": 9.0
+        },
+        {
+          "date": "2024-10-31",
+          "observed": 156.0,
+          "ridge": 45.72616728762264,
+          "persistencia": 77.0
+        },
+        {
+          "date": "2024-11-01",
+          "observed": 23.0,
+          "ridge": 80.85840456544014,
+          "persistencia": 156.0
+        },
+        {
+          "date": "2024-11-02",
+          "observed": 9.8,
+          "ridge": 3.563768094844015,
+          "persistencia": 23.0
+        },
+        {
+          "date": "2024-11-03",
+          "observed": 12.0,
+          "ridge": 10.52177850589545,
+          "persistencia": 9.8
+        }
+      ],
+      "evidence": [
+        {
+          "file": "predicciones.csv",
+          "format": "CSV UTF-8",
+          "rows": 2,
+          "sha256": "1adac893f0b6bb2b7b8ca76845ba25c2715f7e587e83bdd0564d8d632167cd55",
+          "url": "/api/case-studies/peak/evidence/predicciones.csv"
+        },
+        {
+          "file": "aportes.csv",
+          "format": "CSV UTF-8",
+          "rows": 15,
+          "sha256": "4cf673af4415e2f378593a265ab06b245d8f5653ab0ae0528d4b58706eb9f238",
+          "url": "/api/case-studies/peak/evidence/aportes.csv"
+        },
+        {
+          "file": "entradas.csv",
+          "format": "CSV UTF-8",
+          "rows": 1,
+          "sha256": "aa29505f0bc534cb91903e402bd53e62eb9f47231c2de74abe81a727bb3f3b1f",
+          "url": "/api/case-studies/peak/evidence/entradas.csv"
+        },
+        {
+          "file": "contexto.csv",
+          "format": "CSV UTF-8",
+          "rows": 7,
+          "sha256": "b1f905f9b822aeaee8be8c81107f7e481dceab919f1618ad1f95bb37f6947d3c",
+          "url": "/api/case-studies/peak/evidence/contexto.csv"
+        }
+      ]
+    },
+    {
+      "id": "onset",
+      "title": "Un comienzo detectado",
+      "station": "28079060",
+      "name": "Tres Olivos",
+      "date": "2025-08-05",
+      "kind": "classification",
+      "emission": "2025-08-05T00:00:00Z",
+      "lastObservation": "2025-08-04",
+      "prior": 24.416666666666668,
+      "alerts": [
+        {
+          "model": "persistencia",
+          "alert": false,
+          "probability": null,
+          "cut": null
+        },
+        {
+          "model": "logistica_sin_meteo",
+          "alert": false,
+          "probability": 0.1591161741760336,
+          "cut": 0.20072870154329542
+        },
+        {
+          "model": "logistica_con_meteo",
+          "alert": true,
+          "probability": 0.211683981625138,
+          "cut": 0.19904472278306495
+        }
+      ],
+      "weather": {
+        "codigo_estacion": "28079060",
+        "fecha_objetivo": "2025-08-05",
+        "inicio_ciclo_utc": "2025-08-04T12:00:00Z",
+        "latitud_gfs": 40.5,
+        "longitud_gfs": -3.75,
+        "viento_10m_mediodia_ms": 1.2827681079692106,
+        "precipitacion_diaria_mm": 0.0,
+        "estado_viento": "valido",
+        "estado_precipitacion": "valido"
+      },
+      "observed": 42.333333333333336,
+      "days": [
+        {
+          "date": "2025-08-02",
+          "observed": 22.33333333333333
+        },
+        {
+          "date": "2025-08-03",
+          "observed": 18.45833333333333
+        },
+        {
+          "date": "2025-08-04",
+          "observed": 24.416666666666668
+        },
+        {
+          "date": "2025-08-05",
+          "observed": 42.333333333333336
+        },
+        {
+          "date": "2025-08-06",
+          "observed": 41.75
+        },
+        {
+          "date": "2025-08-07",
+          "observed": 48.391304347826086
+        },
+        {
+          "date": "2025-08-08",
+          "observed": 58.875
+        }
+      ],
+      "evidence": [
+        {
+          "file": "avisos.csv",
+          "format": "CSV UTF-8",
+          "rows": 3,
+          "sha256": "d1d9c667ef42c3acab1cf80c345a2287efa5f597045a4c13ae7b46d38a274eb9",
+          "url": "/api/case-studies/onset/evidence/avisos.csv"
+        },
+        {
+          "file": "meteorologia.csv",
+          "format": "CSV UTF-8",
+          "rows": 1,
+          "sha256": "5c5494476544a1518baed9ea88c56dd4971722c971dcf59d04cbd4bddfb383c6",
+          "url": "/api/case-studies/onset/evidence/meteorologia.csv"
+        },
+        {
+          "file": "contexto.csv",
+          "format": "CSV UTF-8",
+          "rows": 7,
+          "sha256": "79bc4ce28297d8d32cc89bb4fff94f04debc3513b23c828a63997889657046ba",
+          "url": "/api/case-studies/onset/evidence/contexto.csv"
+        }
+      ]
+    },
+    {
+      "id": "false_alarm",
+      "title": "La falsa alarma de contraste",
+      "station": "28079060",
+      "name": "Tres Olivos",
+      "date": "2025-02-22",
+      "kind": "classification",
+      "emission": "2025-02-22T00:00:00Z",
+      "lastObservation": "2025-02-21",
+      "prior": 26.75,
+      "alerts": [
+        {
+          "model": "persistencia",
+          "alert": false,
+          "probability": null,
+          "cut": null
+        },
+        {
+          "model": "logistica_sin_meteo",
+          "alert": false,
+          "probability": 0.1923518075317636,
+          "cut": 0.20072870154329542
+        },
+        {
+          "model": "logistica_con_meteo",
+          "alert": true,
+          "probability": 0.2579774342239793,
+          "cut": 0.19904472278306495
+        }
+      ],
+      "weather": {
+        "codigo_estacion": "28079060",
+        "fecha_objetivo": "2025-02-22",
+        "inicio_ciclo_utc": "2025-02-21T12:00:00Z",
+        "latitud_gfs": 40.5,
+        "longitud_gfs": -3.75,
+        "viento_10m_mediodia_ms": 0.5254991659310706,
+        "precipitacion_diaria_mm": 0.0625,
+        "estado_viento": "valido",
+        "estado_precipitacion": "valido"
+      },
+      "observed": 5.416666666666667,
+      "days": [
+        {
+          "date": "2025-02-19",
+          "observed": 24.166666666666668
+        },
+        {
+          "date": "2025-02-20",
+          "observed": 22.0
+        },
+        {
+          "date": "2025-02-21",
+          "observed": 26.75
+        },
+        {
+          "date": "2025-02-22",
+          "observed": 5.416666666666667
+        },
+        {
+          "date": "2025-02-23",
+          "observed": 5.583333333333333
+        },
+        {
+          "date": "2025-02-24",
+          "observed": 13.958333333333334
+        },
+        {
+          "date": "2025-02-25",
+          "observed": 5.0
+        }
+      ],
+      "evidence": [
+        {
+          "file": "avisos.csv",
+          "format": "CSV UTF-8",
+          "rows": 3,
+          "sha256": "1f6f0e30bc3126643d3a5d89345cd3a8ee64c3ea37ae0273d99a6c0de78bb342",
+          "url": "/api/case-studies/false_alarm/evidence/avisos.csv"
+        },
+        {
+          "file": "meteorologia.csv",
+          "format": "CSV UTF-8",
+          "rows": 1,
+          "sha256": "3fd36fc8047e07815e0c24da38ba9c9c7c35ed99f592be70a2b70e7c878d9ed9",
+          "url": "/api/case-studies/false_alarm/evidence/meteorologia.csv"
+        },
+        {
+          "file": "contexto.csv",
+          "format": "CSV UTF-8",
+          "rows": 7,
+          "sha256": "7193b7b573e002187996f32163e9a29204f7281c02e360e7279deda6babdd83b",
+          "url": "/api/case-studies/false_alarm/evidence/contexto.csv"
+        }
+      ]
+    }
+  ],
+  "onsets": [
+    {
+      "model": "logistica_con_meteo",
+      "n": 891,
+      "onsets": 27,
+      "detected": 9,
+      "falseAlarms": 18
+    },
+    {
+      "model": "logistica_sin_meteo",
+      "n": 891,
+      "onsets": 27,
+      "detected": 6,
+      "falseAlarms": 13
+    },
+    {
+      "model": "persistencia",
+      "n": 891,
+      "onsets": 27,
+      "detected": 0,
+      "falseAlarms": 0
+    }
+  ],
+  "sources": [
+    {
+      "path": "output/pm10_final_2024/predicciones_regresion.csv",
+      "format": "CSV",
+      "sha256": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad"
+    },
+    {
+      "path": "output/pm10_explanations/explicaciones.json",
+      "format": "JSON",
+      "sha256": "cb423ad2467d8fe1c31223034a07c6f50fee0c3f9338f9cf33e73c0b45c21645"
+    },
+    {
+      "path": "data/interim/pm10_prediction/tabla_modelos_completa.csv",
+      "format": "CSV",
+      "sha256": "961c3697268f6a51b0af5ff9da9afd1cc6a3bbf8072c37d3770296e19e257e8f"
+    },
+    {
+      "path": "data/interim/daily_pollution/pm10_madrid_diario_2017_2024.csv",
+      "format": "CSV",
+      "sha256": "34b48d6f710d3464d9cec3a4db03d6fbb5b67bfb6f24b983b0d9f233a63e84f5"
+    },
+    {
+      "path": "output/pm10_weather_test_2025/pm10_diario_2025.csv",
+      "format": "CSV",
+      "sha256": "30be011be590a6bf373404e39bcd7e2f369f92fdb096216b7805b3ec502dfad3"
+    },
+    {
+      "path": "output/pm10_weather_test_2025/predicciones_2025.csv",
+      "format": "CSV",
+      "sha256": "3d41b38c7a299a04e11653bdc4458c7dfbe1dedc8ab64fbb90ad5afe8a01771c"
+    },
+    {
+      "path": "data/interim/weather_forecasts/gfs_2021_2025/previsiones_gfs_diarias.csv",
+      "format": "CSV",
+      "sha256": "739d9bbbedb2e2e357c56ee494a952ce0788780d47c055a4da63165ea7832dc9"
+    },
+    {
+      "path": "docs/reference/pm10_weather_test_2025.json",
+      "format": "JSON",
+      "sha256": "3247aac5e4994405cee48044058afc32815372f7dfb2cecea8b13ecfa4c1255d"
+    }
+  ],
+  "originalArtifactsUnchanged": true,
+  "protectedArtifacts": {
+    "models/experiments/barcelona/random_forest.joblib": "9b93f2395e883298c3d626298a2ec922d0ff3a440bfeb71b9f8ce05bee7f0f9f",
+    "models/experiments/barcelona/ridge.joblib": "26a28e97c4b2264556dfd77d255a09c3911631c9165f1cb91029ed53a75c8d0b",
+    "models/experiments/window_ablation/barcelona/ridge_sin14_mismo_train.joblib": "09ccb412a415f578dcfab4022e42671899916ab51fe5f86a8e68a1e16ff502e5",
+    "models/experiments/window_ablation/barcelona/ridge_sin14_train_ampliado.joblib": "0b17b41a62de791f729e8aaaec26da29bffafd59e60d35bb80725e32be9ea45f",
+    "models/experiments/window_ablation/madrid/ridge_sin14_mismo_train.joblib": "f986a3b9d480832a5473f85d85fb7706686cee38c57197f8bca0ddba24184165",
+    "models/experiments/window_ablation/madrid/ridge_sin14_train_ampliado.joblib": "56ace64215d10723d79326d7feaf20b7422b5455eb31fdafff2d07097d06911d",
+    "models/pm10/validation_2023/logistica.joblib": "1327ef5c4b1f0ec12874e9d70bf6366b42236368d401da19eec133916ca7253a",
+    "models/pm10/validation_2023/random_forest.joblib": "0a5523a966bcb12f393c09c3edc69edd0c0636e6bb1a3e0c2fcf7b6b9cf644ef",
+    "models/pm10/validation_2023/ridge.joblib": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673",
+    "models/pm10/weather_validation_2023/logisticas_gfs.joblib": "d553ed9777b09332c2122fa5167e2e311e7d46a39115f5e2ba0bda0aa9c0f01c",
+    "output/pm10_final_2024/predicciones_regresion.csv": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad",
+    "output/pm10_explanations/explicaciones.json": "cb423ad2467d8fe1c31223034a07c6f50fee0c3f9338f9cf33e73c0b45c21645",
+    "data/interim/pm10_prediction/tabla_modelos_completa.csv": "961c3697268f6a51b0af5ff9da9afd1cc6a3bbf8072c37d3770296e19e257e8f",
+    "data/interim/daily_pollution/pm10_madrid_diario_2017_2024.csv": "34b48d6f710d3464d9cec3a4db03d6fbb5b67bfb6f24b983b0d9f233a63e84f5",
+    "output/pm10_weather_test_2025/pm10_diario_2025.csv": "30be011be590a6bf373404e39bcd7e2f369f92fdb096216b7805b3ec502dfad3",
+    "output/pm10_weather_test_2025/predicciones_2025.csv": "3d41b38c7a299a04e11653bdc4458c7dfbe1dedc8ab64fbb90ad5afe8a01771c",
+    "data/interim/weather_forecasts/gfs_2021_2025/previsiones_gfs_diarias.csv": "739d9bbbedb2e2e357c56ee494a952ce0788780d47c055a4da63165ea7832dc9",
+    "docs/reference/pm10_weather_test_2025.json": "3247aac5e4994405cee48044058afc32815372f7dfb2cecea8b13ecfa4c1255d"
+  }
+}

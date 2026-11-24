@@ -1,0 +1,30 @@
+.station-map-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; }
+.station-map-toolbar button, .station-map-detail .chart-controls button {
+  padding: 7px 11px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--surface);
+  color: var(--accent);
+  font-size: 13px;
+}
+.station-map-toolbar button:hover, .station-map-detail .chart-controls button:hover { background: #edf5ef; }
+.station-map { height: 420px; width: 100%; border-radius: 10px; z-index: 0; background: #e9eee9; }
+.station-pin { border: 3px solid white; border-radius: 50%; box-shadow: 0 1px 6px #142f2790; }
+.station-pin.normal, .station-map-legend .normal { background: #24776b; }
+.station-pin.elevated, .station-map-legend .elevated { background: #b85e22; }
+.station-pin.missing, .station-map-legend .missing { background: #758087; }
+.station-pin.selected { outline: 3px solid #142f27; outline-offset: 3px; }
+.station-pin:focus-visible { outline: 4px solid #1d458b; outline-offset: 4px; }
+.station-map-legend { display: flex; flex-wrap: wrap; gap: 20px; font-size: .9rem; }
+.station-map-legend span { display: inline-flex; align-items: center; gap: 8px; }
+.station-map-legend i { width: 12px; height: 12px; border-radius: 50%; }
+.station-map-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.station-summary { display: flex; flex-direction: column; text-align: left; gap: 8px; padding: 16px; border-left: 5px solid #24776b; }
+.station-summary.elevated { border-left-color: #b85e22; }
+.station-summary.missing { border-left-color: #758087; }
+.station-summary[aria-pressed="true"] { outline: 2px solid #24776b; }
+.station-map-detail { display: grid; gap: 8px; padding-top: 12px; border-top: 1px solid var(--line); }
+.station-map-detail h3 { font-size: 15px; }
+.station-map-card details { font-size: 13px; overflow-wrap: anywhere; }
+.station-map-card summary { cursor: pointer; }
+@media(max-width: 650px) { .station-map-list { grid-template-columns: 1fr; } .station-map { height: 340px; } }

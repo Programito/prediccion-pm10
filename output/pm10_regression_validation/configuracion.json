@@ -1,0 +1,48 @@
+{
+  "parametros_ridge": {
+    "alpha": 10.0,
+    "solver": "svd"
+  },
+  "parametros_random_forest": {
+    "n_estimators": 200,
+    "max_depth": 12,
+    "min_samples_leaf": 5,
+    "max_features": 1.0,
+    "bootstrap": true,
+    "random_state": 42,
+    "n_jobs": 2
+  },
+  "variables": [
+    "pm10_t",
+    "pm10_t_menos_1",
+    "pm10_t_menos_2",
+    "pm10_t_menos_6",
+    "media_3_dias",
+    "media_7_dias",
+    "media_14_dias",
+    "desviacion_7_dias",
+    "semana_sin",
+    "semana_cos",
+    "mes_sin",
+    "mes_cos",
+    "codigo_estacion"
+  ],
+  "filas_entrenamiento": 6096,
+  "filas_validacion": 1039,
+  "fecha_maxima_entrenamiento": "2022-12-31",
+  "fecha_minima_validacion": "2023-01-01",
+  "fecha_maxima_validacion": "2023-12-31",
+  "busqueda_hiperparametros": false,
+  "restriccion_fisica": "prediccion = max(0, prediccion_sin_restriccion)",
+  "archivo_entrada": "data\\interim\\pm10_prediction\\tabla_modelos_completa.csv",
+  "sha256_entrada": "961c3697268f6a51b0af5ff9da9afd1cc6a3bbf8072c37d3770296e19e257e8f",
+  "versiones": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "prueba_2024_evaluada": false,
+  "alcance": "Comparación retrospectiva en 2023. No se ajusta ningún componente con validación ni se evalúa 2024."
+}

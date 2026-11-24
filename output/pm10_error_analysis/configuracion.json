@@ -1,0 +1,13 @@
+{
+  "year": 2024,
+  "threshold": 27.0,
+  "paired_cases": 1013,
+  "dates_removed_per_scenario": 5,
+  "scope": "descriptive_posthoc_fixed_models_and_predictions",
+  "delta_definition": "MAE Ridge - MAE persistencia",
+  "refit": false,
+  "sources": {
+    "output/pm10_final_2024/predicciones_regresion.csv": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad",
+    "docs/reference/pm10_final_protocol.json": "08d81dc2c67c953fcd7b24e94a5806c866595c0bf3caacd5c47894e48ef46fb4"
+  }
+}

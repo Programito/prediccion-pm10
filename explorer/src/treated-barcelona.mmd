@@ -1,0 +1,17 @@
+erDiagram
+  direction LR
+  PM10_DIARIO ||--o| PM10_SUPERVISADO : "estación y fecha de observación"
+
+  PM10_DIARIO {
+    string codigo_estacion PK
+    date fecha PK
+    decimal pm10_valido "µg/m³"
+  }
+  PM10_SUPERVISADO {
+    string codigo_estacion PK
+    date fecha_objetivo PK
+    date fecha_ultima_observacion
+    decimal pm10_t
+    decimal pm10_objetivo
+    boolean fila_utilizable
+  }

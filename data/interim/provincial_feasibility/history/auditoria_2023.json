@@ -1,0 +1,13 @@
+{
+  "anio": 2023,
+  "puntos_candidatos_fondo_con_horas": 146,
+  "puntos_seleccionados": 138,
+  "dias_punto_combinados": 50869,
+  "dias_validos": 49669,
+  "negativos_seleccionados_para_revision": 0,
+  "maxima_diferencia_diario_horario": null,
+  "archivo_diario": "miteco_diarios_2023.zip",
+  "archivo_horario": "miteco_horarios_2023.zip",
+  "archivo_metadatos": "miteco_estaciones_2023.xlsx",
+  "hoja_estaciones": "Estaciones2023"
+}

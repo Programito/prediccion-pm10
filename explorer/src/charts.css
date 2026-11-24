@@ -1,0 +1,108 @@
+.chart-card {
+  --daily-normal: #4b8b77;
+  --daily-elevated: #a34c20;
+  --model-baseline: #657a90;
+  --model-weather: #28715c;
+  --model-without-weather: #977134;
+  display: grid;
+  align-content: start;
+  gap: 17px;
+  padding: clamp(14px, 2.2vw, 26px);
+}
+
+.chart-card-header, .chart-controls, .chart-overview, .daily-legend, .daily-reading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+}
+
+.chart-card-header { justify-content: space-between; align-items: end; }
+.chart-navigation { display: flex; flex-wrap: wrap; gap: 7px; }
+.chart-navigation button { padding: 9px 13px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); font-size: 13px; }
+.chart-navigation button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: white; }
+.chart-territories { padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.chart-territories button { font-size: 14px; font-weight: 700; padding: 10px 16px; }
+.chart-selection { display: flex; flex-wrap: wrap; align-items: end; gap: 13px 24px; padding: 16px 20px; }
+.chart-selection label { display: grid; gap: 5px; font-size: 12px; font-weight: 650; }
+.chart-selection p { padding-bottom: 8px; font-size: 13px; color: var(--muted); }
+.chart-message { padding: 20px; line-height: 1.5; }
+.chart-message button { margin-top: 10px; padding: 8px 12px; border: 1px solid var(--line); background: var(--surface); border-radius: 7px; }
+.chart-card-header h2 { font-size: 20px; letter-spacing: -.025em; }
+.chart-card-header p, .chart-note { margin-top: 4px; font-size: 13px; color: var(--muted); line-height: 1.45; }
+.chart-controls { gap: 8px; }
+.chart-controls label, .daily-reading label { display: grid; gap: 4px; font-size: 12px; font-weight: 620; }
+.chart-overview, .daily-legend, .daily-reading { font-size: 13px; }
+.chart-overview strong, .daily-reading strong, .metric-bars strong { font-variant-numeric: tabular-nums; }
+
+.daily-chart { position: relative; padding-left: 35px; }
+.axis-unit, .axis-day, .day-tick, .daily-gridline span { color: var(--muted); font-size: 11px; }
+.axis-unit { margin: 0 0 10px -35px; }
+.axis-day { text-align: center; margin-top: 22px; }
+.daily-plot { position: relative; height: clamp(126px, 19vw, 212px); }
+.daily-gridline, .daily-threshold { position: absolute; inset-inline: 0; pointer-events: none; }
+.daily-gridline { border-top: 1px solid var(--line); }
+.daily-gridline span { position: absolute; right: calc(100% + 7px); top: -8px; }
+.daily-threshold { border-top: 1px dashed var(--daily-elevated); z-index: 1; }
+.daily-bars { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(var(--days), minmax(0, 1fr)); }
+.daily-bars button { position: relative; background: transparent; border: none; padding: 0; min-width: 0; }
+.day-bar {
+  position: absolute;
+  inset-inline: 14%;
+  bottom: 0;
+  background: var(--daily-normal);
+  border-radius: 3px 3px 0 0;
+}
+.daily-bars button:hover, .daily-bars button[aria-pressed="true"] { background: #155d4f17; }
+.day-elevated .day-bar { background: var(--daily-elevated); }
+.day-gap .day-bar { height: 0; border-bottom: 2px dotted var(--muted); }
+.day-tick { position: absolute; left: 50%; top: calc(100% + 5px); transform: translateX(-50%); }
+.daily-legend span { display: inline-flex; gap: 6px; align-items: center; }
+.daily-legend i { width: 12px; height: 8px; border-radius: 2px; }
+.normal-mark { background: var(--daily-normal); }
+.elevated-mark { background: var(--daily-elevated); }
+.daily-legend .gap-mark { height: 0; border-top: 2px dotted var(--muted); }
+.daily-reading label { display: flex; align-items: center; gap: 8px; }
+
+.prediction-plot, .prediction-legend {
+  --prediction-observed: #263a36;
+  --prediction-ridge: #28715c;
+  --prediction-persistencia: #506da0;
+}
+.prediction-plot { display: block; width: 100%; height: clamp(190px, 28vw, 310px); cursor: crosshair; }
+.prediction-period { align-items: end; }
+.prediction-period > span { font-size: 13px; color: var(--muted); padding-bottom: 8px; }
+.prediction-legend .prediction-line { width: 25px; height: 0; border-radius: 0; border-top: 2px solid; }
+.prediction-legend .prediction-observed { border-color: var(--prediction-observed); }
+.prediction-legend .prediction-ridge { border-color: var(--prediction-ridge); border-top-style: dashed; }
+.prediction-legend .prediction-persistencia { border-color: var(--prediction-persistencia); border-top-style: dotted; }
+.prediction-legend .prediction-threshold { border-color: var(--model-without-weather); border-top-width: 1px; border-top-style: dashed; }
+.prediction-readings { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0; }
+.prediction-readings div { display: flex; gap: 6px; }
+.prediction-readings dt { color: var(--muted); }
+.prediction-readings dd { margin: 0; font-weight: 650; font-variant-numeric: tabular-nums; }
+
+.model-charts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.regression-conclusion { padding: 12px 14px; background: #f1f6f1; border-left: 3px solid var(--accent); border-radius: 4px; }
+.regression-conclusion h3 { margin: 0 0 4px; font-size: 14px; }
+.regression-conclusion p { font-size: 13px; line-height: 1.5; }
+.metric-group h3 { display: flex; flex-wrap: wrap; gap: 3px 9px; align-items: baseline; margin: 0 0 8px; font-size: 14px; }
+.metric-group small { color: var(--muted); font-size: 12px; font-weight: 450; }
+.metric-bars { display: grid; gap: 5px; list-style: none; margin: 0; padding: 0; }
+.metric-bars li {
+  display: grid;
+  grid-template-columns: minmax(90px, 8.7rem) minmax(0, 1fr) 3.25ch;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+.metric-bars strong { justify-self: end; }
+.metric-track, .metric-track span { display: block; height: 8px; border-radius: 4px; }
+.metric-track { background: #eaf0eb; }
+.metric-track span { background: var(--model-baseline); }
+.model-ridge .metric-track span, .model-logistica_con_meteo .metric-track span { background: var(--model-weather); }
+.model-logistica_sin_meteo .metric-track span { background: var(--model-without-weather); }
+
+@media (max-width: 820px) {
+  .model-charts { grid-template-columns: minmax(0, 1fr); }
+}

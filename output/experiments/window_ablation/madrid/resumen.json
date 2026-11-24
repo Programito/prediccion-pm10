@@ -1,0 +1,179 @@
+{
+  "id": "madrid",
+  "name": "Madrid",
+  "counts": {
+    "train_common": 6096,
+    "train_expanded": 6305,
+    "validation_common": 1039,
+    "validation_additional": 23,
+    "validation_expanded": 1062,
+    "calendar_validation": 1095
+  },
+  "coverage": [
+    {
+      "station": "28079060",
+      "name": "TRES OLIVOS",
+      "calendar": 365,
+      "common": 309,
+      "additional": 23,
+      "expanded": 332,
+      "trainingCommon": 2003,
+      "trainingExpanded": 2079
+    },
+    {
+      "station": "28080003",
+      "name": "MAJADAHONDA",
+      "calendar": 365,
+      "common": 365,
+      "additional": 0,
+      "expanded": 365,
+      "trainingCommon": 2115,
+      "trainingExpanded": 2150
+    },
+    {
+      "station": "28133002",
+      "name": "SAN MARTIN DE VALDEIGLESIAS",
+      "calendar": 365,
+      "common": 365,
+      "additional": 0,
+      "expanded": 365,
+      "trainingCommon": 1978,
+      "trainingExpanded": 2076
+    }
+  ],
+  "metrics": [
+    {
+      "cohorte": "adicional",
+      "modelo": "persistencia",
+      "n": 23,
+      "mae": 6.04429336789301,
+      "sesgo": -0.7019624159212259,
+      "negativas_corregidas": 0,
+      "rmse": 8.084367007644603
+    },
+    {
+      "cohorte": "adicional",
+      "modelo": "ridge_sin14_mismo_train",
+      "n": 23,
+      "mae": 4.737279193243636,
+      "sesgo": -0.9014137900754279,
+      "negativas_corregidas": 0,
+      "rmse": 6.8839183678613125
+    },
+    {
+      "cohorte": "adicional",
+      "modelo": "ridge_sin14_train_ampliado",
+      "n": 23,
+      "mae": 4.745341792671135,
+      "sesgo": -0.8605449960045284,
+      "negativas_corregidas": 0,
+      "rmse": 6.8669822562397185
+    },
+    {
+      "cohorte": "ampliada",
+      "modelo": "persistencia",
+      "n": 1062,
+      "mae": 5.159111561674782,
+      "sesgo": 0.04696866367589324,
+      "negativas_corregidas": 0,
+      "rmse": 8.346146257010798
+    },
+    {
+      "cohorte": "ampliada",
+      "modelo": "ridge_sin14_mismo_train",
+      "n": 1062,
+      "mae": 4.845060768671982,
+      "sesgo": 0.2615835418530138,
+      "negativas_corregidas": 0,
+      "rmse": 7.524620937778426
+    },
+    {
+      "cohorte": "ampliada",
+      "modelo": "ridge_sin14_train_ampliado",
+      "n": 1062,
+      "mae": 4.849827739454382,
+      "sesgo": 0.2720229662039534,
+      "negativas_corregidas": 0,
+      "rmse": 7.520567680626091
+    },
+    {
+      "cohorte": "comun",
+      "modelo": "persistencia",
+      "n": 1039,
+      "mae": 5.139516584251279,
+      "sesgo": 0.0635475037439719,
+      "negativas_corregidas": 0,
+      "rmse": 8.351848350327634
+    },
+    {
+      "cohorte": "comun",
+      "modelo": "ridge_actual",
+      "n": 1039,
+      "mae": 4.82554198469372,
+      "sesgo": 0.24090448638564368,
+      "negativas_corregidas": 0,
+      "rmse": 7.510487854248442
+    },
+    {
+      "cohorte": "comun",
+      "modelo": "ridge_sin14_mismo_train",
+      "n": 1039,
+      "mae": 4.847446693825835,
+      "sesgo": 0.28732842985527957,
+      "negativas_corregidas": 0,
+      "rmse": 7.538187904053185
+    },
+    {
+      "cohorte": "comun",
+      "modelo": "ridge_sin14_train_ampliado",
+      "n": 1039,
+      "mae": 4.852140710364886,
+      "sesgo": 0.2970942492942278,
+      "negativas_corregidas": 0,
+      "rmse": 7.534394485130847
+    }
+  ],
+  "sampleLevels": [
+    {
+      "cohort": "comun",
+      "n": 1039,
+      "elevated": 93
+    },
+    {
+      "cohort": "adicional",
+      "n": 23,
+      "elevated": 2
+    },
+    {
+      "cohort": "ampliada",
+      "n": 1062,
+      "elevated": 95
+    }
+  ],
+  "threshold": 27,
+  "originalValidationMatches": true,
+  "maxTrainingDate": "2022-12-31",
+  "maxValidationDate": "2023-12-31",
+  "sources": [
+    {
+      "path": "data/interim/pm10_prediction/tabla_supervisada_pm10.csv",
+      "sha256": "48c65d358f3fcbf29e8e45aa9048bd1d2eda610377dcd6989104ad43551332d5"
+    },
+    {
+      "path": "models/pm10/validation_2023/ridge.joblib",
+      "sha256": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673"
+    },
+    {
+      "path": "output/pm10_regression_validation/predicciones_validacion_2023.csv",
+      "sha256": "efb2f79f5ee290d024cbc3be2eeeeb5952981d0b969e1ca6ca8f287ab31972b9"
+    },
+    {
+      "path": "output/pm10_final_2024/predicciones_regresion.csv",
+      "sha256": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad"
+    }
+  ],
+  "modelHashes": {
+    "ridge_sin14_mismo_train": "f986a3b9d480832a5473f85d85fb7706686cee38c57197f8bca0ddba24184165",
+    "ridge_sin14_train_ampliado": "56ace64215d10723d79326d7feaf20b7422b5455eb31fdafff2d07097d06911d"
+  }
+}

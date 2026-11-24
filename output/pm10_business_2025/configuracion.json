@@ -1,0 +1,29 @@
+{
+  "generado_utc": "2026-11-19T11:05:57.663754+00:00",
+  "fuente": "output/pm10_weather_test_2025/predicciones_2025.csv",
+  "sha256_fuente": "3d41b38c7a299a04e11653bdc4458c7dfbe1dedc8ab64fbb90ad5afe8a01771c",
+  "contexto": "hoy_no_elevado",
+  "unidad": "estacion_fecha_objetivo",
+  "unidad_coste": "coste_de_una_falsa_alarma",
+  "naturaleza": "escenarios_hipoteticos_sin_costes_empresariales_observados",
+  "formula": "falsas_alarmas * coste_falsa_alarma + inicios_omitidos * coste_inicio_omitido",
+  "coste_acierto_unidades": 0,
+  "escenarios": [
+    {
+      "id": "costes_iguales",
+      "coste_falsa_alarma_unidades": 1,
+      "coste_inicio_omitido_unidades": 1
+    },
+    {
+      "id": "omision_doble",
+      "coste_falsa_alarma_unidades": 1,
+      "coste_inicio_omitido_unidades": 2
+    },
+    {
+      "id": "omision_quintuple",
+      "coste_falsa_alarma_unidades": 1,
+      "coste_inicio_omitido_unidades": 5
+    }
+  ],
+  "modelos_y_cortes": "conservados_de_la_prueba_2025"
+}

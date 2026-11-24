@@ -1,0 +1,5 @@
+﻿anio_objetivo,particion_meteo,filas_calendario,filas_gfs_presentes,filas_meteo_completas,filas_pm10_utilizables,filas_comunes,perdidas_por_meteo,episodios_elevados_base,episodios_elevados_comunes,comienzos_base,comienzos_comunes,proporcion_comun
+2021,entrenamiento,1095,1095,1080,1019,1004,15,93,90,33,30,0.9168949771689497
+2022,entrenamiento,1095,1095,1095,997,997,0,104,104,41,41,0.9105022831050228
+2023,validacion,1095,1095,1095,1039,1039,0,93,93,36,36,0.9488584474885845
+2024,diagnostico,1098,1098,1098,1013,1013,0,107,107,47,47,0.9225865209471766

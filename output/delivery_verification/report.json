@@ -1,0 +1,917 @@
+{
+  "date": "2026-11-19",
+  "python": "3.12.14",
+  "isolated_environment": true,
+  "csv_comparisons": [
+    {
+      "file": "data/interim/health/tasas_respiratorias_provincias.csv",
+      "rows": 1404,
+      "status": "passed"
+    },
+    {
+      "file": "data/interim/demographics/demografia_provincial_2017_2024.csv",
+      "rows": 416,
+      "status": "passed"
+    },
+    {
+      "file": "data/interim/daily_pollution/pm10_madrid_diario_2017_2024.csv",
+      "rows": 8766,
+      "status": "passed"
+    },
+    {
+      "file": "data/interim/pm10_prediction/tabla_modelos_completa.csv",
+      "rows": 8148,
+      "status": "passed"
+    },
+    {
+      "file": "data/interim/initial_comparison/metricas.csv",
+      "rows": 6,
+      "status": "passed"
+    },
+    {
+      "file": "output/pm10_regression_validation/metricas_validacion_2023.csv",
+      "rows": 5,
+      "status": "passed"
+    },
+    {
+      "file": "output/pm10_classification_validation/metricas_validacion_2023.csv",
+      "rows": 2,
+      "status": "passed"
+    },
+    {
+      "file": "output/pm10_final_2024/metricas_regresion.csv",
+      "rows": 6,
+      "status": "passed"
+    },
+    {
+      "file": "output/pm10_final_2024/metricas_clasificacion.csv",
+      "rows": 2,
+      "status": "passed"
+    },
+    {
+      "file": "output/pm10_weather_validation/metricas_validacion_2023.csv",
+      "rows": 3,
+      "status": "passed"
+    },
+    {
+      "file": "output/pm10_weather_test_2025/metricas_2025.csv",
+      "rows": 3,
+      "status": "passed"
+    },
+    {
+      "file": "output/pm10_weather_test_2025/metricas_por_contexto.csv",
+      "rows": 6,
+      "status": "passed"
+    },
+    {
+      "file": "output/pm10_business_2025/escenarios_coste.csv",
+      "rows": 9,
+      "status": "passed"
+    }
+  ],
+  "rebuilt_models_compared": [
+    "ridge",
+    "random_forest",
+    "logistica"
+  ],
+  "test_count": 56,
+  "notebook_code_cells": 11,
+  "frontend": "pnpm 11.2.2 frozen install and TypeScript build in a separate directory",
+  "api": "42 sources, 7 treated tables, explanation and production guide",
+  "docker": "no-cache image build and API smoke on port 8067",
+  "input_scope": "local original downloads plus compact archived GFS extract; no fresh upstream download",
+  "frozen_protocol": "all four regenerated joblib files match the registered artifacts byte for byte; original registered copies were reloaded for holdout replay",
+  "regenerated_artifacts": [
+    {
+      "file": "models/pm10/validation_2023/logistica.joblib",
+      "sha256": "1327ef5c4b1f0ec12874e9d70bf6366b42236368d401da19eec133916ca7253a",
+      "byte_identical": true
+    },
+    {
+      "file": "models/pm10/validation_2023/random_forest.joblib",
+      "sha256": "0a5523a966bcb12f393c09c3edc69edd0c0636e6bb1a3e0c2fcf7b6b9cf644ef",
+      "byte_identical": true
+    },
+    {
+      "file": "models/pm10/validation_2023/ridge.joblib",
+      "sha256": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673",
+      "byte_identical": true
+    },
+    {
+      "file": "models/pm10/weather_validation_2023/logisticas_gfs.joblib",
+      "sha256": "d553ed9777b09332c2122fa5167e2e311e7d46a39115f5e2ba0bda0aa9c0f01c",
+      "byte_identical": true
+    }
+  ],
+  "pipeline_final_status": {
+    "environment": 0,
+    "dependencies": 0,
+    "tests": 0,
+    "prepare_health": 0,
+    "prepare_demographics": 0,
+    "prepare_air": 0,
+    "audit_air_coverage": 0,
+    "provincial_prototype": 0,
+    "historical_feasibility": 0,
+    "initial_health_comparison": 0,
+    "pollution_sample": 0,
+    "prepare_pm10_forecast": 0,
+    "audit_pm10_quality": 0,
+    "train_pm10_regression": 0,
+    "train_pm10_classification": 0,
+    "audit_pm10_classification_thresholds": 0,
+    "audit_pm10_weekday": 0,
+    "prepare_pm10_weather": 0,
+    "compare_pm10_weather": 0,
+    "evaluate_pm10_final": 0,
+    "evaluate_pm10_weather_2025": 0,
+    "explain_pm10_models": 0,
+    "evaluate_pm10_business": 0,
+    "document_sources": 0,
+    "station_review": 0,
+    "demo": 0
+  },
+  "resolved_orchestration_dependencies": [
+    "audit_pm10_quality follows train_pm10_regression",
+    "station_review precedes document_sources"
+  ],
+  "upstream_redownload_verified": false,
+  "status": "passed_for_retained_inputs",
+  "source_packages": {
+    "archives": 2,
+    "extracted_to_new_directory": true,
+    "verified_originals": 43,
+    "verified_live_downloads": [
+      "data/raw/health_air_history/ine_tasas_residencia_2016.csv",
+      "data/raw/health_air_history/miteco_diarios_2024.zip",
+      "data/raw/eea_pm10/SP_28079060_10_47.parquet"
+    ],
+    "restoration_tests": 4
+  },
+  "incremental_error_audit": {
+    "cases": 1013,
+    "tests_current_suite": 60,
+    "original_aggregate_metrics_match": true,
+    "frontend_build": "passed",
+    "browser_station_and_level_filters": "passed",
+    "date_sensitivity": "posthoc five dates removed with all station rows; original models retained"
+  },
+  "incremental_bootstrap": {
+    "tests_current_suite": 64,
+    "block_days": [
+      7,
+      14,
+      28
+    ],
+    "primary_block_days": 14,
+    "replicates_per_length": 5000,
+    "seed": 20261119,
+    "intervals": 12,
+    "replicate_rows": 60000,
+    "deterministic_repeat_verified": true,
+    "saved_quantiles_verified": true,
+    "frontend_build": "passed",
+    "browser_station_filter_and_guide_figure": "passed",
+    "notebook_code_cells_executed_in_isolated_environment": 12
+  },
+  "incremental_chart_navigation": {
+    "frontend_typecheck_and_build": "passed",
+    "browser_verified": [
+      "six chart views",
+      "shared station and date",
+      "selection retained across documentation",
+      "2025 observations",
+      "2024-only predictions notice",
+      "unevaluated 2024 date",
+      "leap-year month change",
+      "all-station error and uncertainty aggregates"
+    ],
+    "pending_work_guide_api": "passed",
+    "selection_persistence": "in-memory until page reload"
+  },
+  "incremental_station_map": {
+    "frontend_typecheck_and_build": "passed",
+    "api_verified": [
+      "three station coordinates from MITECO 2024 metadata",
+      "2017 and 2024 MITECO values",
+      "2025 EEA values",
+      "null preserved",
+      "invalid dates rejected"
+    ],
+    "browser_verified": [
+      "OpenStreetMap basemap loaded",
+      "three markers and legend",
+      "marker selects shared station",
+      "link to same-day prediction",
+      "date updates 2025 observations",
+      "missing measurement shown",
+      "all-station selection"
+    ],
+    "basemap_requires_internet": true,
+    "documentation": "docs/28_explorador_react.md",
+    "screenshot": "output/delivery_verification/map_preview.jpg"
+  },
+  "incremental_home": {
+    "frontend_typecheck_and_build": "passed",
+    "browser_verified": [
+      "default home screen",
+      "stored metrics and bootstrap interval displayed",
+      "global uncertainty shortcut",
+      "fixed Tres Olivos peak shortcut",
+      "map shortcut",
+      "2025 onset context and false alarms",
+      "no horizontal overflow at default viewport"
+    ],
+    "screenshot": "output/delivery_verification/home_preview.jpg",
+    "data_sources": [
+      "/api/charts/metrics",
+      "/api/charts/uncertainty"
+    ]
+  },
+  "incremental_barcelona": {
+    "tests_current_suite": 68,
+    "frontend_typecheck_and_build": "passed",
+    "browser_verified": [
+      "territory selector",
+      "complete and common-date comparison",
+      "same-scale MAE bars",
+      "station coverage",
+      "monthly daily values and predictions",
+      "valid observation without prediction",
+      "2017 observations without test predictions",
+      "territorial guide displayed",
+      "no horizontal page overflow at default viewport"
+    ],
+    "repeated_pipeline_identical": [
+      "daily table",
+      "complete supervised table",
+      "frozen Ridge model",
+      "2024 predictions",
+      "bootstrap intervals"
+    ],
+    "madrid_integrity_verified": true,
+    "test_cases": {
+      "madrid": 1013,
+      "barcelona": 801
+    },
+    "common_complete_dates": 78,
+    "cases_per_territory_on_common_dates": 234,
+    "new_source_downloads": 0,
+    "scope": "Barcelona province regression 2017-2024; 2025 meteorology and classification not added",
+    "screenshot": "output/delivery_verification/experiments_preview.jpg",
+    "documentation": "docs/38_experimentos_madrid_barcelona.md"
+  },
+  "incremental_coverage_audit": {
+    "tests_current_suite": 72,
+    "frontend_typecheck_and_build": "passed",
+    "repeated_audit_byte_identical": true,
+    "existing_model_hashes_unchanged": true,
+    "evaluated_keys_match_frozen_predictions": true,
+    "counts": {
+      "madrid": {
+        "calendar": 1098,
+        "evaluated": 1013,
+        "unknown_target": 14,
+        "observed_excluded": 71
+      },
+      "barcelona": {
+        "calendar": 1098,
+        "evaluated": 801,
+        "unknown_target": 40,
+        "observed_excluded": 257
+      }
+    },
+    "browser_verified": [
+      "territory and station selection",
+      "monthly coverage",
+      "missing feature overlap counts",
+      "elevated exclusions",
+      "daily month filter",
+      "pagination",
+      "empty filtered results",
+      "guide displayed",
+      "no page horizontal overflow at default viewport"
+    ],
+    "api_evaluated_and_empty_filter_verified": true,
+    "documentation": "docs/39_auditoria_cobertura_territorial.md",
+    "screenshot": "output/delivery_verification/coverage_audit_preview.jpg"
+  },
+  "incremental_descriptive_statistics": {
+    "tests_current_suite": 77,
+    "frontend_typecheck_and_build": "passed",
+    "runtime_dependencies_added": false,
+    "treated_tables_checked": 7,
+    "numeric_columns_crosschecked_with_pandas": 79,
+    "quantile_method": "linear (n-1)*p",
+    "standard_deviation_ddof": 1,
+    "docker_build": "passed",
+    "docker_runtime_filtered_statistics": "passed",
+    "browser_verified": [
+      "statistics tab",
+      "full table population",
+      "combined station and month filters",
+      "population independent of record pagination",
+      "empty filter result",
+      "all-null measurement column",
+      "guide displayed",
+      "no page horizontal overflow at default viewport"
+    ],
+    "documentation": "docs/40_estadisticas_descriptivas.md",
+    "screenshot": "output/delivery_verification/statistics_preview.jpg"
+  },
+  "incremental_boxplot": {
+    "tests_current_suite": 81,
+    "frontend_typecheck_and_build": "passed",
+    "runtime_dependencies_added": false,
+    "matplotlib_reference_cases_checked": 185,
+    "whisker_iqr_multiplier": 1.5,
+    "outliers_preserved_in_statistics_and_plot": true,
+    "docker_build": "passed",
+    "docker_runtime_grouped_boxplot_api": "passed",
+    "browser_verified": [
+      "numeric column selector",
+      "station comparison and full selection",
+      "filters preserve column and grouping",
+      "constant column",
+      "all-missing column",
+      "table without station grouping",
+      "exact-value table",
+      "no page horizontal overflow at default viewport"
+    ],
+    "documentation": "docs/40_estadisticas_descriptivas.md",
+    "screenshot": "output/delivery_verification/boxplot_preview.jpg"
+  },
+  "incremental_window_ablation": {
+    "tests_current_suite": 86,
+    "frontend_typecheck_and_build": "passed",
+    "validation_year": 2023,
+    "max_training_date": "2022-12-31",
+    "designs": [
+      "frozen original",
+      "remove media_14_dias with same training cases",
+      "remove media_14_dias with expanded training cases"
+    ],
+    "additional_validation_cases": {
+      "madrid": 23,
+      "barcelona": 90
+    },
+    "same_case_mae_delta_reduced_minus_original": {
+      "madrid": 0.021904709132114952,
+      "barcelona": 0.01643365702511712
+    },
+    "new_2024_evaluation": false,
+    "original_validation_predictions_matched": true,
+    "original_model_and_test_hashes_unchanged": true,
+    "repeated_artifacts_byte_identical": 25,
+    "docker_build_and_saved_report_api": "passed",
+    "browser_verified": [
+      "territory selection",
+      "common/additional/expanded cohorts",
+      "metric sample sizes",
+      "coverage and training designs",
+      "guide displayed",
+      "no page horizontal overflow at default viewport"
+    ],
+    "documentation": "docs/41_comparacion_ventanas_pm10.md",
+    "screenshot": "output/delivery_verification/window_ablation_preview.jpg"
+  },
+  "incremental_grouped_permutation": {
+    "tests_current_suite": 92,
+    "frontend_typecheck_and_build": "passed",
+    "validation_year": 2023,
+    "validation_cases": {
+      "madrid": 1039,
+      "barcelona": 889
+    },
+    "numeric_perturbations_per_group": 50,
+    "station_rotations": 2,
+    "minimum_shift_evaluated_rows": 14,
+    "seeds": {
+      "madrid": 20261120,
+      "barcelona": 20261121
+    },
+    "grouping": "four disjoint primary groups plus overlapping joint-history sensitivity",
+    "temporal_method": "within-station circular shifts in eligible-row order; gaps and artificial future-date combinations documented",
+    "new_model_training": false,
+    "new_test_evaluation": false,
+    "original_validation_predictions_matched": true,
+    "original_model_and_test_hashes_unchanged": true,
+    "repeated_artifacts_byte_identical": 11,
+    "docker_build_and_saved_diagnostic_api": "passed",
+    "browser_verified": [
+      "territory selection",
+      "four primary groups",
+      "overlapping joint-history sensitivity",
+      "negative station effect in Madrid",
+      "original coefficient reference",
+      "guide displayed",
+      "no page horizontal overflow at default viewport"
+    ],
+    "documentation": "docs/42_importancia_agrupada_pm10.md",
+    "screenshot": "output/delivery_verification/grouped_permutation_preview.jpg"
+  },
+  "incremental_case_studies": {
+    "date": "2026-11-20",
+    "tests_current_suite": 96,
+    "frontend_typecheck_and_build": "passed",
+    "selection": {
+      "candidates": 906,
+      "median": 10.0,
+      "rule": "PM10 observado ≤ 27; menor distancia a la mediana; desempate por estación y fecha. No se usa el error."
+    },
+    "selected_typical": {
+      "station": "28079060",
+      "date": "2024-04-10",
+      "observed": 10.0
+    },
+    "cases": [
+      {
+        "id": "typical",
+        "station": "28079060",
+        "date": "2024-04-10",
+        "kind": "regression",
+        "observed": 10.0
+      },
+      {
+        "id": "peak",
+        "station": "28079060",
+        "date": "2024-10-31",
+        "kind": "regression",
+        "observed": 156.0
+      },
+      {
+        "id": "onset",
+        "station": "28079060",
+        "date": "2025-08-05",
+        "kind": "classification",
+        "observed": 42.333333333333336
+      },
+      {
+        "id": "false_alarm",
+        "station": "28079060",
+        "date": "2025-02-22",
+        "kind": "classification",
+        "observed": 5.416666666666667
+      }
+    ],
+    "onset_context": [
+      {
+        "model": "logistica_con_meteo",
+        "n": 891,
+        "onsets": 27,
+        "detected": 9,
+        "falseAlarms": 18
+      },
+      {
+        "model": "logistica_sin_meteo",
+        "n": 891,
+        "onsets": 27,
+        "detected": 6,
+        "falseAlarms": 13
+      },
+      {
+        "model": "persistencia",
+        "n": 891,
+        "onsets": 27,
+        "detected": 0,
+        "falseAlarms": 0
+      }
+    ],
+    "new_model_training": false,
+    "new_test_evaluation": false,
+    "original_models_and_sources_sha256_unchanged": true,
+    "protected_artifacts": {
+      "models/experiments/barcelona/random_forest.joblib": "9b93f2395e883298c3d626298a2ec922d0ff3a440bfeb71b9f8ce05bee7f0f9f",
+      "models/experiments/barcelona/ridge.joblib": "26a28e97c4b2264556dfd77d255a09c3911631c9165f1cb91029ed53a75c8d0b",
+      "models/experiments/window_ablation/barcelona/ridge_sin14_mismo_train.joblib": "09ccb412a415f578dcfab4022e42671899916ab51fe5f86a8e68a1e16ff502e5",
+      "models/experiments/window_ablation/barcelona/ridge_sin14_train_ampliado.joblib": "0b17b41a62de791f729e8aaaec26da29bffafd59e60d35bb80725e32be9ea45f",
+      "models/experiments/window_ablation/madrid/ridge_sin14_mismo_train.joblib": "f986a3b9d480832a5473f85d85fb7706686cee38c57197f8bca0ddba24184165",
+      "models/experiments/window_ablation/madrid/ridge_sin14_train_ampliado.joblib": "56ace64215d10723d79326d7feaf20b7422b5455eb31fdafff2d07097d06911d",
+      "models/pm10/validation_2023/logistica.joblib": "1327ef5c4b1f0ec12874e9d70bf6366b42236368d401da19eec133916ca7253a",
+      "models/pm10/validation_2023/random_forest.joblib": "0a5523a966bcb12f393c09c3edc69edd0c0636e6bb1a3e0c2fcf7b6b9cf644ef",
+      "models/pm10/validation_2023/ridge.joblib": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673",
+      "models/pm10/weather_validation_2023/logisticas_gfs.joblib": "d553ed9777b09332c2122fa5167e2e311e7d46a39115f5e2ba0bda0aa9c0f01c",
+      "output/pm10_final_2024/predicciones_regresion.csv": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad",
+      "output/pm10_explanations/explicaciones.json": "cb423ad2467d8fe1c31223034a07c6f50fee0c3f9338f9cf33e73c0b45c21645",
+      "data/interim/pm10_prediction/tabla_modelos_completa.csv": "961c3697268f6a51b0af5ff9da9afd1cc6a3bbf8072c37d3770296e19e257e8f",
+      "data/interim/daily_pollution/pm10_madrid_diario_2017_2024.csv": "34b48d6f710d3464d9cec3a4db03d6fbb5b67bfb6f24b983b0d9f233a63e84f5",
+      "output/pm10_weather_test_2025/pm10_diario_2025.csv": "30be011be590a6bf373404e39bcd7e2f369f92fdb096216b7805b3ec502dfad3",
+      "output/pm10_weather_test_2025/predicciones_2025.csv": "3d41b38c7a299a04e11653bdc4458c7dfbe1dedc8ab64fbb90ad5afe8a01771c",
+      "data/interim/weather_forecasts/gfs_2021_2025/previsiones_gfs_diarias.csv": "739d9bbbedb2e2e357c56ee494a952ce0788780d47c055a4da63165ea7832dc9",
+      "docs/reference/pm10_weather_test_2025.json": "3247aac5e4994405cee48044058afc32815372f7dfb2cecea8b13ecfa4c1255d"
+    },
+    "repeated_artifacts_byte_identical": 15,
+    "csv_downloads_sha256_verified": 14,
+    "docker_build_and_readonly_saved_cases_api": "passed",
+    "browser_verified": [
+      "home entry",
+      "four cases",
+      "typical selection",
+      "prediction and alert tables",
+      "individual frozen cuts",
+      "context date does not change focal case",
+      "Ridge reconstruction table",
+      "regression explanation link",
+      "2025 observations link",
+      "case selection retained across screens",
+      "GFS cycle",
+      "context chart",
+      "documentation displayed",
+      "no horizontal page overflow at default viewport",
+      "no console errors"
+    ],
+    "documentation": "docs/43_casos_de_estudio_defensa.md",
+    "screenshot": "output/delivery_verification/case_studies_preview.jpg",
+    "author_rehearsal": "pending"
+  },
+  "incremental_pca_lda": {
+    "date": "2026-11-20",
+    "tests_current_suite": 101,
+    "frontend_typecheck_and_build": "passed",
+    "scope": "Madrid, exploratory known 2023 validation only",
+    "pca_training_rows": 6096,
+    "pca_validation_rows": 1039,
+    "lda_training_rows": 2001,
+    "lda_validation_rows": 1039,
+    "pca_variance_first_two": 0.5077222900445293,
+    "pca_components_for_90pct": 7,
+    "lda_parameters": {
+      "solver": "eigen",
+      "shrinkage": "auto",
+      "n_components": 1,
+      "priors": "training proportions"
+    },
+    "lda_cuts": {
+      "lda_sin_meteo": 0.14868671775911083,
+      "lda_con_meteo": 0.15629690312508937
+    },
+    "metrics": [
+      {
+        "modelo": "lda_con_meteo",
+        "n": 1039,
+        "vp": 47,
+        "fp": 37,
+        "fn": 46,
+        "vn": 909,
+        "avisos": 84,
+        "positivos": 93,
+        "precision": 0.55952380952381,
+        "recall": 0.505376344086022,
+        "f1": 0.531073446327684
+      },
+      {
+        "modelo": "lda_sin_meteo",
+        "n": 1039,
+        "vp": 49,
+        "fp": 37,
+        "fn": 44,
+        "vn": 909,
+        "avisos": 86,
+        "positivos": 93,
+        "precision": 0.569767441860465,
+        "recall": 0.526881720430108,
+        "f1": 0.547486033519553
+      },
+      {
+        "modelo": "logistica_con_meteo",
+        "n": 1039,
+        "vp": 65,
+        "fp": 35,
+        "fn": 28,
+        "vn": 911,
+        "avisos": 100,
+        "positivos": 93,
+        "precision": 0.65,
+        "recall": 0.698924731182796,
+        "f1": 0.673575129533679
+      },
+      {
+        "modelo": "logistica_sin_meteo",
+        "n": 1039,
+        "vp": 63,
+        "fp": 36,
+        "fn": 30,
+        "vn": 910,
+        "avisos": 99,
+        "positivos": 93,
+        "precision": 0.636363636363636,
+        "recall": 0.67741935483871,
+        "f1": 0.65625
+      },
+      {
+        "modelo": "persistencia",
+        "n": 1039,
+        "vp": 57,
+        "fp": 37,
+        "fn": 36,
+        "vn": 909,
+        "avisos": 94,
+        "positivos": 93,
+        "precision": 0.606382978723404,
+        "recall": 0.612903225806452,
+        "f1": 0.609625668449198
+      }
+    ],
+    "ranking": [
+      {
+        "model": "lda_con_meteo",
+        "rocAuc": 0.9061469912932778,
+        "averagePrecision": 0.5607754404151659
+      },
+      {
+        "model": "lda_sin_meteo",
+        "rocAuc": 0.9027484143763214,
+        "averagePrecision": 0.5560902908824285
+      },
+      {
+        "model": "logistica_con_meteo",
+        "rocAuc": 0.9280160949328242,
+        "averagePrecision": 0.6499481051790447
+      },
+      {
+        "model": "logistica_sin_meteo",
+        "rocAuc": 0.9248789470094796,
+        "averagePrecision": 0.6349632342413838
+      }
+    ],
+    "scale_and_transform_fit_on_training_only": true,
+    "new_final_test_evaluation": false,
+    "original_models_and_results_sha256_unchanged": true,
+    "protected_hashes": {
+      "models/experiments/barcelona/random_forest.joblib": "9b93f2395e883298c3d626298a2ec922d0ff3a440bfeb71b9f8ce05bee7f0f9f",
+      "models/experiments/barcelona/ridge.joblib": "26a28e97c4b2264556dfd77d255a09c3911631c9165f1cb91029ed53a75c8d0b",
+      "models/experiments/window_ablation/barcelona/ridge_sin14_mismo_train.joblib": "09ccb412a415f578dcfab4022e42671899916ab51fe5f86a8e68a1e16ff502e5",
+      "models/experiments/window_ablation/barcelona/ridge_sin14_train_ampliado.joblib": "0b17b41a62de791f729e8aaaec26da29bffafd59e60d35bb80725e32be9ea45f",
+      "models/experiments/window_ablation/madrid/ridge_sin14_mismo_train.joblib": "f986a3b9d480832a5473f85d85fb7706686cee38c57197f8bca0ddba24184165",
+      "models/experiments/window_ablation/madrid/ridge_sin14_train_ampliado.joblib": "56ace64215d10723d79326d7feaf20b7422b5455eb31fdafff2d07097d06911d",
+      "models/pm10/validation_2023/logistica.joblib": "1327ef5c4b1f0ec12874e9d70bf6366b42236368d401da19eec133916ca7253a",
+      "models/pm10/validation_2023/random_forest.joblib": "0a5523a966bcb12f393c09c3edc69edd0c0636e6bb1a3e0c2fcf7b6b9cf644ef",
+      "models/pm10/validation_2023/ridge.joblib": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673",
+      "models/pm10/weather_validation_2023/logisticas_gfs.joblib": "d553ed9777b09332c2122fa5167e2e311e7d46a39115f5e2ba0bda0aa9c0f01c",
+      "output/pm10_final_2024/predicciones_clasificacion.csv": "e3f3392f4808a679fa8b7b3096d41b5e6149ba7a0a72ed913eeb504eedc35735",
+      "output/pm10_final_2024/predicciones_regresion.csv": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad",
+      "output/pm10_weather_test_2025/predicciones_2025.csv": "3d41b38c7a299a04e11653bdc4458c7dfbe1dedc8ab64fbb90ad5afe8a01771c",
+      "output/experiments/barcelona/prueba_2024/predicciones.csv": "be922e2b2b123bc3bbecc706ed0364cebde0cf8b2ef250bacc31049004255e39",
+      "output/experiments/barcelona/validacion/predicciones.csv": "c6dc8880235fdec5003551aa699a11323764fd9e994c6245f55a5d5e5fec05f0",
+      "data/interim/pm10_prediction/tabla_modelos_completa.csv": "961c3697268f6a51b0af5ff9da9afd1cc6a3bbf8072c37d3770296e19e257e8f",
+      "data/interim/pm10_weather/tabla_pm10_meteo.csv": "8d371ee129505699e5fa38ddcac48bde456b9da89650321853d43d52f81c111f",
+      "data/interim/pm10_weather/esquema_comparacion.json": "23ac929c5661c7818d6fd0e409d63e8ec6c1d11941889581830745a31faaf133",
+      "output/pm10_weather_validation/predicciones_validacion_2023.csv": "60fddb99a630d8c62398bf3f09305f552dffd8bb7797d6a0a7ea20be820cf24f",
+      "output/pm10_weather_validation/configuracion.json": "71cca83b620dcb766b4325a88523c5b4396246372c385b9f2afcb627caf94114"
+    },
+    "repeated_artifacts_byte_identical": 14,
+    "real_downloads_compared_to_files": 12,
+    "docker_build_and_readonly_api": "passed",
+    "browser_verified": [
+      "PCA variance",
+      "all validation points plotted",
+      "training and station filters",
+      "point table pagination",
+      "component weights selector",
+      "both LDA variants",
+      "classification and onset comparisons",
+      "histogram class totals match 946 and 93",
+      "documentation displayed",
+      "no horizontal page overflow at default viewport",
+      "no console errors"
+    ],
+    "documentation": "docs/44_pca_lda_pm10.md",
+    "screenshot": "output/delivery_verification/projections_preview.jpg",
+    "artifact_sha256": {
+      "artefactos.joblib": "50efb4194f1a2e354c4e6375968718189374bf22e2b293e1b4e0c9fad1d8d5bc",
+      "lda_con_meteo_barrido.csv": "cfb3bc9960db800123eb0076a2e93854068633200266db78ef7ff0a24a749e1a",
+      "lda_con_meteo_proyecciones.csv": "a264c65ca8c00013fdcb9c655ab55b6c337f8cc0feb87cf3b87bc6708e95691e",
+      "lda_sin_meteo_barrido.csv": "48bbf6b0174a9094e25cf72f6b58e76617f005c12e90c7cef57f6a93613dbb97",
+      "lda_sin_meteo_proyecciones.csv": "5da6d5584f340803526de53ea4633963fa551d2f71e942e515422d3785558e47",
+      "metricas.csv": "f60a9ba4ca9683454ef40223a1682a18640f1277f46067e22196caaed718c42a",
+      "metricas_contexto.csv": "812f31507bc6c533fead246b582cfca0abb9ce141fd0fa95904427f78499f2f3",
+      "pca_componentes.csv": "0350e4ac8b0e0573ba0ec777c733e7544329770e6dfb80d84dfe14677e0cf6dc",
+      "pca_pesos.csv": "0884aa5d5714e73d706708aaa9b9691d8272ab3a9138489f78ae3372ddddf2f1",
+      "pca_proyecciones.csv": "2b6ef9abb4f3cb33c70655abbd87abcdd88146354f46c8e367cba41681f2166a",
+      "predicciones_validacion_2023.csv": "4f4e78fed4cc92269c4ef0a8467922785af875b33f7623989da10a045da2eb7e",
+      "protocolo.json": "424f379f56b75c63d5f333c2d54840ad1dc5d36fe9e3639a7f001899391e06fb",
+      "ranking.csv": "8ffae849639a2b4d2e5684cdb286bc0863243d73c6611ad2a1db33a220c02430",
+      "resumen.json": "e5132c707b17606806dbbc2bcdd7d02e78cffd0ce46aebc99cf4526e0d92f993"
+    }
+  },
+  "incremental_source_groups": {
+    "date": "2026-11-23",
+    "source_files": 42,
+    "source_families": 7,
+    "domains": [
+      "Calidad del aire",
+      "Sanidad",
+      "Demografía",
+      "Meteorología"
+    ],
+    "frontend_typecheck_and_build": "passed in Docker",
+    "docker_compose_rebuild_and_start": "passed",
+    "browser_verified": [
+      "initial selected domain expanded",
+      "topic accordions with keyboard",
+      "year changes load correct original source",
+      "last year retained between families",
+      "2024 sample explicitly distinguished",
+      "year search narrows available options",
+      "empty search results",
+      "domain filter and singular count",
+      "no horizontal page overflow",
+      "no console errors"
+    ],
+    "documentation": "docs/28_explorador_react.md",
+    "screenshot": "output/delivery_verification/source_groups_preview.jpg",
+    "scope": "frontend navigation only; no data or model changes"
+  },
+  "incremental_territorial_charts": {
+    "date": "2026-11-23",
+    "tests_added_and_passed_in_explorer_docker": 5,
+    "suite_test_count": 106,
+    "frontend_typecheck_and_build": "passed in Docker",
+    "docker_compose_rebuild_and_start": "passed",
+    "regions": [
+      "madrid",
+      "barcelona"
+    ],
+    "api_views_checked_per_region": [
+      "map",
+      "pm10",
+      "predictions",
+      "metrics",
+      "errors",
+      "uncertainty"
+    ],
+    "real_predictions_compared": {
+      "madrid_first_station": 658,
+      "barcelona_first_station": 668
+    },
+    "real_regression_cases": {
+      "madrid": 1013,
+      "barcelona": 801
+    },
+    "original_models_and_results_sha256_unchanged": true,
+    "protected_hashes": {
+      "models/experiments/barcelona/random_forest.joblib": "9b93f2395e883298c3d626298a2ec922d0ff3a440bfeb71b9f8ce05bee7f0f9f",
+      "models/experiments/barcelona/ridge.joblib": "26a28e97c4b2264556dfd77d255a09c3911631c9165f1cb91029ed53a75c8d0b",
+      "models/experiments/window_ablation/barcelona/ridge_sin14_mismo_train.joblib": "09ccb412a415f578dcfab4022e42671899916ab51fe5f86a8e68a1e16ff502e5",
+      "models/experiments/window_ablation/barcelona/ridge_sin14_train_ampliado.joblib": "0b17b41a62de791f729e8aaaec26da29bffafd59e60d35bb80725e32be9ea45f",
+      "models/experiments/window_ablation/madrid/ridge_sin14_mismo_train.joblib": "f986a3b9d480832a5473f85d85fb7706686cee38c57197f8bca0ddba24184165",
+      "models/experiments/window_ablation/madrid/ridge_sin14_train_ampliado.joblib": "56ace64215d10723d79326d7feaf20b7422b5455eb31fdafff2d07097d06911d",
+      "models/pm10/validation_2023/logistica.joblib": "1327ef5c4b1f0ec12874e9d70bf6366b42236368d401da19eec133916ca7253a",
+      "models/pm10/validation_2023/random_forest.joblib": "0a5523a966bcb12f393c09c3edc69edd0c0636e6bb1a3e0c2fcf7b6b9cf644ef",
+      "models/pm10/validation_2023/ridge.joblib": "faf03ebc1ec1a76f59f2f2c738dad5db34cb921794881db8ac6d6fdd3f6d5673",
+      "models/pm10/weather_validation_2023/logisticas_gfs.joblib": "d553ed9777b09332c2122fa5167e2e311e7d46a39115f5e2ba0bda0aa9c0f01c",
+      "output/pm10_final_2024/predicciones_clasificacion.csv": "e3f3392f4808a679fa8b7b3096d41b5e6149ba7a0a72ed913eeb504eedc35735",
+      "output/pm10_final_2024/predicciones_regresion.csv": "9598cbd3f6fd393fc56032a33c4407ff3947974e54ba9028579c8ffa15f918ad",
+      "output/pm10_weather_test_2025/predicciones_2025.csv": "3d41b38c7a299a04e11653bdc4458c7dfbe1dedc8ab64fbb90ad5afe8a01771c",
+      "output/experiments/barcelona/prueba_2024/predicciones.csv": "be922e2b2b123bc3bbecc706ed0364cebde0cf8b2ef250bacc31049004255e39",
+      "output/experiments/barcelona/validacion/predicciones.csv": "c6dc8880235fdec5003551aa699a11323764fd9e994c6245f55a5d5e5fec05f0",
+      "data/interim/pm10_prediction/tabla_modelos_completa.csv": "961c3697268f6a51b0af5ff9da9afd1cc6a3bbf8072c37d3770296e19e257e8f",
+      "data/interim/pm10_weather/tabla_pm10_meteo.csv": "8d371ee129505699e5fa38ddcac48bde456b9da89650321853d43d52f81c111f",
+      "data/interim/pm10_weather/esquema_comparacion.json": "23ac929c5661c7818d6fd0e409d63e8ec6c1d11941889581830745a31faaf133",
+      "output/pm10_weather_validation/predicciones_validacion_2023.csv": "60fddb99a630d8c62398bf3f09305f552dffd8bb7797d6a0a7ea20be820cf24f",
+      "output/pm10_weather_validation/configuracion.json": "71cca83b620dcb766b4325a88523c5b4396246372c385b9f2afcb627caf94114"
+    },
+    "new_training": false,
+    "new_test_evaluation": false,
+    "browser_verified": [
+      "territory selector",
+      "2025 to 2024 date adjustment",
+      "correct stations per territory",
+      "historical observations range",
+      "Barcelona map and station selection",
+      "map to daily prediction retains station/date",
+      "regional metrics and onset availability message",
+      "Barcelona monthly errors",
+      "Barcelona bootstrap intervals",
+      "explanation availability guard",
+      "Madrid home example resets territory",
+      "territory retained across screens",
+      "five rapid territory switches and map remounts without console errors",
+      "territorial guide displayed",
+      "no horizontal overflow at default viewport"
+    ],
+    "map_lifecycle_fix": "zoom/fade/marker transitions disabled; stop map before removal; nonanimated fitBounds",
+    "documentation": "docs/45_graficos_territoriales.md",
+    "screenshot": "output/delivery_verification/barcelona_charts_preview.jpg"
+  },
+  "incremental_treated_headers_and_inline_statistics": {
+    "date": "2026-11-23",
+    "frontend_typecheck_and_build": "passed in Docker",
+    "docker_compose_rebuild_and_start": "passed",
+    "existing_statistics_and_boxplot_tests_passed": 9,
+    "headers": "uniform human-readable labels plus original technical key and logical type",
+    "inline_summary": [
+      "minimum",
+      "p25",
+      "median",
+      "mean",
+      "p75",
+      "maximum",
+      "valid_count",
+      "missing_count",
+      "invalid_count"
+    ],
+    "numeric_calculation_changed": false,
+    "source_csv_and_mapper_names_changed": false,
+    "browser_verified": [
+      "treated headers and filter labels",
+      "inline summary below rows and pagination",
+      "8766 complete-table rows",
+      "2922 rows after station filter",
+      "pagination leaves statistics unchanged",
+      "empty filter results",
+      "full statistics and boxplot access",
+      "no console errors",
+      "no horizontal page overflow"
+    ],
+    "documentation": "docs/40_estadisticas_descriptivas.md",
+    "screenshot": "output/delivery_verification/treated_summary_preview.jpg"
+  },
+  "incremental_row_trace_modal": {
+    "date": "2026-11-23",
+    "frontend_typecheck_and_build": "passed in Docker",
+    "docker_compose_rebuild_and_start": "passed",
+    "scope": "treated table presentation; original CSV, schema, quality states and calculations preserved",
+    "validity_presentation": "es_valido displayed as Sí/No; missing values remain a dash; boolean filters send True/False",
+    "hidden_columns": [
+      "archivo_origen",
+      "miembro_zip",
+      "estado when es_valido is present"
+    ],
+    "browser_verified": [
+      "sticky trailing information icon",
+      "native row modal with identification and source files",
+      "record 11 after pagination maps to 2017-01-11",
+      "link to PM10 source evidence keeps original row and column",
+      "Escape closes and returns focus to triggering icon",
+      "Sí and No filters use original flags",
+      "record 922 shows insufficient hourly coverage, 17 valid hours and original 2019 hourly ZIP",
+      "no console errors",
+      "no horizontal page overflow"
+    ],
+    "documentation": "docs/28_explorador_react.md",
+    "screenshot": "output/delivery_verification/row_trace_preview.jpg"
+  },
+  "incremental_daily_origin_in_info": {
+    "date": "2026-11-23",
+    "frontend_typecheck_and_build": "passed in Docker",
+    "browser_verified": [
+      "origen_diario absent from treated headers",
+      "original daily origin retained in row modal"
+    ],
+    "screenshot": "output/delivery_verification/daily_origin_info_preview.jpg",
+    "daily_madrid_concentration_comparison": {
+      "rows": 8766,
+      "differences_including_missing": 0,
+      "columns": [
+        "concentracion",
+        "pm10_valido"
+      ]
+    }
+  },
+  "incremental_single_pm10_column": {
+    "date": "2026-11-23",
+    "frontend_typecheck_and_build": "passed in Docker",
+    "browser_verified": [
+      "concentracion hidden when pm10_valido exists in treated records",
+      "both values retained in information modal"
+    ],
+    "csv_schema_and_calculations_changed": false,
+    "screenshot": "output/delivery_verification/single_pm10_column_preview.jpg"
+  },
+  "incremental_measurement_quality_summary": {
+    "date": "2026-11-23",
+    "frontend_typecheck_and_build": "passed in Docker",
+    "browser_verified": [
+      "PM10 only in primary summary",
+      "2017–2024 period without year statistics",
+      "hourly coverage in separate collapsible quality section",
+      "same primary measures in full statistics",
+      "filtered period reduces to 2019",
+      "empty selection has no available years",
+      "no console errors",
+      "no page horizontal overflow"
+    ],
+    "numeric_api_and_calculations_changed": false,
+    "documentation": "docs/40_estadisticas_descriptivas.md",
+    "screenshot": "output/delivery_verification/measurement_quality_summary_preview.jpg"
+  },
+  "incremental_boxplot_access_design": {
+    "date": "2026-11-23",
+    "frontend_typecheck_and_build": "passed in Docker",
+    "browser_verified": [
+      "prominent header button",
+      "footer button opens same diagram",
+      "diagram scrolled into viewport and focused after data load",
+      "filtered 93-row selection retained",
+      "boxplot figure visible",
+      "two-decimal summary and explicit PM10 units",
+      "no console errors",
+      "no page horizontal overflow"
+    ],
+    "diagram_top_after_navigation_px": 65,
+    "numeric_api_and_data_changed": false,
+    "documentation": "docs/40_estadisticas_descriptivas.md",
+    "screenshot": "output/delivery_verification/statistics_boxplot_access_preview.jpg"
+  }
+}

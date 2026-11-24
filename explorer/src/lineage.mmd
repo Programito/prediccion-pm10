@@ -1,0 +1,12 @@
+flowchart LR
+  M["MITECO · medidas y estaciones"] --> D["PM10 diario por punto de muestreo"]
+  E["EEA · horas verificadas de PM10 en 2025"] --> T
+  D --> T["Muestra de tres estaciones · tabla supervisada"]
+  N["NOAA GFS · previsiones"] --> W["Viento y precipitación · estación y fecha objetivo"]
+  W --> C["Tabla común de PM10 y meteorología"]
+  T --> C
+  T --> R["Regresión y clasificación de PM10"]
+  C --> G["Comparación con y sin meteorología"]
+  D --> P["Indicador de PM10 · provincia y año"]
+  S["INE · altas hospitalarias y población"] --> H["Panel sanitario exploratorio · provincia y año"]
+  P --> H

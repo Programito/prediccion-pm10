@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Comparación retrospectiva de pronósticos de PM10 en tres estaciones de Madrid.">
+  <title>PM10 Madrid · Demostración del TFM</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <div class="brand"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span> PM10 Madrid</div>
+      <span class="top-label">Demostración del TFM</span>
+    </div>
+  </header>
+  <main class="shell">
+    <header class="intro">
+      <p class="eyebrow">Evaluación retrospectiva</p>
+      <h1>El PM10 del día siguiente</h1>
+      <p>Explora qué predijeron los modelos y qué se observó en tres estaciones de Madrid.</p>
+    </header>
+    <nav class="tabs" aria-label="Tipo de experimento">
+      <button type="button" data-mode="classification" aria-pressed="true">Clasificación <span>2025</span></button>
+      <button type="button" data-mode="regression" aria-pressed="false">Regresión <span>2024</span></button>
+    </nav>
+    <div class="layout">
+      <aside class="controls panel" aria-label="Selección de estación y fecha">
+        <h2>Elige un caso</h2>
+        <label for="station">Estación</label>
+        <select id="station"></select>
+        <label for="target-date">Fecha objetivo</label>
+        <div class="date-controls">
+          <button class="arrow" type="button" id="previous-date" aria-label="Fecha evaluada anterior">‹</button>
+          <select id="target-date" aria-describedby="coverage"></select>
+          <button class="arrow" type="button" id="next-date" aria-label="Siguiente fecha evaluada">›</button>
+        </div>
+        <p id="coverage" class="small"></p>
+        <div id="examples" class="examples">
+          <h3>Casos de Tres Olivos</h3>
+          <button type="button" data-example="2025-08-05">Comienzo detectado <span>5 ago</span></button>
+          <button type="button" data-example="2025-02-22">Falsa alarma <span>22 feb</span></button>
+        </div>
+      </aside>
+      <div class="analysis">
+        <section class="result panel" aria-labelledby="result-title">
+          <div class="result-header"><div><p class="eyebrow" id="case-date"></p><h2 id="result-title"></h2></div><span id="result-status" class="badge"></span></div>
+          <div class="readings" id="readings"></div>
+          <p class="small" id="cycle" hidden></p>
+        </section>
+        <section class="comparison panel" aria-labelledby="comparison-title">
+          <div class="section-top"><h2 id="comparison-title"></h2><span id="comparison-unit"></span></div>
+          <div id="comparison"></div>
+          <p id="comparison-note" class="small"></p>
+        </section>
+      </div>
+    </div>
+    <p id="announcement" class="sr-only" role="status"></p>
+    <footer>PM10 observado de MITECO y la Agencia Europea de Medio Ambiente. Previsiones meteorológicas de NOAA GFS. Resultados históricos del TFM.</footer>
+  </main>
+</body>
+</html>

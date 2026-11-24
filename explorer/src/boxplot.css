@@ -1,0 +1,19 @@
+.statistics-boxplot { padding: 18px 16px; border-top: 1px solid var(--line); display: grid; gap: 14px; font-size: 13px; line-height: 1.5; }
+.statistics-boxplot h3 { margin: 0; font-size: 18px; }
+.boxplot-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: #fafcf9; }
+.boxplot-scroll svg { display: block; width: 100%; min-width: 740px; }
+.boxplot-scroll text { fill: var(--muted); font-size: 12px; }
+.boxplot-grid { stroke: #dfe8df; stroke-width: 1; }
+.boxplot-whisker { stroke: #246452; stroke-width: 2; }
+.boxplot-box { fill: #cce5d6; stroke: #246452; stroke-width: 2; }
+.boxplot-median { stroke: #172e2b; stroke-width: 3; }
+.boxplot-mean { fill: #bf6a2b; stroke: white; stroke-width: 1; }
+.boxplot-outlier { fill: white; stroke: #a25429; stroke-width: 1.5; }
+.boxplot-legend { display: flex; flex-wrap: wrap; gap: 12px 24px; }
+.boxplot-legend span { display: inline-flex; align-items: center; gap: 8px; }
+.boxplot-legend i { display: inline-block; }
+.boxplot-key-box { width: 24px; height: 13px; background: #cce5d6; border: 2px solid #246452; }
+.boxplot-key-median { height: 16px; border-left: 3px solid #172e2b; }
+.boxplot-key-mean { width: 10px; height: 10px; background: #bf6a2b; transform: rotate(45deg); }
+.boxplot-key-outlier { width: 8px; height: 8px; border: 1.5px solid #a25429; border-radius: 50%; }
+.statistics-boxplot caption { text-align: left; font-size: 12px; color: var(--muted); padding: 10px; }
