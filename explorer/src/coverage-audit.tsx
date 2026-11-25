@@ -88,7 +88,7 @@ export function CoverageAudit({ experiment, loadJson }: {
           <tr><th scope="row">Mayor de {data.threshold} µg/m³</th><td>{summary.elevatedObserved}</td><td>{summary.elevatedExcluded}</td><td>{rate(summary.elevatedExcluded, summary.elevatedObserved)}</td></tr>
           <tr><th scope="row">Hasta {data.threshold} µg/m³</th><td>{summary.otherObserved}</td><td>{summary.otherExcluded}</td><td>{rate(summary.otherExcluded, summary.otherObserved)}</td></tr>
         </tbody></table></div>
-        <p>Los días sin medición no pueden clasificarse como elevados o no elevados. El umbral es estadístico del TFM. Estas proporciones describen la muestra y no prueban que las ausencias sean aleatorias.</p>
+        <p>Los días sin medición no pueden clasificarse como elevados o no elevados. Se aplica el umbral estadístico del estudio. Estas proporciones describen la muestra y no prueban que las ausencias sean aleatorias.</p>
         <details><summary>Tramos elevados observados con días excluidos ({data.episodes.length})</summary>
           <p>Se agrupan días consecutivos observados por encima del umbral. Los huecos y el cambio de año pueden fragmentar un episodio real. La lista está ordenada por días excluidos y pico.</p>
           <div className="table-scroll"><table className="values"><thead><tr><th>Estación</th><th>Inicio observado</th><th>Fin observado</th><th>Pico (µg/m³)</th><th>Días evaluados</th><th>Días excluidos</th></tr></thead><tbody>{data.episodes.map(row => <tr key={row.station + row.start}><th scope="row">{row.name}</th><td>{row.start}</td><td>{row.end}</td><td>{decimal.format(row.peak)}</td><td>{row.evaluatedDays}</td><td>{row.excludedDays}</td></tr>)}</tbody></table></div>

@@ -34,7 +34,7 @@ El manifiesto JSON tiene un objeto por mensaje, con `campo`, `url` e `indice` co
 
 Para el día objetivo D, el piloto usa el ciclo GFS iniciado el día anterior a las **12:00 UTC**. El inicio del ciclo precede 12 horas a la emisión simulada de las 00:00 UTC de D. Es un margen de trabajo y la hora exacta de publicación de cada mensaje no figura en la extracción. La fecha de inicio del ciclo indica el instante de referencia del modelo. [Inicio de ciclo y disponibilidad de previsiones](https://open-meteo.com/en/docs/single-runs-api)
 
-El script lee las coordenadas de `COD_LOCAL`, `LATITUD_G` y `LONGITUD_G` del Excel de MITECO. `fetch_fields()` selecciona los mensajes del índice y comprueba sus rangos. `decode()` valida las fechas y obtiene con ecCodes el valor de la celda más cercana a cada estación. `map_daily_weather()` comprueba la coherencia de las celdas y transforma los cuatro campos en las variables finales. [Extracción](../scripts/pilot_gfs_weather.py) · [Mapeador](../tfm_data/mappers/gfs_weather.py)
+El script lee las coordenadas de `COD_LOCAL`, `LATITUD_G` y `LONGITUD_G` del Excel de MITECO. `fetch_fields()` selecciona los mensajes del índice y comprueba sus rangos. `decode()` valida las fechas y obtiene con ecCodes el valor de la celda más cercana a cada estación. `map_daily_weather()` comprueba la coherencia de las celdas y transforma los cuatro campos en las variables finales. [Extracción](../scripts/pilot_gfs_weather.py) · [Mapeador](../pm10_data/mappers/gfs_weather.py)
 
 El CSV usa coma como separador, punto decimal y UTF-8 con BOM. Cada fila corresponde a una estación y una fecha objetivo. La clave para un futuro cruce con PM10 es `codigo_estacion` + `fecha_objetivo`.
 

@@ -171,20 +171,39 @@ Fuentes públicas → originales y manifiestos → lectores y mapeadores
 
 Los mapeadores transforman DataFrames y los pipelines coordinan lectura, validación y escritura. Los imports directos de scikit-learn quedan en los adaptadores. Entrenamiento y evaluación utilizan la interfaz propia fit y predict. [Arquitectura y adaptadores](docs/14_arquitectura_adaptadores.md)
 
+### Estructura de carpetas
+
 | Carpeta | Contenido |
 | --- | --- |
-| tfm_data/mappers/ | Transformaciones de sanidad, aire, demografía y variables predictivas. |
-| tfm_data/adapters/sklearn/ | Preprocesamiento y adaptación de modelos. |
-| tfm_data/evaluation/ y tfm_data/pipelines/ | Evaluación y coordinación de procesos. |
-| data/raw/ y data/interim/ | Originales, manifiestos y tablas preparadas. |
-| models/ y output/ | Artefactos ajustados, métricas y explicaciones. |
-| notebooks/ | Recorrido explicativo ejecutado. |
-| explorer/ y demo/ | Explorador React/Flask y demo retrospectiva. |
-| docs/ y tests/ | Documentación, inventarios y pruebas. |
+| `pm10_data/` | Paquete Python. `mappers/` transforma las fuentes, `pipelines/` ejecuta las etapas, `evaluation/` mide los resultados, `models/` define la interfaz de los modelos y `adapters/` integra scikit-learn. |
+| `data/raw/` | Archivos originales y manifiestos con URL y SHA-256. Git incluye los manifiestos. |
+| `data/interim/` | Tablas limpias, calendarios, variables predictivas y extracto de NOAA GFS. |
+| `data/reference/` | Códigos y nombres de los territorios del INE. |
+| `data/candidates/` | Conjuntos de datos considerados durante la selección inicial. |
+| `models/` | Modelos guardados para las evaluaciones de Madrid y Barcelona. |
+| `output/` | Predicciones, métricas, auditorías, explicaciones y resultados de experimentos. Los paquetes locales de entrega están en `output/delivery/`. |
+| `explorer/` | Aplicación de consulta. `src/` contiene la interfaz React, `server.py` sirve los datos con Flask y `compose.yaml` arranca el conjunto con Docker. |
+| `demo/` | Demostración web retrospectiva con resultados guardados. |
+| `notebooks/` | Notebook ejecutado e instrucciones para reproducir el análisis. |
+| `docs/` | Metodología, resultados y guías. `reference/` reúne inventarios, catálogos y protocolos. |
+| `scripts/` | Descarga y restauración de fuentes, generación de figuras y empaquetado. |
+| `tests/` | Pruebas de preparación de datos, evaluación y API del explorador. |
+
+Git crea `.git/` al clonar. Si ejecutas el proyecto en local, `.venv/` guarda las dependencias de Python, `explorer/node_modules/` las de Node y `explorer/dist/` la interfaz compilada. `tmp/` contiene cachés y archivos de trabajo locales.
 
 ## Ejecutar y reproducir
 
 El [informe de reproducibilidad](docs/33_verificacion_entrega.md) documenta la reconstrucción de las tablas y los experimentos a partir de las fuentes conservadas.
+
+### Datos originales de la entrega
+
+El paquete `output/delivery/pm10_sources.zip` contiene los 43 archivos originales que usa **Datos sin tratar** y que permiten reproducir el análisis. El ZIP se comparte por separado del repositorio y su huella SHA-256 figura en `output/delivery/checksums.json`.
+
+Si has clonado el repositorio, coloca el paquete en `output/delivery/` y extráelo desde la raíz del proyecto. Los archivos quedarán en `data/raw/`. [Guía del evaluador](docs/34_guia_evaluador.md#restaurar-las-fuentes-originales)
+
+~~~powershell
+Expand-Archive -LiteralPath .\output\delivery\pm10_sources.zip -DestinationPath .
+~~~
 
 ### Entorno Python y notebook
 
@@ -243,18 +262,18 @@ Los pipelines regeneran cada etapa y sus salidas. El orden y las dependencias de
 Para reconstruir las variables desde la tabla diaria y ejecutar las pruebas
 
 ~~~powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.prepare_pm10_forecast
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.prepare_pm10_forecast
 .\.venv\Scripts\python.exe -m unittest discover -s tests
 ~~~
 
 Para regenerar explicaciones y escenarios a partir de los artefactos y predicciones guardados
 
 ~~~powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.explain_pm10_models
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.evaluate_pm10_business
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.explain_pm10_models
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.evaluate_pm10_business
 ~~~
 
-El ajuste de regresión está en tfm_data.pipelines.train_pm10_regression. Las evaluaciones de prueba comprueban huellas del protocolo, por lo que al regenerar artefactos se debe conservar su relación con la versión registrada. Los descargadores están en scripts/ y los originales en data/raw/. [Catálogo de tablas](docs/reference/table_catalog.csv) · [Columnas originales](docs/reference/source_columns.csv)
+El ajuste de regresión está en pm10_data.pipelines.train_pm10_regression. Las evaluaciones de prueba comprueban huellas del protocolo, por lo que al regenerar artefactos se debe conservar su relación con la versión registrada. Los descargadores están en scripts/ y los originales en data/raw/. [Catálogo de tablas](docs/reference/table_catalog.csv) · [Columnas originales](docs/reference/source_columns.csv)
 
 La [verificación de reproducibilidad](docs/33_verificacion_entrega.md) reconstruyó las tablas y experimentos en una copia aislada desde los originales conservados y el extracto compacto de GFS. Pasaron las 52 pruebas, las 13 comparaciones de archivos y la ejecución del notebook. Los cuatro archivos de modelos regenerados coincidieron byte a byte. También se verificaron pnpm, Flask y una construcción Docker sin caché. La restauración mediante una nueva descarga desde todos los proveedores queda pendiente y su alcance está identificado en el informe.
 
@@ -272,8 +291,8 @@ La siguiente versión debería priorizar medición de disponibilidad, validació
 
 **Gráficos** dispone de las pestañas Madrid y Barcelona provincia para explorar mapas, observaciones, predicciones de 2024, resultados de regresión, errores e intervalos con los archivos propios de cada territorio. La [guía territorial](docs/45_graficos_territoriales.md) explica periodos, endpoints, fuentes y vistas disponibles solo para Madrid.
 
-El análisis exploratorio de [PCA y LDA](docs/44_pca_lda_pm10.md) está disponible en **Experimentos → Madrid → PCA y LDA**. PCA necesita 7 de las 12 componentes para explicar al menos el 90 % de la varianza de entrenamiento; LDA no mejora la logística en la validación de 2023 bajo la regla común de falsas alarmas. Se reproduce con `python -m tfm_data.pipelines.analyze_pm10_projections`, sin modificar los modelos originales ni reevaluar las pruebas finales.
+El análisis exploratorio de [PCA y LDA](docs/44_pca_lda_pm10.md) está disponible en **Experimentos → Madrid → PCA y LDA**. PCA necesita 7 de las 12 componentes para explicar al menos el 90 % de la varianza de entrenamiento; LDA no mejora la logística en la validación de 2023 bajo la regla común de falsas alarmas. Se reproduce con `python -m pm10_data.pipelines.analyze_pm10_projections`, sin modificar los modelos originales ni reevaluar las pruebas finales.
 
 **Inicio** explica qué es el PM10, cómo se comparan Ridge y persistencia, y resume los resultados de Madrid y Barcelona provincia. **Tablas tratadas** permite abrir los registros desde el esquema y consultar sus estadísticas, columnas y fuentes. [Guía de uso del explorador](docs/28_explorador_react.md)
 
-**Casos** reúne ejemplos de Madrid con fechas y datos verificables: una predicción habitual, un pico subestimado, un comienzo detectado y una falsa alarma. Los casos y sus evidencias CSV se generan con `python -m tfm_data.pipelines.prepare_case_studies` a partir de resultados guardados.
+**Casos** reúne ejemplos de Madrid con fechas y datos verificables: una predicción habitual, un pico subestimado, un comienzo detectado y una falsa alarma. Los casos y sus evidencias CSV se generan con `python -m pm10_data.pipelines.prepare_case_studies` a partir de resultados guardados.

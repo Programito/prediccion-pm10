@@ -7,8 +7,8 @@ from unittest.mock import patch
 import numpy as np
 import pandas as pd
 
-from tfm_data.mappers.pm10_forecast import PM10ForecastMapper
-from tfm_data.evaluation.window_ablation import make_window_cohorts, score_prediction_cases, KEYS
+from pm10_data.mappers.pm10_forecast import PM10ForecastMapper
+from pm10_data.evaluation.window_ablation import make_window_cohorts, score_prediction_cases, KEYS
 from explorer.server import app
 
 

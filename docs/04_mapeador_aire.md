@@ -5,7 +5,7 @@
 Convertir la estructura original de MITECO a tablas con una fila por punto de muestreo y periodo, manteniendo el valor y su procedencia. Esta primera ejecución trabaja únicamente con PM10 de 2024; no aplica todavía el proceso a todos los contaminantes o años.
 
 ```powershell
-python -m tfm_data.pipelines.prepare_air
+python -m pm10_data.pipelines.prepare_air
 python -m unittest discover -s tests -v
 ```
 
@@ -13,7 +13,7 @@ El programa comprueba las huellas de los originales y verifica la magnitud y uni
 
 ## Clases y funciones
 
-En `tfm_data/mappers/air.py`:
+En `pm10_data/mappers/air.py`:
 
 - `AirContext`: año, contaminante, magnitud, unidad y procedencia.
 - `AirQualityReader`: lectura de un CSV dentro de un ZIP, sin extraer ni cambiar el original.

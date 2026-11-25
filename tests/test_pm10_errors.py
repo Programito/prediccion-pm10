@@ -3,7 +3,7 @@ import unittest
 import numpy as np
 import pandas as pd
 
-from tfm_data.evaluation.pm10_errors import pair_predictions, grouped_errors, date_sensitivity
+from pm10_data.evaluation.pm10_errors import pair_predictions, grouped_errors, date_sensitivity
 
 
 class TestPairedPm10Errors(unittest.TestCase):

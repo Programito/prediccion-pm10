@@ -42,7 +42,7 @@ Fuente de metadatos: `data/raw/health_air_history/miteco_estaciones_2024.xlsx`, 
 ## Reproducir
 
 ```powershell
-python -m tfm_data.evaluation.station_review
+python -m pm10_data.evaluation.station_review
 python -m unittest discover -s tests
 ```
 

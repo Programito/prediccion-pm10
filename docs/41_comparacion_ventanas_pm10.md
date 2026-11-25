@@ -60,9 +60,9 @@ Con el corte común de 27 µg/m³, Barcelona tiene 275 días elevados entre los 
 
 ## Fuentes, comprobaciones y salidas
 
-El [módulo de cohortes](../tfm_data/evaluation/window_ablation.py) filtra primero las fechas hasta 2023 y comprueba claves únicas, horizonte, particiones, valores finitos y coherencia con la marca original de fila utilizable. Las pruebas alteran valores y duplican registros de 2024 y comprueban que no cambien las cohortes de entrenamiento o validación.
+El [módulo de cohortes](../pm10_data/evaluation/window_ablation.py) filtra primero las fechas hasta 2023 y comprueba claves únicas, horizonte, particiones, valores finitos y coherencia con la marca original de fila utilizable. Las pruebas alteran valores y duplican registros de 2024 y comprueban que no cambien las cohortes de entrenamiento o validación.
 
-El [pipeline](../tfm_data/pipelines/compare_pm10_windows.py) lee las tablas supervisadas, los Ridge originales y las predicciones de validación conservadas. Antes de ajustar B y C escribe el protocolo con variables, parámetros, periodos, tamaños, versiones y huellas. Verifica por estación y fecha que A reproduce su validación guardada. Las pruebas de 2024 solo se identifican por huella para comprobar su integridad; no se leen como datos de evaluación de este experimento.
+El [pipeline](../pm10_data/pipelines/compare_pm10_windows.py) lee las tablas supervisadas, los Ridge originales y las predicciones de validación conservadas. Antes de ajustar B y C escribe el protocolo con variables, parámetros, periodos, tamaños, versiones y huellas. Verifica por estación y fecha que A reproduce su validación guardada. Las pruebas de 2024 solo se identifican por huella para comprobar su integridad; no se leen como datos de evaluación de este experimento.
 
 | Territorio | Tabla supervisada | Modelo original | Predicciones originales de validación |
 | --- | --- | --- | --- |
@@ -86,10 +86,10 @@ Cada experimento contiene identificador y nombre textuales; `counts` con recuent
 ## Reproducción y conclusión
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.compare_pm10_windows
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.compare_pm10_windows
 .\.venv\Scripts\python.exe -m unittest discover -s tests
 ```
 
 Se repitió el pipeline y coincidieron byte a byte los 25 artefactos generados, incluidos los cuatro modelos B/C, predicciones, métricas y protocolos. Las huellas de los modelos y pruebas originales permanecieron iguales. La suite comprueba la separación de cohortes, la recuperación esperada tras una ausencia, la exclusión de datos futuros, la restricción de predicciones no negativas y la lectura de resultados desde la API.
 
-El experimento documenta un intercambio entre cobertura y precisión. B es una candidata para investigar mayor disponibilidad, mientras que ampliar el entrenamiento con C no mejora los MAE observados en estas cohortes. Se conservan los modelos actuales del TFM. Una conclusión adicional de generalización requeriría fijar la variante y evaluarla en un periodo temporal independiente que no haya guiado sus decisiones.
+El experimento documenta un intercambio entre cobertura y precisión. B es una candidata para investigar mayor disponibilidad, mientras que ampliar el entrenamiento con C no mejora los MAE observados en estas cohortes. Se conservan los modelos de referencia. Una conclusión adicional de generalización requeriría fijar la variante y evaluarla en un periodo temporal independiente que no haya guiado sus decisiones.

@@ -69,7 +69,7 @@ def restore(entry):
     try:
         with tempfile.NamedTemporaryFile(dir=path.parent, prefix=path.name + ".", suffix=".part", delete=False) as stream:
             temporary = Path(stream.name)
-            request = Request(entry["url"], headers={"User-Agent": "TFM-PM10-source-restoration/1.0"})
+            request = Request(entry["url"], headers={"User-Agent": "PM10-source-restoration/1.0"})
             with urlopen(request, timeout=60) as response:
                 for block in iter(lambda: response.read(1024 * 1024), b""):
                     stream.write(block)

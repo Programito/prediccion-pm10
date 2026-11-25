@@ -60,8 +60,8 @@ No invertir ahora en modelos sanitarios más complejos o en ajustar muchos hiper
 
 ```powershell
 .\scripts\04_download_demographics.ps1
-python -m tfm_data.pipelines.prepare_demographics
-python -m tfm_data.evaluation.initial_health_comparison
+python -m pm10_data.pipelines.prepare_demographics
+python -m pm10_data.evaluation.initial_health_comparison
 python -m unittest discover -s tests
 ```
 

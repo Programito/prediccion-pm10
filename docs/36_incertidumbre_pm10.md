@@ -60,10 +60,10 @@ En React, la pestaña Gráficos permite elegir una estación y consultar los int
 Desde la raíz
 
 ~~~powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.bootstrap_pm10_errors
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.bootstrap_pm10_errors
 ~~~
 
-El [pipeline](../tfm_data/pipelines/bootstrap_pm10_errors.py) utiliza las [funciones de remuestreo](../tfm_data/evaluation/pm10_bootstrap.py) y genera los [intervalos](../output/pm10_bootstrap/intervalos.csv), las [60.000 réplicas de grupo y longitud](../output/pm10_bootstrap/replicas.csv.gz), la [configuración y huella de entrada](../output/pm10_bootstrap/configuracion.json) y los [datos de la API](../output/pm10_bootstrap/analisis.json).
+El [pipeline](../pm10_data/pipelines/bootstrap_pm10_errors.py) utiliza las [funciones de remuestreo](../pm10_data/evaluation/pm10_bootstrap.py) y genera los [intervalos](../output/pm10_bootstrap/intervalos.csv), las [60.000 réplicas de grupo y longitud](../output/pm10_bootstrap/replicas.csv.gz), la [configuración y huella de entrada](../output/pm10_bootstrap/configuracion.json) y los [datos de la API](../output/pm10_bootstrap/analisis.json).
 
 Para regenerar la figura, con las dependencias del notebook instaladas
 

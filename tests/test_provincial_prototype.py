@@ -2,7 +2,7 @@ import unittest
 
 import pandas as pd
 
-from tfm_data.evaluation.provincial_prototype import aggregate_provinces, select_sampling_points
+from pm10_data.evaluation.provincial_prototype import aggregate_provinces, select_sampling_points
 
 
 class TestPrototipoProvincial(unittest.TestCase):

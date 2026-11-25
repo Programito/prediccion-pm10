@@ -8,7 +8,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 from restore_sources import ROOT, digest, inventory, verify
 
 
-PROJECT_FOLDERS = ("tfm_data", "tests", "scripts", "explorer", "docs", "notebooks", "demo", "models", "data/reference", "data/interim")
+PROJECT_FOLDERS = ("pm10_data", "tests", "scripts", "explorer", "docs", "notebooks", "demo", "models", "data/reference", "data/interim")
 SKIP_PARTS = {"__pycache__", "node_modules", "dist", ".pytest_cache"}
 
 
@@ -44,8 +44,8 @@ def main():
     for entry in entries:
         verify(entry)
     bundles = (
-        ("tfm_pm10_project.zip", project_files()),
-        ("tfm_pm10_sources.zip", sorted(entry["path"] for entry in entries)),
+        ("pm10_project.zip", project_files()),
+        ("pm10_sources.zip", sorted(entry["path"] for entry in entries)),
     )
     report = []
     for name, files in bundles:

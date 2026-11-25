@@ -18,5 +18,5 @@ La prueba es retrospectiva y supone que el PM10 de hoy está disponible al emiti
 El [protocolo ejecutable](reference/pm10_final_protocol.json) conserva las reglas y las huellas SHA-256 de los modelos y de la tabla. El comando aplica el protocolo con los modelos guardados.
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.evaluate_pm10_final
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.evaluate_pm10_final
 ```

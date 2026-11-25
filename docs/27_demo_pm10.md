@@ -12,8 +12,8 @@ La interfaz es estática y usa los resultados guardados de las pruebas. Una vez 
 Desde la raíz del proyecto, con Docker en ejecución:
 
 ```powershell
-docker build -t tfm-pm10-demo ./demo
-docker run --rm -p 127.0.0.1:8065:80 tfm-pm10-demo
+docker build -t pm10-demo ./demo
+docker run --rm -p 127.0.0.1:8065:80 pm10-demo
 ```
 
 Abrir [la demo en el navegador](http://127.0.0.1:8065/). Para detener el contenedor, usar `Ctrl+C` en el terminal donde se ejecutó.

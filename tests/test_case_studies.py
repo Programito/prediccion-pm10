@@ -7,7 +7,7 @@ from unittest.mock import patch
 import pandas as pd
 
 from explorer.server import app
-from tfm_data.evaluation.case_studies import reconstruct, select_typical, validate_alerts
+from pm10_data.evaluation.case_studies import reconstruct, select_typical, validate_alerts
 
 
 class CaseStudiesTests(unittest.TestCase):

@@ -2,7 +2,7 @@ import unittest
 
 import numpy as np
 
-from tfm_data.evaluation.pm10_bootstrap import moving_block_indices, resampled_differences
+from pm10_data.evaluation.pm10_bootstrap import moving_block_indices, resampled_differences
 
 
 class TestPm10BlockBootstrap(unittest.TestCase):

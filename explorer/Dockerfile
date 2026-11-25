@@ -12,6 +12,6 @@ COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 COPY server.py treated_tables.py provenance.py column_dictionary.py descriptive_statistics.py ./explorer/
 COPY --from=frontend /ui/dist ./explorer/dist
-ENV TFM_HOST=0.0.0.0 TFM_DATA_ROOT=/workspace
+ENV PM10_HOST=0.0.0.0 PM10_DATA_ROOT=/workspace
 EXPOSE 8066
 CMD ["python", "-m", "explorer.server"]

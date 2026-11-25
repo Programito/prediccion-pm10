@@ -3,7 +3,7 @@ import unittest
 import numpy as np
 import pandas as pd
 
-from tfm_data.evaluation.initial_health_comparison import HistoricalHealthRidge, create_lagged_features, evaluate
+from pm10_data.evaluation.initial_health_comparison import HistoricalHealthRidge, create_lagged_features, evaluate
 
 
 class TestComparacionInicial(unittest.TestCase):

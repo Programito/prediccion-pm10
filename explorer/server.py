@@ -1,4 +1,4 @@
-"""Serve the React explorer and page through the local TFM source files."""
+"""Serve the React explorer and page through the local PM10 source files."""
 
 import csv
 from calendar import monthrange
@@ -23,7 +23,7 @@ from explorer.descriptive_statistics import summarize_numeric_columns, numeric_m
 
 
 HERE = Path(__file__).resolve().parent
-ROOT = Path(os.environ.get("TFM_DATA_ROOT", HERE.parent)).resolve()
+ROOT = Path(os.environ.get("PM10_DATA_ROOT", HERE.parent)).resolve()
 REFERENCE = ROOT / "docs/reference"
 DIST = HERE / "dist"
 app = Flask(__name__, static_folder=None)
@@ -71,7 +71,7 @@ def chart_stations(territory):
 def projection_experiments():
     path = ROOT / "output/experiments/projections/resumen.json"
     if not path.is_file():
-        abort(404, "Genera el análisis con python -m tfm_data.pipelines.analyze_pm10_projections.")
+        abort(404, "Genera el análisis con python -m pm10_data.pipelines.analyze_pm10_projections.")
     return jsonify(json.loads(path.read_text(encoding="utf-8")))
 
 
@@ -90,7 +90,7 @@ def projection_evidence(filename):
 def case_studies():
     path = ROOT / "output/case_studies/resumen.json"
     if not path.is_file():
-        abort(404, "Genera los casos con python -m tfm_data.pipelines.prepare_case_studies.")
+        abort(404, "Genera los casos con python -m pm10_data.pipelines.prepare_case_studies.")
     return jsonify(json.loads(path.read_text(encoding="utf-8")))
 
 
@@ -262,7 +262,7 @@ EXPERIMENT_FILES = {
 def experiment_comparison():
     path = ROOT / "output/experiments/comparacion/resumen.json"
     if not path.is_file():
-        abort(404, "Falta la comparación. Ejecuta python -m tfm_data.pipelines.barcelona_experiment all.")
+        abort(404, "Falta la comparación. Ejecuta python -m pm10_data.pipelines.barcelona_experiment all.")
     return json.loads(path.read_text(encoding="utf-8"))
 
 
@@ -275,7 +275,7 @@ def experiments():
 def experiment_window_ablation():
     path = ROOT / "output/experiments/window_ablation/resumen.json"
     if not path.is_file():
-        abort(404, "Falta la comparación de ventanas. Ejecuta python -m tfm_data.pipelines.compare_pm10_windows.")
+        abort(404, "Falta la comparación de ventanas. Ejecuta python -m pm10_data.pipelines.compare_pm10_windows.")
     return jsonify(json.loads(path.read_text(encoding="utf-8")))
 
 
@@ -283,7 +283,7 @@ def experiment_window_ablation():
 def experiment_grouped_permutation():
     path = ROOT / "output/experiments/grouped_permutation/resumen.json"
     if not path.is_file():
-        abort(404, "Falta la importancia agrupada. Ejecuta python -m tfm_data.pipelines.interpret_pm10_permutation.")
+        abort(404, "Falta la importancia agrupada. Ejecuta python -m pm10_data.pipelines.interpret_pm10_permutation.")
     return jsonify(json.loads(path.read_text(encoding="utf-8")))
 
 
@@ -303,7 +303,7 @@ def regional_coverage(experiment):
         abort(404, "Experimento desconocido.")
     path = ROOT / "output/experiments" / experiment / "coverage_audit/resumen.json"
     if not path.is_file():
-        abort(404, "Falta la auditoría. Ejecuta python -m tfm_data.pipelines.audit_regional_coverage.")
+        abort(404, "Falta la auditoría. Ejecuta python -m pm10_data.pipelines.audit_regional_coverage.")
     return json.loads(path.read_text(encoding="utf-8"))
 
 
@@ -838,4 +838,4 @@ def documentation_figure(filename):
 
 
 if __name__ == "__main__":
-    app.run(host=os.environ.get("TFM_HOST", "127.0.0.1"), port=int(os.environ.get("TFM_PORT", "8066")))
+    app.run(host=os.environ.get("PM10_HOST", "127.0.0.1"), port=int(os.environ.get("PM10_PORT", "8066")))

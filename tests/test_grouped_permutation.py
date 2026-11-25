@@ -8,8 +8,8 @@ import numpy as np
 import pandas as pd
 
 from explorer.server import app
-from tfm_data.mappers.pm10_forecast import NUMERIC_FEATURES
-from tfm_data.evaluation.grouped_permutation import circular_orders, shift_columns, station_relabelings, grouped_permutation, FEATURES
+from pm10_data.mappers.pm10_forecast import NUMERIC_FEATURES
+from pm10_data.evaluation.grouped_permutation import circular_orders, shift_columns, station_relabelings, grouped_permutation, FEATURES
 
 
 class GroupedPermutationTest(unittest.TestCase):

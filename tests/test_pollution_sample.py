@@ -2,7 +2,7 @@ import unittest
 
 import pandas as pd
 
-from tfm_data.pipelines.pollution_sample import select_sample
+from pm10_data.pipelines.pollution_sample import select_sample
 
 
 class TestMuestraContaminacion(unittest.TestCase):

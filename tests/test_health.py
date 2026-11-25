@@ -4,7 +4,7 @@ import unittest
 
 import pandas as pd
 
-from tfm_data.mappers.health import (
+from pm10_data.mappers.health import (
     HealthContext, DIAGNOSIS_COLUMN, TERRITORY_COLUMN, INEHealthMapper,
     INEHealthValidator, parse_spanish_rate,
 )

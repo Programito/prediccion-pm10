@@ -51,7 +51,7 @@ React muestra los coeficientes y las importancias originales en tablas separadas
 
 ## Entradas, protocolo y salidas
 
-El [evaluador](../tfm_data/evaluation/grouped_permutation.py) recibe una función de predicción y las filas de validación. Comprueba claves, año 2023, horizonte de un día y valores completos y finitos. Crea copias de las entradas para alterarlas y no dispone de una operación de ajuste. El [pipeline](../tfm_data/pipelines/interpret_pm10_permutation.py) carga los Ridge originales y reutiliza la cohorte común original del experimento de ventanas. No utiliza las variantes B o C.
+El [evaluador](../pm10_data/evaluation/grouped_permutation.py) recibe una función de predicción y las filas de validación. Comprueba claves, año 2023, horizonte de un día y valores completos y finitos. Crea copias de las entradas para alterarlas y no dispone de una operación de ajuste. El [pipeline](../pm10_data/pipelines/interpret_pm10_permutation.py) carga los Ridge originales y reutiliza la cohorte común original del experimento de ventanas. No utiliza las variantes B o C.
 
 Las tablas, modelos y validaciones son los [originales de Madrid y Barcelona](38_experimentos_madrid_barcelona.md). Se leen además `coeficientes_ridge.csv` e `importancias_random_forest.csv` de `output/pm10_regression_validation/` para Madrid y `variables_ridge.csv` y `variables_random_forest.csv` de `output/experiments/barcelona/validacion/` para Barcelona. Sus rutas y huellas se registran. Los modelos guardados y las predicciones originales de prueba se contrastan por SHA-256 al terminar.
 
@@ -80,7 +80,7 @@ Cada experimento incluye identificador y nombre textuales, n entero, MAE origina
 ## Reproducción y alcance
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.interpret_pm10_permutation
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.interpret_pm10_permutation
 .\.venv\Scripts\python.exe -m unittest discover -s tests
 ```
 

@@ -45,4 +45,4 @@ En las 1.039 fechas de validación del experimento original, 93 superan **27 µg
 
 Ridge mejora el MAE general, pero en el tramo elevado tiene mayor MAE que la persistencia en las tres estaciones. Conviene incluir el MAE y el sesgo en el tramo elevado junto al MAE general en las próximas comparaciones. [Métricas por tramo y estación](../output/pm10_quality_audit/metricas_por_tramo_y_estacion.csv)
 
-Se puede regenerar la auditoría con `python -m tfm_data.pipelines.audit_pm10_quality`. Los resultados se guardan en `output/pm10_quality_audit/`.
+Se puede regenerar la auditoría con `python -m pm10_data.pipelines.audit_pm10_quality`. Los resultados se guardan en `output/pm10_quality_audit/`.

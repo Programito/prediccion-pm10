@@ -104,7 +104,7 @@ export function StationMap({ loadJson, territory, station, date, onStation, onVi
         <span><i className="elevated" /> Más de {data.threshold} µg/m³</span>
         <span><i className="missing" /> Sin dato válido</span>
       </div>
-      <p className="chart-note">{data.threshold} µg/m³ es el umbral que usa el TFM para distinguir los días con PM10 elevado.</p>
+      <p className="chart-note">{data.threshold} µg/m³ es el umbral que usa el estudio para distinguir los días con PM10 elevado.</p>
       <div className="station-map-list" aria-label="Estaciones y concentraciones">
         {data.stations.map(point => <button key={point.code} aria-pressed={station === point.code}
           className={'station-summary ' + category(point.value, data.threshold)} onClick={() => onStation(point.code)}>

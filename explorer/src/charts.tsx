@@ -100,7 +100,7 @@ function DailyPlot({ data, date, onDate }: { data: DailySeries; date: string; on
       </select></label>
       <strong role="status">{reading(day.value)}</strong>
     </div>
-    <p className="chart-note">Fuente de las observaciones de este mes · {source}. La línea discontinua marca el umbral estadístico del TFM.</p>
+    <p className="chart-note">Fuente de las observaciones de este mes · {source}. La línea discontinua marca el umbral estadístico del estudio.</p>
   </>;
 }
 
@@ -151,7 +151,7 @@ function PredictionReadings({ days, threshold, selected, onDate }: {
       {PREDICTION_SERIES.map(({ key, label }) => (
         <span key={key}><i className={`prediction-line prediction-${key}`} aria-hidden="true" />{label}</span>
       ))}
-      <span><i className="prediction-line prediction-threshold" aria-hidden="true" />Umbral del TFM ({threshold} {UNIT})</span>
+      <span><i className="prediction-line prediction-threshold" aria-hidden="true" />Umbral de PM10 elevado ({threshold} {UNIT})</span>
     </div>
     <PredictionPlot days={days} threshold={threshold} selected={selected} onSelect={setSelected} />
     <div className="daily-reading">

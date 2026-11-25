@@ -34,40 +34,40 @@ Los comandos siguientes deben ejecutarse desde la raíz de una copia del proyect
 Primero se preparan los datos sanitarios y demográficos y se revisa la red ambiental
 
 ~~~powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.prepare_health
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.prepare_demographics
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.prepare_air
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.audit_air_coverage
-.\.venv\Scripts\python.exe -m tfm_data.evaluation.station_review
-.\.venv\Scripts\python.exe -m tfm_data.evaluation.provincial_prototype
-.\.venv\Scripts\python.exe -m tfm_data.evaluation.historical_feasibility
-.\.venv\Scripts\python.exe -m tfm_data.evaluation.initial_health_comparison
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.prepare_health
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.prepare_demographics
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.prepare_air
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.audit_air_coverage
+.\.venv\Scripts\python.exe -m pm10_data.evaluation.station_review
+.\.venv\Scripts\python.exe -m pm10_data.evaluation.provincial_prototype
+.\.venv\Scripts\python.exe -m pm10_data.evaluation.historical_feasibility
+.\.venv\Scripts\python.exe -m pm10_data.evaluation.initial_health_comparison
 ~~~
 
 Después se seleccionan las series diarias y se generan las variables y experimentos de validación
 
 ~~~powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.pollution_sample
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.prepare_pm10_forecast
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.train_pm10_regression
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.audit_pm10_quality
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.train_pm10_classification
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.audit_pm10_classification_thresholds
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.audit_pm10_weekday
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.prepare_pm10_weather
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.compare_pm10_weather
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.pollution_sample
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.prepare_pm10_forecast
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.train_pm10_regression
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.audit_pm10_quality
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.train_pm10_classification
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.audit_pm10_classification_thresholds
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.audit_pm10_weekday
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.prepare_pm10_weather
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.compare_pm10_weather
 ~~~
 
 Finalmente se reproducen las evaluaciones y salidas de consulta
 
 ~~~powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.evaluate_pm10_final
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.audit_pm10_errors
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.bootstrap_pm10_errors
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.evaluate_pm10_weather_2025
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.explain_pm10_models
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.evaluate_pm10_business
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.document_sources
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.evaluate_pm10_final
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.audit_pm10_errors
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.bootstrap_pm10_errors
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.evaluate_pm10_weather_2025
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.explain_pm10_models
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.evaluate_pm10_business
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.document_sources
 .\.venv\Scripts\python.exe scripts/build_demo_data.py
 ~~~
 
@@ -95,7 +95,7 @@ La auditoría descriptiva de errores y el bootstrap se incorporaron posteriormen
 
 ## Casos de estudio
 
-La pantalla **Casos** prepara tres ejemplos y una falsa alarma de contraste con evidencias CSV. El [guion de defensa](43_casos_de_estudio_defensa.md) explica la selección reproducible, los cortes originales, el contexto retrospectivo y las limitaciones. Los modelos y las predicciones originales se conservan. El ensayo con el autor sigue pendiente.
+La pantalla **Casos** prepara tres ejemplos y una falsa alarma de contraste con evidencias CSV. El [guion de presentación](43_casos_de_estudio.md) explica la selección reproducible, los cortes originales, el contexto retrospectivo y las limitaciones. Los modelos y las predicciones originales se conservan.
 
 ## Análisis PCA y LDA
 

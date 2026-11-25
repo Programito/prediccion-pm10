@@ -4,14 +4,14 @@
 
 | Carpeta | Responsabilidad |
 | --- | --- |
-| `tfm_data/mappers/` | Lectura y normalización de fuentes y preparación de variables. |
-| `tfm_data/evaluation/` | Auditorías, viabilidad histórica y comparación de modelos. |
-| `tfm_data/pipelines/` | Coordinar la ejecución y guardar resultados. |
-| `tfm_data/models/` | Contrato `Regressor` y selección de modelos mediante una fábrica. |
-| `tfm_data/adapters/sklearn/` | Importar y configurar scikit-learn, preprocesar y exponer la interfaz propia. |
-| `tfm_data/config.py` | Resolver la raíz del proyecto sin depender de la profundidad de cada módulo. |
+| `pm10_data/mappers/` | Lectura y normalización de fuentes y preparación de variables. |
+| `pm10_data/evaluation/` | Auditorías, viabilidad histórica y comparación de modelos. |
+| `pm10_data/pipelines/` | Coordinar la ejecución y guardar resultados. |
+| `pm10_data/models/` | Contrato `Regressor` y selección de modelos mediante una fábrica. |
+| `pm10_data/adapters/sklearn/` | Importar y configurar scikit-learn, preprocesar y exponer la interfaz propia. |
+| `pm10_data/config.py` | Resolver la raíz del proyecto sin depender de la profundidad de cada módulo. |
 
-El paquete se llama ahora `tfm_data`. Los módulos, clases principales y funciones públicas usan nombres en inglés. Por ejemplo, `INEHealthMapper.transform`, `AirQualityMapper.transform`, `AirCoverageAuditor.audit` y `PM10ForecastMapper.transform`.
+El paquete se llama ahora `pm10_data`. Los módulos, clases principales y funciones públicas usan nombres en inglés. Por ejemplo, `INEHealthMapper.transform`, `AirQualityMapper.transform`, `AirCoverageAuditor.audit` y `PM10ForecastMapper.transform`.
 
 Las carpetas de datos y resultados también se han pasado a inglés, como `data/raw/health_air_history/`, `data/interim/daily_pollution/`, `data/interim/pm10_prediction/` y `output/pm10_regression_validation/`. Los nombres de los archivos originales, los esquemas de las tablas y sus valores se conservan; los nombres de columnas de las tablas históricas siguen en español. No confundir un cambio de organización con una nueva versión de los datos.
 
@@ -22,7 +22,7 @@ Las carpetas de datos y resultados también se han pasado a inglés, como `data/
 El resto del código utiliza nuestro contrato:
 
 ```python
-from tfm_data.models.factory import create_models
+from pm10_data.models.factory import create_models
 
 model = create_models()["ridge"]
 model.fit(x_train, y_train)
@@ -36,12 +36,12 @@ La fábrica permite elegir las implementaciones. El contrato se declara como `Pr
 ## Ejecución actualizada
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.prepare_pm10_forecast
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.train_pm10_regression
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.prepare_pm10_forecast
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.train_pm10_regression
 .\.venv\Scripts\python.exe -m unittest discover -s tests
 ```
 
-Otros ejemplos: `tfm_data.pipelines.prepare_health`, `tfm_data.pipelines.prepare_demographics`, `tfm_data.pipelines.prepare_air`, `tfm_data.pipelines.audit_air_coverage` y `tfm_data.pipelines.pollution_sample`. Las guías anteriores se han actualizado con las nuevas rutas y comandos.
+Otros ejemplos: `pm10_data.pipelines.prepare_health`, `pm10_data.pipelines.prepare_demographics`, `pm10_data.pipelines.prepare_air`, `pm10_data.pipelines.audit_air_coverage` y `pm10_data.pipelines.pollution_sample`. Las guías anteriores se han actualizado con las nuevas rutas y comandos.
 
 Los modelos guardados en `models/pm10/validation_2023/` contienen ahora los adaptadores del proyecto, que incorporan su pipeline ajustado. El campo histórico `pipeline` del contenedor serializado se mantiene, pero su valor implementa la interfaz propia. Las predicciones se han contrastado con las anteriores al refactor, dentro de tolerancia numérica estricta. Los imports de scikit-learn están protegidos por una prueba de arquitectura.
 

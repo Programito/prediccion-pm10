@@ -68,7 +68,7 @@ Las fechas diarias se guardan como `AAAA-MM-DD`. Los instantes horarios de fin s
 Desde la raíz del proyecto:
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.document_sources
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.document_sources
 ```
 
 El comando verifica las huellas de los originales, inspecciona las cabeceras de los CSV y hojas Excel y cuenta las filas de las tablas principales existentes. Regenera los inventarios de `docs/reference/`; no descarga datos ni entrena modelos. `xlrd`, incluido en `requirements.txt`, permite inspeccionar el XLS antiguo de 2016. Falla si falta un original, cambia su huella o falta una tabla catalogada. Los recuentos describen la copia local actual, no garantizan que una futura descarga del proveedor sea idéntica.

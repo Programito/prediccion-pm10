@@ -1,0 +1,26 @@
+# Revisión de alcance y evidencias
+
+La revisión reúne evidencias de código, documentación y resultados. La [reconstrucción en un entorno aislado](33_verificacion_entrega.md) se comprobó con las fuentes conservadas. La restauración mediante una nueva descarga de todas las fuentes queda pendiente.
+
+## Evidencias del proyecto
+
+| Criterio | Estado | Evidencia local y acción pendiente |
+| --- | --- | --- |
+| Definir un objetivo de negocio y las preguntas que responderá el modelo | Cubierto como caso propuesto | [Caso de uso y decisión](30_metricas_negocio_pm10.md) concreta una organización de actividades exteriores, revisión anticipada ante avisos y valoración por costes hipotéticos de errores. La validación con una organización real queda como trabajo futuro. |
+| Elegir un problema de regresión, clasificación o series temporales y justificarlo | Cubierto | [Enfoques](11_enfoques_y_evaluacion.md) y [resultados](26_resultados_pm10.md) describen predicción diaria numérica y clasificación de días elevados. |
+| Documentar los datos y facilitar los datos utilizados o enlaces públicos | Cubierto | [Fuentes y formatos](15_fuentes_endpoints_formatos.md), [inventario](reference/source_endpoints.md) y manifiestos en `data/raw/`. Verificar los enlaces relativos y las instrucciones de descarga al preparar el repositorio de entrega. |
+| Explorar, limpiar y preparar las variables | Cubierto | [Trazabilidad de mapeadores](16_trazabilidad_mappers_tablas.md), [auditoría de huecos y picos](17_auditoria_huecos_y_picos_pm10.md), módulos en `pm10_data/mappers/` y pruebas en `tests/`. |
+| Entrenar, validar y comparar modelos y justificar las elecciones | Cubierto | [Validación de regresión](13_primeros_modelos_regresion.md), [clasificación](18_clasificacion_pm10_elevado.md), [comparación meteorológica](24_comparacion_logistica_meteorologia.md) y pruebas finales de [2024](21_resultados_prueba_final_pm10.md) y [2025](25_prueba_meteorologia_2025.md). |
+| Elegir métricas técnicas apropiadas y explicar los resultados | Cubierto | [Capítulo de resultados](26_resultados_pm10.md) y CSV de `output/` presentan MAE, RMSE, sesgo, precisión, recall y recuentos de avisos. Se distinguen falsas alarmas totales y falsas alarmas en posibles comienzos. |
+| Aplicar explicabilidad e interpretar las variables que más influyen | Cubierto | [Explicabilidad](31_explicabilidad_pm10.md) interpreta coeficientes, importancias y límites. React muestra gráficos globales y la descomposición exacta de las 1.013 predicciones de Ridge de 2024. Se contrastan las versiones guardadas y las huellas. |
+| Traducir resultados técnicos a métricas de negocio e impacto real o potencial | Cubierto mediante escenarios | [Métricas de negocio](30_metricas_negocio_pm10.md) y resultados en `output/pm10_business_2025/` incluyen tres escenarios de coste, diferencias frente a persistencia y puntos de equilibrio. Los costes son supuestos y el análisis conserva los modelos y cortes de 2025. |
+| Describir la propuesta conceptual de producción | Cubierto como diseño | La [propuesta de producción](32_propuesta_produccion_pm10.md) define batch diario y API de consulta, disponibilidad y corte temporal, ausencias y reintentos, monitorización, drift, revisión trimestral, validación de candidatos y recuperación de versiones. El piloto operativo queda como trabajo futuro. |
+| Incluir resultados y visualizaciones | Cubierto | [README integrado](../README.md) con cuatro figuras exportadas del notebook, [demo](27_demo_pm10.md), [explorador React](28_explorador_react.md) y resultados en `output/`. |
+| Incluir código que reproduzca todo el flujo | Comprobado desde entradas conservadas; distribución preparada | La [verificación aislada](33_verificacion_entrega.md) reconstruye las etapas y reproduce resultados. La [guía del evaluador](34_guia_evaluador.md) describe paquetes, manifiestos, huellas y restauración. Se comprobaron descargas de tres originales y se conserva la instantánea completa. Queda verificar los enlaces de publicación. |
+| Elaborar un Markdown principal con narrativa coherente | Cubierto | El [README](../README.md) reúne objetivo, fuentes, preparación, decisiones, dificultades, resultados, figuras, explicabilidad, costes relativos, producción conceptual y conclusiones. Queda la revisión del autor antes de publicar. |
+| Incluir un esquema del sistema completo | Cubierto | [Flujo de datos](../explorer/src/lineage.mmd), diagramas de tablas tratadas y vista de Mermaid en React. Revisar que la explicación final recorra preparación, modelado, evaluación y comunicación. |
+| Explicar dificultades, conclusiones y mejoras futuras | Cubierto | El [README](../README.md) integra cobertura, cambio de fuente en 2025, disponibilidad temporal, límites de las mejoras y prioridades de una versión futura. Enlaza las auditorías y el [capítulo de resultados](26_resultados_pm10.md). |
+
+## Preparación para compartir el proyecto
+
+Comparte el repositorio y una ubicación accesible del ZIP de fuentes. Comprueba que otra persona pueda clonar, arrancar el explorador en Docker y restaurar los originales siguiendo la [guía de ejecución](34_guia_evaluador.md). Los [casos de estudio](43_casos_de_estudio.md) muestran cómo recorrer las predicciones y sus limitaciones.

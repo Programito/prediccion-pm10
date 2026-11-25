@@ -2,22 +2,22 @@
 
 La entrega preparada contiene dos paquetes complementarios y un archivo de huellas. El paquete del proyecto reúne código, dependencias, modelos, tablas tratadas, métricas, notebook, documentación y aplicaciones. El paquete de fuentes conserva los 43 originales exactos que identifican los manifiestos.
 
-## Restaurar la versión utilizada en el TFM
+## Restaurar las fuentes originales
 
 El paquete del proyecto incluye también el experimento de Barcelona provincia y su comparación con Madrid. Ambos se consultan en **Experimentos** dentro de React. Los originales nacionales ya incluidos en el paquete de fuentes permiten reconstruir Barcelona; el [recorrido territorial](38_experimentos_madrid_barcelona.md) detalla las cuatro etapas y sus resultados. La réplica territorial y su auditoría incorporan ocho pruebas adicionales; la suite actual contiene 106 pruebas, incluidas nueve de estadísticas descriptivas y diagramas de caja, cinco de la comparación de ventanas, seis de la permutación agrupada, cuatro de los casos de estudio y cinco de PCA/LDA.
 
 Guarda juntos los siguientes archivos de entrega
 
-- tfm_pm10_project.zip
-- tfm_pm10_sources.zip
+- pm10_project.zip
+- pm10_sources.zip
 - checksums.json
 
 Compara los SHA-256 de ambos ZIP con los valores de checksums.json mediante Get-FileHash. A continuación, extrae los paquetes en una misma carpeta
 
 ~~~powershell
-Expand-Archive .\tfm_pm10_project.zip -DestinationPath .\tfm_pm10
-Expand-Archive .\tfm_pm10_sources.zip -DestinationPath .\tfm_pm10
-cd tfm_pm10
+Expand-Archive .\pm10_project.zip -DestinationPath .\prediccion-pm10
+Expand-Archive .\pm10_sources.zip -DestinationPath .\prediccion-pm10
+cd prediccion-pm10
 ~~~
 
 El proyecto puede obtenerse también desde el repositorio cuando se publique. El paquete de fuentes debe extraerse en su raíz para recuperar los mismos originales.
@@ -106,11 +106,11 @@ Se generan los dos ZIP y checksums.json en output/delivery/. El constructor comp
 
 El paquete del proyecto conserva los manifiestos de data/raw/ y distribuye los datos originales en el segundo paquete. Los entornos, dependencias instaladas y archivos temporales quedan fuera de los paquetes. La configuración de Git ignora los originales voluminosos y los ZIP generados.
 
-Para publicar la entrega habrá que compartir el repositorio del proyecto y una ubicación accesible del paquete de fuentes. Los enlaces de publicación y el envío por campus se completan al efectuar la entrega.
+Para publicar la entrega habrá que compartir el repositorio del proyecto y una ubicación accesible del paquete de fuentes. Comprueba que ambas ubicaciones sean accesibles para quien vaya a ejecutar el proyecto.
 
 ## Casos de estudio
 
-La pantalla **Casos** prepara tres ejemplos y una falsa alarma de contraste con evidencias CSV. El [guion de defensa](43_casos_de_estudio_defensa.md) explica la selección reproducible, los cortes originales, el contexto retrospectivo y las limitaciones. Los modelos y las predicciones originales se conservan. El ensayo con el autor sigue pendiente.
+La pantalla **Casos** prepara tres ejemplos y una falsa alarma de contraste con evidencias CSV. El [guion de presentación](43_casos_de_estudio.md) explica la selección reproducible, los cortes originales, el contexto retrospectivo y las limitaciones. Los modelos y las predicciones originales se conservan.
 
 ## Análisis PCA y LDA
 

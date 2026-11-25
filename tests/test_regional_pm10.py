@@ -6,8 +6,8 @@ from unittest.mock import patch
 
 import pandas as pd
 
-from tfm_data.mappers.air import AirQualityReader
-from tfm_data.pipelines.barcelona_experiment import select_candidates, longest_missing
+from pm10_data.mappers.air import AirQualityReader
+from pm10_data.pipelines.barcelona_experiment import select_candidates, longest_missing
 from explorer.server import app
 
 

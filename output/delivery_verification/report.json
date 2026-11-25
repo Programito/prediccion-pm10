@@ -208,8 +208,7 @@
       "all-station selection"
     ],
     "basemap_requires_internet": true,
-    "documentation": "docs/28_explorador_react.md",
-    "screenshot": "output/delivery_verification/map_preview.jpg"
+    "documentation": "docs/28_explorador_react.md"
   },
   "incremental_home": {
     "frontend_typecheck_and_build": "passed",
@@ -222,7 +221,6 @@
       "2025 onset context and false alarms",
       "no horizontal overflow at default viewport"
     ],
-    "screenshot": "output/delivery_verification/home_preview.jpg",
     "data_sources": [
       "/api/charts/metrics",
       "/api/charts/uncertainty"
@@ -258,7 +256,6 @@
     "cases_per_territory_on_common_dates": 234,
     "new_source_downloads": 0,
     "scope": "Barcelona province regression 2017-2024; 2025 meteorology and classification not added",
-    "screenshot": "output/delivery_verification/experiments_preview.jpg",
     "documentation": "docs/38_experimentos_madrid_barcelona.md"
   },
   "incremental_coverage_audit": {
@@ -293,8 +290,7 @@
       "no page horizontal overflow at default viewport"
     ],
     "api_evaluated_and_empty_filter_verified": true,
-    "documentation": "docs/39_auditoria_cobertura_territorial.md",
-    "screenshot": "output/delivery_verification/coverage_audit_preview.jpg"
+    "documentation": "docs/39_auditoria_cobertura_territorial.md"
   },
   "incremental_descriptive_statistics": {
     "tests_current_suite": 77,
@@ -316,8 +312,7 @@
       "guide displayed",
       "no page horizontal overflow at default viewport"
     ],
-    "documentation": "docs/40_estadisticas_descriptivas.md",
-    "screenshot": "output/delivery_verification/statistics_preview.jpg"
+    "documentation": "docs/40_estadisticas_descriptivas.md"
   },
   "incremental_boxplot": {
     "tests_current_suite": 81,
@@ -338,8 +333,7 @@
       "exact-value table",
       "no page horizontal overflow at default viewport"
     ],
-    "documentation": "docs/40_estadisticas_descriptivas.md",
-    "screenshot": "output/delivery_verification/boxplot_preview.jpg"
+    "documentation": "docs/40_estadisticas_descriptivas.md"
   },
   "incremental_window_ablation": {
     "tests_current_suite": 86,
@@ -372,8 +366,7 @@
       "guide displayed",
       "no page horizontal overflow at default viewport"
     ],
-    "documentation": "docs/41_comparacion_ventanas_pm10.md",
-    "screenshot": "output/delivery_verification/window_ablation_preview.jpg"
+    "documentation": "docs/41_comparacion_ventanas_pm10.md"
   },
   "incremental_grouped_permutation": {
     "tests_current_suite": 92,
@@ -407,8 +400,7 @@
       "guide displayed",
       "no page horizontal overflow at default viewport"
     ],
-    "documentation": "docs/42_importancia_agrupada_pm10.md",
-    "screenshot": "output/delivery_verification/grouped_permutation_preview.jpg"
+    "documentation": "docs/42_importancia_agrupada_pm10.md"
   },
   "incremental_case_studies": {
     "date": "2026-11-20",
@@ -521,7 +513,6 @@
       "no console errors"
     ],
     "documentation": "docs/43_casos_de_estudio_defensa.md",
-    "screenshot": "output/delivery_verification/case_studies_preview.jpg",
     "author_rehearsal": "pending"
   },
   "incremental_pca_lda": {
@@ -676,7 +667,6 @@
       "no console errors"
     ],
     "documentation": "docs/44_pca_lda_pm10.md",
-    "screenshot": "output/delivery_verification/projections_preview.jpg",
     "artifact_sha256": {
       "artefactos.joblib": "50efb4194f1a2e354c4e6375968718189374bf22e2b293e1b4e0c9fad1d8d5bc",
       "lda_con_meteo_barrido.csv": "cfb3bc9960db800123eb0076a2e93854068633200266db78ef7ff0a24a749e1a",
@@ -719,7 +709,6 @@
       "no console errors"
     ],
     "documentation": "docs/28_explorador_react.md",
-    "screenshot": "output/delivery_verification/source_groups_preview.jpg",
     "scope": "frontend navigation only; no data or model changes"
   },
   "incremental_territorial_charts": {
@@ -791,8 +780,7 @@
       "no horizontal overflow at default viewport"
     ],
     "map_lifecycle_fix": "zoom/fade/marker transitions disabled; stop map before removal; nonanimated fitBounds",
-    "documentation": "docs/45_graficos_territoriales.md",
-    "screenshot": "output/delivery_verification/barcelona_charts_preview.jpg"
+    "documentation": "docs/45_graficos_territoriales.md"
   },
   "incremental_treated_headers_and_inline_statistics": {
     "date": "2026-11-23",
@@ -824,8 +812,7 @@
       "no console errors",
       "no horizontal page overflow"
     ],
-    "documentation": "docs/40_estadisticas_descriptivas.md",
-    "screenshot": "output/delivery_verification/treated_summary_preview.jpg"
+    "documentation": "docs/40_estadisticas_descriptivas.md"
   },
   "incremental_row_trace_modal": {
     "date": "2026-11-23",
@@ -849,8 +836,7 @@
       "no console errors",
       "no horizontal page overflow"
     ],
-    "documentation": "docs/28_explorador_react.md",
-    "screenshot": "output/delivery_verification/row_trace_preview.jpg"
+    "documentation": "docs/28_explorador_react.md"
   },
   "incremental_daily_origin_in_info": {
     "date": "2026-11-23",
@@ -859,7 +845,6 @@
       "origen_diario absent from treated headers",
       "original daily origin retained in row modal"
     ],
-    "screenshot": "output/delivery_verification/daily_origin_info_preview.jpg",
     "daily_madrid_concentration_comparison": {
       "rows": 8766,
       "differences_including_missing": 0,
@@ -876,8 +861,7 @@
       "concentracion hidden when pm10_valido exists in treated records",
       "both values retained in information modal"
     ],
-    "csv_schema_and_calculations_changed": false,
-    "screenshot": "output/delivery_verification/single_pm10_column_preview.jpg"
+    "csv_schema_and_calculations_changed": false
   },
   "incremental_measurement_quality_summary": {
     "date": "2026-11-23",
@@ -893,8 +877,7 @@
       "no page horizontal overflow"
     ],
     "numeric_api_and_calculations_changed": false,
-    "documentation": "docs/40_estadisticas_descriptivas.md",
-    "screenshot": "output/delivery_verification/measurement_quality_summary_preview.jpg"
+    "documentation": "docs/40_estadisticas_descriptivas.md"
   },
   "incremental_boxplot_access_design": {
     "date": "2026-11-23",
@@ -911,7 +894,6 @@
     ],
     "diagram_top_after_navigation_px": 65,
     "numeric_api_and_data_changed": false,
-    "documentation": "docs/40_estadisticas_descriptivas.md",
-    "screenshot": "output/delivery_verification/statistics_boxplot_access_preview.jpg"
+    "documentation": "docs/40_estadisticas_descriptivas.md"
   }
 }

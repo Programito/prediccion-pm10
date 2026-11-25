@@ -66,9 +66,9 @@ export function Home({ loadJson, onCharts, onScreen }: {
         <a href="https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/emisiones-a-la-atmosfera/emisiones-problematica-ambiental/particulas.html">Más sobre las partículas en suspensión (MITECO)</a>
       </section>
       <section className="panel home-intro" aria-labelledby="home-objective">
-        <h2 id="home-objective">¿Qué intenta predecir el TFM?</h2>
+        <h2 id="home-objective">¿Qué intentamos predecir?</h2>
         <p>En <strong>Madrid y Barcelona provincia</strong>, estimamos el PM10 medio de mañana en cada estación. <strong>Persistencia</strong> repite el valor de hoy. <strong>Ridge</strong> aprende a combinar mediciones recientes y datos del calendario.</p>
-        <p>En <strong>Madrid</strong> también probamos en 2025 si la previsión de viento y lluvia ayuda a anticipar el primer día por encima de <strong>27 µg/m³</strong>, el umbral de trabajo del TFM.</p>
+        <p>En <strong>Madrid</strong> también probamos en 2025 si la previsión de viento y lluvia ayuda a anticipar el primer día por encima de <strong>27 µg/m³</strong>, el umbral de trabajo del estudio.</p>
       </section>
     </div>
 
@@ -99,7 +99,7 @@ export function Home({ loadJson, onCharts, onScreen }: {
           <button type="button" onClick={() => onCharts({ territory: 'madrid', view: 'results' })}>Consultar la prueba de avisos</button>
         </article>
       </div>
-      <p className="muted home-results-source">Las cifras proceden de los resultados guardados del TFM.</p>
+      <p className="muted home-results-source">Las cifras proceden de los resultados de las evaluaciones.</p>
     </section>
 
     <section className="panel home-periods" aria-labelledby="home-periods-title">
@@ -115,7 +115,7 @@ export function Home({ loadJson, onCharts, onScreen }: {
       <h2 id="home-limits-title">Qué conviene tener presente</h2>
       <ul><li>El estudio incluye tres estaciones por territorio. Las pruebas comparan fechas con los datos necesarios.</li>
         <li>Los picos pueden quedar muy subestimados, aunque el promedio global mejore.</li>
-        <li>Los 27 µg/m³ son el umbral de trabajo del TFM para identificar días elevados.</li>
+        <li>Los 27 µg/m³ son el umbral de trabajo del estudio para identificar días elevados.</li>
         <li>Los históricos están revisados. La disponibilidad real de los datos y sus retrasos deben verificarse antes de emitir avisos operativos.</li></ul>
       <button onClick={() => onScreen('docs')}>Consultar metodología y limitaciones</button>
     </section>

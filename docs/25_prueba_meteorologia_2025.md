@@ -34,5 +34,5 @@ Para reproducir la evaluación desde la raíz con los tres Parquet registrados e
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install pyarrow==19.0.1
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.evaluate_pm10_weather_2025
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.evaluate_pm10_weather_2025
 ```

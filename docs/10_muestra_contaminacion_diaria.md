@@ -47,7 +47,7 @@ Otros archivos en la carpeta:
 ## Reproducir
 
 ```powershell
-python -m tfm_data.pipelines.pollution_sample
+python -m pm10_data.pipelines.pollution_sample
 python -m unittest discover -s tests
 ```
 

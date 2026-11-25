@@ -22,11 +22,11 @@ Las candidatas, selección y coordenadas se conservan en [candidatas.csv](../dat
 
 No fue necesario descargar nuevos originales. Se reutilizan los 16 ZIP nacionales de MITECO diarios y horarios de 2017–2024, con los endpoints, tamaños y SHA-256 del manifiesto `data/raw/health_air_history/sources.json`. Cada ZIP contiene el CSV PM10. El [manifiesto del experimento](../data/interim/experiments/barcelona/fuentes.json) conserva la información original, el miembro del ZIP y el número de filas seleccionadas.
 
-`AirQualityReader.read_points` filtra los tres puntos por bloques antes de expandir las columnas diarias u horarias. `AirQualityMapper` valida códigos, fechas y concentraciones. `summarize_hours` obtiene un diario con al menos 18 horas válidas y `combine_daily_measurements` aplica la misma prioridad de la fuente diaria que en Madrid. Se completa el calendario por estación conservando los ausentes. [Mapeadores ambientales](../tfm_data/mappers/air.py)
+`AirQualityReader.read_points` filtra los tres puntos por bloques antes de expandir las columnas diarias u horarias. `AirQualityMapper` valida códigos, fechas y concentraciones. `summarize_hours` obtiene un diario con al menos 18 horas válidas y `combine_daily_measurements` aplica la misma prioridad de la fuente diaria que en Madrid. Se completa el calendario por estación conservando los ausentes. [Mapeadores ambientales](../pm10_data/mappers/air.py)
 
 La tabla diaria conserva valor original, estado, archivo y miembro del ZIP. `pm10_valido` queda nulo cuando la concentración no es válida o falta. Los negativos no se aceptan como concentraciones válidas. Los picos positivos válidos se conservan, sin recorte ni eliminación estadística. No se imputan ausencias. Las predicciones de regresión se restringen a cero como mínimo, igual que en Madrid.
 
-`PM10ForecastMapper` construye el objetivo del día siguiente, retardos de PM10, medias de 3, 7 y 14 días, desviación de 7 días y calendario cíclico. Los cálculos se agrupan por estación y utilizan como máximo el día anterior al objetivo. El identificador de estación se codifica dentro del adaptador. Los transformadores se ajustan exclusivamente con entrenamiento. [Mapeador predictivo](../tfm_data/mappers/pm10_forecast.py)
+`PM10ForecastMapper` construye el objetivo del día siguiente, retardos de PM10, medias de 3, 7 y 14 días, desviación de 7 días y calendario cíclico. Los cálculos se agrupan por estación y utilizan como máximo el día anterior al objetivo. El identificador de estación se codifica dentro del adaptador. Los transformadores se ajustan exclusivamente con entrenamiento. [Mapeador predictivo](../pm10_data/mappers/pm10_forecast.py)
 
 | Salida en data/interim/experiments/barcelona/ | Qué representa una fila | Clave |
 | --- | --- | --- |
@@ -112,10 +112,10 @@ En el resumen, cada experimento incluye `id` y `name` como texto; `trainingRows`
 Con los originales restaurados y las tablas históricas del proyecto disponibles, desde la raíz:
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.barcelona_experiment prepare
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.barcelona_experiment train
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.barcelona_experiment evaluate
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.barcelona_experiment compare
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.barcelona_experiment prepare
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.barcelona_experiment train
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.barcelona_experiment evaluate
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.barcelona_experiment compare
 ```
 
-También se puede ejecutar `python -m tfm_data.pipelines.barcelona_experiment all`. Los resultados se guardan en `output/experiments/barcelona/`, los modelos en `models/experiments/barcelona/` y la comparación en `output/experiments/comparacion/`. El [pipeline](../tfm_data/pipelines/barcelona_experiment.py) registra la integridad de los artefactos protegidos de Madrid. El catálogo original sigue siendo el nacional ya documentado; no se necesita ampliar el paquete de fuentes.
+También se puede ejecutar `python -m pm10_data.pipelines.barcelona_experiment all`. Los resultados se guardan en `output/experiments/barcelona/`, los modelos en `models/experiments/barcelona/` y la comparación en `output/experiments/comparacion/`. El [pipeline](../pm10_data/pipelines/barcelona_experiment.py) registra la integridad de los artefactos protegidos de Madrid. El catálogo original sigue siendo el nacional ya documentado; no se necesita ampliar el paquete de fuentes.

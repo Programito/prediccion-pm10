@@ -6,7 +6,7 @@ El [catálogo de tablas](reference/table_catalog.csv) recoge las 22 tablas princ
 
 ## 1. Sanidad: `INEHealthMapper`
 
-Código: [health.py](../tfm_data/mappers/health.py). Pipeline: [prepare_health.py](../tfm_data/pipelines/prepare_health.py).
+Código: [health.py](../pm10_data/mappers/health.py). Pipeline: [prepare_health.py](../pm10_data/pipelines/prepare_health.py).
 
 Entrada: nueve CSV del INE, 2016–2024. `INEHealthReader` los lee como texto; `HealthContext` aporta año, tabla oficial y archivo. El mapeador admite las dos estructuras geográficas originales, selecciona los tres diagnósticos y normaliza territorios con `data/reference/territorios_ine.csv`. `INEHealthValidator` comprueba claves, duplicados, códigos y tasas.
 
@@ -28,7 +28,7 @@ Se conserva el nivel geográfico original. Las comunidades uniprovinciales se ha
 
 ## 2. Aire: `AirQualityMapper`
 
-Código: [air.py](../tfm_data/mappers/air.py). Pipeline detallado de 2024: [prepare_air.py](../tfm_data/pipelines/prepare_air.py).
+Código: [air.py](../pm10_data/mappers/air.py). Pipeline detallado de 2024: [prepare_air.py](../pm10_data/pipelines/prepare_air.py).
 
 Entrada: CSV de PM10 dentro de los ZIP diarios y horarios. `AirQualityReader` abre el miembro seleccionado; `AirContext` aporta procedencia, contaminante y unidad. `AirQualityValidator` comprueba las tablas normalizadas.
 
@@ -61,7 +61,7 @@ Las auditorías posteriores generan `auditoria_cobertura_mensual.csv` (5.868 fil
 
 ## 3. Demografía: `INEDemographicsMapper`
 
-Código: [demographics.py](../tfm_data/mappers/demographics.py). Pipeline: [prepare_demographics.py](../tfm_data/pipelines/prepare_demographics.py).
+Código: [demographics.py](../pm10_data/mappers/demographics.py). Pipeline: [prepare_demographics.py](../pm10_data/pipelines/prepare_demographics.py).
 
 Entrada: selección del CSV INE 56945, filtrada previamente por sexo total, provincias y enero de 2017–2024. El mapper extrae códigos y años, convierte recuentos, excluye subtotales al sumar y comprueba que la suma de edades coincide con el total oficial en cada provincia y año.
 
@@ -93,7 +93,7 @@ La muestra diaria tiene 8.705 valores válidos y 61 ausencias. Se conservaron lo
 
 ## 5. Predicción: `PM10ForecastMapper`
 
-Código: [pm10_forecast.py](../tfm_data/mappers/pm10_forecast.py). Pipeline: [prepare_pm10_forecast.py](../tfm_data/pipelines/prepare_pm10_forecast.py).
+Código: [pm10_forecast.py](../pm10_data/mappers/pm10_forecast.py). Pipeline: [prepare_pm10_forecast.py](../pm10_data/pipelines/prepare_pm10_forecast.py).
 
 Entrada: muestra diaria con `codigo_estacion`, `fecha` y `pm10_valido`. El mapper comprueba claves, continuidad diaria y valores; ordena cada serie y construye:
 
@@ -119,4 +119,4 @@ Para consultar todas las columnas y actualizar los recuentos, utiliza el [catál
 
 ## 6. Piloto de previsiones meteorológicas GFS
 
-El extractor localiza los mensajes GRIB2 de NOAA y lee los valores de la celda más próxima a cada estación. `map_daily_weather()` combina las componentes del viento, resta dos acumulados de precipitación y conserva los nulos con estados de calidad. La salida de la auditoría mensual contiene 180 filas, una por estación y fecha objetivo muestreada. [Campos originales, mapeo y tipos](22_viabilidad_meteorologia_pm10.md) · [Código del mapeador](../tfm_data/mappers/gfs_weather.py)
+El extractor localiza los mensajes GRIB2 de NOAA y lee los valores de la celda más próxima a cada estación. `map_daily_weather()` combina las componentes del viento, resta dos acumulados de precipitación y conserva los nulos con estados de calidad. La salida de la auditoría mensual contiene 180 filas, una por estación y fecha objetivo muestreada. [Campos originales, mapeo y tipos](22_viabilidad_meteorologia_pm10.md) · [Código del mapeador](../pm10_data/mappers/gfs_weather.py)

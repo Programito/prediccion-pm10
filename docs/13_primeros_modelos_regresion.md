@@ -48,7 +48,7 @@ El sesgo medio global es 0,24 en Ridge y 0,49 en Random Forest. El sesgo cambia 
 
 ## Artefactos y reproducibilidad
 
-Código: `tfm_data/pipelines/train_pm10_regression.py`.
+Código: `pm10_data/pipelines/train_pm10_regression.py`.
 
 Resultados en `output/pm10_regression_validation/`:
 
@@ -63,7 +63,7 @@ Los pipelines ajustados únicamente con entrenamiento están en `models/pm10/val
 Las versiones directas utilizadas están fijadas en `requirements.txt`. La configuración registra Python 3.12 y las bibliotecas empleadas. Se ha creado un entorno local `.venv` y no se han modificado los originales.
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.train_pm10_regression
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.train_pm10_regression
 .\.venv\Scripts\python.exe -m unittest discover -s tests
 ```
 

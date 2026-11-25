@@ -1,4 +1,4 @@
-# Recorrido explicativo del TFM
+# Recorrido del análisis de PM10
 
 Abre [el notebook de PM10](01_pm10_end_to_end.ipynb) para recorrer la preparación de variables, el entrenamiento, la validación y la interpretación de resultados. Incluye tablas y cuatro figuras con las salidas de una ejecución completa.
 
@@ -25,7 +25,7 @@ El recorrido tiene 25 celdas, de las cuales 12 contienen código.
 5. Carga el Ridge congelado, comprueba sus huellas y reproduce las 1.013 predicciones de prueba de 2024.
 6. Examina un pico, descompone una predicción y consulta los intervalos bootstrap de la diferencia de MAE.
 7. Revisa los resultados de clasificación de 2025 y recalcula los escenarios de costes relativos.
-8. Muestra las métricas guardadas del complemento sanitario y plantea preguntas para preparar la defensa.
+8. Muestra las métricas guardadas del complemento sanitario y plantea preguntas para interpretar los resultados.
 
 El entrenamiento de validación reutiliza las clases y funciones del proyecto. Las predicciones de clasificación y las métricas sanitarias se leen de las salidas existentes. La preparación de las descargas originales y el ajuste completo de esos otros experimentos se reproducen mediante sus pipelines.
 

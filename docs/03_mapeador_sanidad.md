@@ -2,7 +2,7 @@
 
 ## Qué hace cada pieza
 
-El módulo `tfm_data/mappers/health.py` separa tres responsabilidades:
+El módulo `pm10_data/mappers/health.py` separa tres responsabilidades:
 
 ```python
 original = lector.read(ruta)
@@ -10,7 +10,7 @@ normalizado = mapeador.transform(original, contexto)
 validador.validate(normalizado)
 ```
 
-`INEHealthReader` lee el CSV como texto. `INEHealthMapper` transforma un DataFrame y devuelve otro, sin cambiar el original. `INEHealthValidator` comprueba claves, tasas y códigos. La escritura de resultados pertenece al programa `tfm_data/pipelines/prepare_health.py`.
+`INEHealthReader` lee el CSV como texto. `INEHealthMapper` transforma un DataFrame y devuelve otro, sin cambiar el original. `INEHealthValidator` comprueba claves, tasas y códigos. La escritura de resultados pertenece al programa `pm10_data/pipelines/prepare_health.py`.
 
 `HealthContext` agrupa el año, la tabla del INE y el nombre del archivo. Es inmutable: no se cambia accidentalmente mientras se procesa una fuente. El programa obtiene este contexto del manifiesto de descargas y comprueba la huella SHA-256 del archivo antes de leerlo.
 
@@ -33,7 +33,7 @@ El resto de comunidades y el total nacional se conservan solo en el archivo de t
 Requiere Python con pandas, igual que el ejercicio anterior:
 
 ```powershell
-python -m tfm_data.pipelines.prepare_health
+python -m pm10_data.pipelines.prepare_health
 python -m unittest discover -s tests -v
 ```
 

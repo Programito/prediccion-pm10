@@ -1,6 +1,6 @@
 import unittest
 
-from tfm_data.mappers.gfs_weather import GridValue, map_daily_weather
+from pm10_data.mappers.gfs_weather import GridValue, map_daily_weather
 
 
 class GFSWeatherTest(unittest.TestCase):

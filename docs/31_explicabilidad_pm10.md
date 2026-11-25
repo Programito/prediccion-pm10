@@ -70,9 +70,9 @@ Flask sirve la explicación desde `GET /api/charts/explanations?station=28079060
 Desde la raíz del proyecto, ejecutar
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.explain_pm10_models
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.explain_pm10_models
 ```
 
-El [pipeline de exportación](../tfm_data/pipelines/explain_pm10_models.py) reutiliza el [adaptador de Ridge](../tfm_data/adapters/sklearn/ridge.py). Genera [las explicaciones](../output/pm10_explanations/explicaciones.json) y [las huellas y comprobaciones](../output/pm10_explanations/configuracion.json). El archivo de explicaciones ocupa aproximadamente 1 MB y conserva las 1.013 filas para consultar distintas fechas.
+El [pipeline de exportación](../pm10_data/pipelines/explain_pm10_models.py) reutiliza el [adaptador de Ridge](../pm10_data/adapters/sklearn/ridge.py). Genera [las explicaciones](../output/pm10_explanations/explicaciones.json) y [las huellas y comprobaciones](../output/pm10_explanations/configuracion.json). El archivo de explicaciones ocupa aproximadamente 1 MB y conserva las 1.013 filas para consultar distintas fechas.
 
 La prueba específica comprueba la transformación numérica y la reconstrucción de la predicción. El entorno `.venv` se reparó el 19 de noviembre de 2026 y se verificó la versión de scikit-learn 1.9.1 utilizada en los artefactos.

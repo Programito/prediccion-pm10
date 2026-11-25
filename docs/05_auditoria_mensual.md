@@ -1,6 +1,6 @@
 # Auditoría mensual de PM10, 2024
 
-Se genera con `python -m tfm_data.pipelines.audit_air_coverage`. El cálculo está en la clase `AirCoverageAuditor`, dentro de `tfm_data/evaluation/air_coverage.py`.
+Se genera con `python -m pm10_data.pipelines.audit_air_coverage`. El cálculo está en la clase `AirCoverageAuditor`, dentro de `pm10_data/evaluation/air_coverage.py`.
 
 ## Tablas generadas
 

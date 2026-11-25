@@ -3,7 +3,7 @@ import unittest
 import numpy as np
 import pandas as pd
 
-from tfm_data.mappers.pm10_forecast import PM10ForecastMapper, NUMERIC_FEATURES, label_elevated_pm10
+from pm10_data.mappers.pm10_forecast import PM10ForecastMapper, NUMERIC_FEATURES, label_elevated_pm10
 
 
 class TestPrediccionPM10(unittest.TestCase):

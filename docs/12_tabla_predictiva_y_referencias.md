@@ -58,10 +58,10 @@ Archivos de resultados:
 ## Reproducir y verificaciones
 
 ```powershell
-python -m tfm_data.pipelines.prepare_pm10_forecast
+python -m pm10_data.pipelines.prepare_pm10_forecast
 python -m unittest discover -s tests
 ```
 
-El mapeador está en `tfm_data/mappers/pm10_forecast.py`. Las pruebas comprueban que el objetivo es el día siguiente, que los retardos no cruzan estaciones, que se rechazan calendarios con saltos, que las ventanas no rellenan ausentes y que alterar valores futuros no modifica predictores pasados. También comprueban que el umbral de clasificación no cambia al modificar los objetivos de validación.
+El mapeador está en `pm10_data/mappers/pm10_forecast.py`. Las pruebas comprueban que el objetivo es el día siguiente, que los retardos no cruzan estaciones, que se rechazan calendarios con saltos, que las ventanas no rellenan ausentes y que alterar valores futuros no modifica predictores pasados. También comprueban que el umbral de clasificación no cambia al modificar los objetivos de validación.
 
 Las métricas de 2024 quedan sin calcular. El siguiente paso es ajustar Ridge y un modelo de árboles usando entrenamiento y comparar en 2023 con la persistencia, conservando 2024 para la evaluación final.

@@ -56,10 +56,10 @@ La pestaña Gráficos incluye filtros por estación y nivel, diferencias mensual
 Desde la raíz del proyecto, ejecutar
 
 ~~~powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.audit_pm10_errors
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.audit_pm10_errors
 ~~~
 
-El [pipeline](../tfm_data/pipelines/audit_pm10_errors.py) reutiliza las funciones de [evaluación pareada](../tfm_data/evaluation/pm10_errors.py). Genera los [grupos completos](../output/pm10_error_analysis/grupos.csv), la [contribución por fecha](../output/pm10_error_analysis/contribucion_por_fecha.csv), la [sensibilidad](../output/pm10_error_analysis/sensibilidad_fechas.csv), los [diez mayores errores](../output/pm10_error_analysis/mayores_errores_ridge.csv), los [datos para la API](../output/pm10_error_analysis/analisis.json) y las [huellas y configuración](../output/pm10_error_analysis/configuracion.json).
+El [pipeline](../pm10_data/pipelines/audit_pm10_errors.py) reutiliza las funciones de [evaluación pareada](../pm10_data/evaluation/pm10_errors.py). Genera los [grupos completos](../output/pm10_error_analysis/grupos.csv), la [contribución por fecha](../output/pm10_error_analysis/contribucion_por_fecha.csv), la [sensibilidad](../output/pm10_error_analysis/sensibilidad_fechas.csv), los [diez mayores errores](../output/pm10_error_analysis/mayores_errores_ridge.csv), los [datos para la API](../output/pm10_error_analysis/analisis.json) y las [huellas y configuración](../output/pm10_error_analysis/configuracion.json).
 
 Las pruebas comprueban métricas y particiones, retirada de fechas completas entre estaciones y rechazo de claves duplicadas, muestras incompatibles o valores no finitos. Las cifras agregadas se contrastan además con las métricas originales de 2024.
 

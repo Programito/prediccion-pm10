@@ -2,7 +2,7 @@ import unittest
 
 import pandas as pd
 
-from tfm_data.mappers.demographics import INEDemographicsMapper
+from pm10_data.mappers.demographics import INEDemographicsMapper
 
 
 class TestDemografia(unittest.TestCase):

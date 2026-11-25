@@ -6,8 +6,8 @@ from unittest.mock import patch
 import numpy as np
 import pandas as pd
 
-from tfm_data.mappers.pm10_forecast import PM10ForecastMapper
-from tfm_data.evaluation.coverage_audit import audit_rows, build_audit
+from pm10_data.mappers.pm10_forecast import PM10ForecastMapper
+from pm10_data.evaluation.coverage_audit import audit_rows, build_audit
 from explorer.server import app
 
 

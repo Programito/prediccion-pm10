@@ -1,4 +1,4 @@
-# Trabajo pendiente y preparación de la defensa
+# Trabajo pendiente y presentación del proyecto
 
 Las siguientes tareas se conservan para una fase posterior. El explorador ya dispone de Inicio, mapa, comparación de Madrid y Barcelona, auditoría de exclusiones y comparación de ventanas en validación de 2023. La variante sin media de 14 días recupera casos a cambio de un pequeño aumento del MAE en filas comunes. Los modelos actuales se conservan; cualquier promoción requiere fijar la variante y comprobarla en un periodo temporal independiente.
 
@@ -20,9 +20,9 @@ Se conservó el orden circular por estación y se registraron semillas, repetici
 
 Se dispone de código reproducible, resultados, visualización y limitaciones. Los modelos congelados y las pruebas de 2024 y 2025 se conservan como resultados ya conocidos.
 
-## Preparar la defensa
+## Presentar los resultados
 
-Estado: materiales y selección implementados en la pantalla **Casos**. El ensayo con el autor sigue pendiente. El [guion reproducible](43_casos_de_estudio_defensa.md) documenta selección, resultados, extractos descargables y límites.
+Estado: materiales y selección implementados en la pantalla **Casos**. El [guion reproducible](43_casos_de_estudio.md) documenta selección, resultados, extractos descargables y límites.
 
 Preparar tres casos verificables en la aplicación
 
@@ -40,6 +40,4 @@ El análisis exploratorio [PCA y LDA](44_pca_lda_pm10.md) ya está implementado 
 
 Las vistas de gráficos comparten estación y fecha entre observaciones, predicciones y explicación. Los análisis agregados conservan su ámbito temporal de 2024. Casos conserva el ejemplo seleccionado al salir y volver, con acceso a las explicaciones de 2024 y observaciones de 2025.
 
-La pantalla de Inicio ya está implementada con resultados leídos de las salidas existentes, periodos, limitaciones y accesos al análisis. También están disponibles el mapa y los casos de defensa, con consulta diaria de las probabilidades y decisiones de 2025. Quedan propuestas para priorizar más adelante una vista sanitaria específica, ayudas adicionales junto a las métricas y la conservación de filtros en la URL.
-
-El segundo proyecto del TFM queda aplazado según la decisión del autor.
+La pantalla de Inicio ya está implementada con resultados leídos de las salidas existentes, periodos, limitaciones y accesos al análisis. También están disponibles el mapa y los casos de estudio, con consulta diaria de las probabilidades y decisiones de 2025. Quedan propuestas para priorizar más adelante una vista sanitaria específica, ayudas adicionales junto a las métricas y la conservación de filtros en la URL.

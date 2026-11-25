@@ -14,7 +14,7 @@ from urllib.request import Request, urlopen
 import eccodes
 import pandas as pd
 
-from tfm_data.mappers.gfs_weather import GridValue, map_daily_weather
+from pm10_data.mappers.gfs_weather import GridValue, map_daily_weather
 
 ROOT = Path(__file__).resolve().parents[1]
 BUCKET = "https://noaa-gfs-bdp-pds.s3.amazonaws.com"

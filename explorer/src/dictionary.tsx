@@ -33,7 +33,7 @@ const GROUPS = {
     'Estación / punto de muestreo': 'La estación es el lugar de vigilancia. El punto de muestreo distingue la serie medida en ese lugar, con su magnitud y técnica.',
     'Magnitud / técnica': 'La magnitud identifica qué se mide. La técnica identifica el procedimiento de medida.',
     'D01–D31 / H01–H24': 'D indica el día del mes. H indica el fin de la hora UTC en los archivos horarios de MITECO.',
-    'NOAA GFS / ciclo / plazo': 'GFS (Global Forecast System) es el modelo de previsión meteorológica de NOAA. El TFM usa sus previsiones de viento y precipitación. El ciclo indica cuándo se inició el pronóstico y el plazo indica cuántas horas cubre hasta el momento previsto.',
+    'NOAA GFS / ciclo / plazo': 'GFS (Global Forecast System) es el modelo de previsión meteorológica de NOAA. El proyecto usa sus previsiones de viento y precipitación. El ciclo indica cuándo se inició el pronóstico y el plazo indica cuántas horas cubre hasta el momento previsto.',
     'Celda GFS': 'Punto de la cuadrícula meteorológica. Dos estaciones pueden compartir la misma celda.',
     'UGRD / VGRD / APCP': 'Componentes este y norte del viento y precipitación acumulada, respectivamente.',
     'm/s / mm': 'Metros por segundo para la velocidad del viento y milímetros de agua para la precipitación.',

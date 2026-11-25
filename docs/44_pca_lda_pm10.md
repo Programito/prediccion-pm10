@@ -82,11 +82,11 @@ VP: elevado correctamente avisado; FP: aviso sin elevado; FN: elevado sin aviso;
 Desde la raíz, con el entorno de dependencias fijadas:
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.analyze_pm10_projections
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.analyze_pm10_projections
 .\.venv\Scripts\python.exe -m unittest discover -s tests
 ```
 
-Los imports de scikit-learn se mantienen dentro de `tfm_data/adapters/sklearn/projections.py`. Las guardas temporales y la selección de corte están en `tfm_data/evaluation/projections.py`; el pipeline prepara el análisis y exporta archivos. Flask solo lee JSON/CSV y no carga modelos.
+Los imports de scikit-learn se mantienen dentro de `pm10_data/adapters/sklearn/projections.py`. Las guardas temporales y la selección de corte están en `pm10_data/evaluation/projections.py`; el pipeline prepara el análisis y exporta archivos. Flask solo lee JSON/CSV y no carga modelos.
 
 | Entrada | Formato | Uso |
 | --- | --- | --- |

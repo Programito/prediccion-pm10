@@ -7,7 +7,7 @@ import unittest
 
 class TestAdapterBoundary(unittest.TestCase):
     def test_sklearn_imports_are_isolated(self):
-        package = Path(__file__).resolve().parents[1] / "tfm_data"
+        package = Path(__file__).resolve().parents[1] / "pm10_data"
         violations = []
         for source in package.rglob("*.py"):
             if source.is_relative_to(package / "adapters/sklearn"):

@@ -17,5 +17,5 @@ La mejora es pequeña y consistente en las tres estaciones de esta validación. 
 Para regenerar la comparación desde la raíz del proyecto:
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.audit_pm10_weekday
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.audit_pm10_weekday
 ```

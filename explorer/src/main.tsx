@@ -526,13 +526,13 @@ function App() {
   const source = sources.find(item => item.id === selected);
   const headers = {
     cases: ['Resultados y límites · Madrid', 'Casos de estudio', 'Tres ejemplos verificables para explicar las predicciones y una falsa alarma para discutir sus límites.'],
-    home: ['TFM · Predicción y evaluación', 'Anticipar el PM10 en Madrid y Barcelona provincia', 'Comparamos cómo se puede predecir la concentración de partículas en el aire del día siguiente.'],
+    home: ['Predicción y evaluación', 'Anticipar el PM10 en Madrid y Barcelona provincia', 'Comparamos cómo se puede predecir la concentración de partículas en el aire del día siguiente.'],
     experiments: ['Réplicas territoriales · PM10', 'Madrid y Barcelona', 'Dos experimentos de regresión con el mismo protocolo y una comparación que muestra sus diferencias de cobertura.'],
     catalog: ['Fuentes y trazabilidad', 'Explorador de datos', 'Consulta los endpoints utilizados, los registros descargados y sus columnas.'],
-    treated: ['Datos preparados', 'Tablas tratadas', 'Explora los valores que usa el TFM y las claves que relacionan sus tablas.'],
+    treated: ['Datos preparados', 'Tablas tratadas', 'Explora los valores que utiliza el análisis y las claves que relacionan sus tablas.'],
     charts: ['Observaciones y modelos · ' + TERRITORIES[chartSelection.territory], 'Gráficos de PM10 en ' + TERRITORIES[chartSelection.territory], 'Selecciona Madrid o Barcelona provincia para explorar sus estaciones y resultados.'],
     flow: ['Fuentes y trazabilidad', 'Flujo de datos', 'Sigue el recorrido desde las fuentes hasta el entrenamiento y el análisis sanitario.'],
-    docs: ['Fuentes y transformaciones', 'Documentación', 'Consulta los formatos, los mapeadores y la procedencia documentada en el TFM.'],
+    docs: ['Fuentes y transformaciones', 'Documentación', 'Consulta los formatos, los mapeadores y la procedencia de los datos del proyecto.'],
   };
   return <>
     <header className="topbar"><div className="shell navigation"><span className="brand"><b aria-hidden="true">▥</b> Atlas de datos</span>
@@ -544,7 +544,7 @@ function App() {
         <button aria-pressed={screen === 'cases'} onClick={() => setScreen('cases')}>Casos</button>
         <button aria-pressed={screen === 'flow'} onClick={() => setScreen('flow')}>Flujo de datos</button>
         <button aria-pressed={screen === 'docs'} onClick={() => setScreen('docs')}>Documentación</button></nav>
-      <span className="project-name">TFM · PM10</span>
+      <span className="project-name">Predicción de PM10</span>
     </div></header>
     <main className="shell">
       <header className="hero"><p className="eyebrow">{headers[screen][0]}</p><h1>{headers[screen][1]}</h1>

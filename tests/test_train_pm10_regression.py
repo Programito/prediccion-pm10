@@ -3,12 +3,20 @@ import unittest
 import numpy as np
 import pandas as pd
 
-from tfm_data.models.factory import create_models
-from tfm_data.evaluation.pm10_regression import evaluate_models, split_dataset
-from tfm_data.mappers.pm10_forecast import NUMERIC_FEATURES
+from pm10_data.config import PROJECT_ROOT
+from pm10_data.evaluation.pm10_regression import evaluate_models, split_dataset
+from pm10_data.mappers.pm10_forecast import NUMERIC_FEATURES
+from pm10_data.models.artifacts import load_model
+from pm10_data.models.factory import create_models
 
 
 class TestEntrenamientoRegresionPM10(unittest.TestCase):
+    def test_ridge_congelado_se_carga_con_el_paquete_actual(self):
+        path = PROJECT_ROOT / "models/pm10/validation_2023/ridge.joblib"
+        artifact = load_model(path)
+        self.assertIs(type(artifact["pipeline"]), type(create_models()["ridge"]))
+        self.assertEqual(artifact["modelo"], "ridge")
+
     def test_aportaciones_ridge_reconstruyen_prediccion_y_escalado(self):
         training, validation = split_dataset(self.table())
         model = create_models()["ridge"].fit(training, training.pm10_objetivo)

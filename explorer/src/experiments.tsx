@@ -126,7 +126,7 @@ function DailyExperiment({ experiment, loadJson }: { experiment: Experiment; loa
     </div>
     {result?.error ? <p role="alert">{result.error}</p> : data ? <>
       <PredictionPlot days={data.days} threshold={data.threshold} selected={selected} onSelect={setSelected} />
-      <div className="daily-legend prediction-legend">{PREDICTION_SERIES.map(({ key, label }) => <span key={key}><i className={'prediction-line prediction-' + key} aria-hidden="true" />{label}</span>)}<span><i className="prediction-line prediction-threshold" aria-hidden="true" />Umbral común del TFM: {data.threshold} µg/m³</span></div>
+      <div className="daily-legend prediction-legend">{PREDICTION_SERIES.map(({ key, label }) => <span key={key}><i className={'prediction-line prediction-' + key} aria-hidden="true" />{label}</span>)}<span><i className="prediction-line prediction-threshold" aria-hidden="true" />Umbral común: {data.threshold} µg/m³</span></div>
       <label>Día consultado <select value={selected} onChange={event => setSelected(event.target.value)}>{data.days.map(row => <option key={row.date} value={row.date}>{row.date}</option>)}</select></label>
       {day && <dl className="prediction-readings"><div><dt>Observado</dt><dd>{value(day.observed)}</dd></div><div><dt>Ridge</dt><dd>{value(day.ridge)}</dd></div><div><dt>Persistencia</dt><dd>{value(day.persistencia)}</dd></div></dl>}
       {day && !day.evaluated && <p role="status">{selected.startsWith('2024-') ? 'Día fuera de la muestra de prueba evaluada: puede haber una observación y faltar entradas históricas completas para predecir.' : 'Las predicciones de prueba consultables corresponden a 2024. En este periodo se muestran las observaciones.'}</p>}

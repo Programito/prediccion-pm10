@@ -59,7 +59,7 @@ En `data/interim/provincial_feasibility/history/`:
 ## Reproducir y comprobaciones
 
 ```powershell
-python -m tfm_data.evaluation.historical_feasibility
+python -m pm10_data.evaluation.historical_feasibility
 python -m unittest discover -s tests
 ```
 

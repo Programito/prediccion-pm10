@@ -2,7 +2,7 @@ import unittest
 
 import pandas as pd
 
-from tfm_data.mappers.air import (AirContext, AirQualityMapper, AirQualityValidator,
+from pm10_data.mappers.air import (AirContext, AirQualityMapper, AirQualityValidator,
                            combine_daily_measurements, summarize_year, summarize_hours)
 
 

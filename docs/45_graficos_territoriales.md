@@ -47,4 +47,4 @@ Todos los endpoints GET responden JSON y aceptan `territory=madrid|barcelona`; o
 
 Las estaciones deben pertenecer al territorio; periodos válidos: 2017–2025 para Madrid y 2017–2024 para Barcelona. Región desconocida, estación cruzada y periodo no disponible devuelven HTTP 400. `/api/charts/explanations?territory=barcelona` devuelve 400 con la explicación de disponibilidad.
 
-Flask solo lee CSV/JSON, sin cargar modelos ni scikit-learn. Cinco pruebas de API verifican aislamiento territorial, calendario bisiesto, nulos/cero, diagnósticos propios y peticiones inválidas. Se contrastan además las respuestas con los archivos reales sin recalcular predicciones. PCA/LDA y los casos de defensa mantienen su ámbito de Madrid.
+Flask solo lee CSV/JSON, sin cargar modelos ni scikit-learn. Cinco pruebas de API verifican aislamiento territorial, calendario bisiesto, nulos/cero, diagnósticos propios y peticiones inválidas. Se contrastan además las respuestas con los archivos reales sin recalcular predicciones. PCA/LDA y los casos de estudio mantienen su ámbito de Madrid.

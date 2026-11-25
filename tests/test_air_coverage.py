@@ -2,8 +2,8 @@ import unittest
 
 import pandas as pd
 
-from tfm_data.mappers.air import AirContext, AirQualityMapper
-from tfm_data.evaluation.air_coverage import AirCoverageAuditor
+from pm10_data.mappers.air import AirContext, AirQualityMapper
+from pm10_data.evaluation.air_coverage import AirCoverageAuditor
 
 
 class TestAuditoriaCobertura(unittest.TestCase):

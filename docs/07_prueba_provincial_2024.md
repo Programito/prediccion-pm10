@@ -30,7 +30,7 @@ Se mantienen los 52 territorios sanitarios en el resultado: la concentración si
 ## Archivos y ejecución
 
 ```powershell
-python -m tfm_data.evaluation.provincial_prototype
+python -m pm10_data.evaluation.provincial_prototype
 ```
 
 En `data/interim/provincial_feasibility/`:

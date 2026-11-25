@@ -40,7 +40,7 @@ Sant Vicenç concentra 174 de las 297 exclusiones. Los meses con más exclusione
 
 ## Días elevados y tramos afectados
 
-El corte común es mayor de 27 µg/m³, el umbral estadístico del TFM. Las proporciones se calculan únicamente sobre objetivos observados; los días sin medición no pueden clasificarse.
+El corte común es mayor de 27 µg/m³, el umbral estadístico del estudio. Las proporciones se calculan únicamente sobre objetivos observados; los días sin medición no pueden clasificarse.
 
 | Grupo observado | Madrid | Barcelona |
 | --- | ---: | ---: |
@@ -53,7 +53,7 @@ El informe agrupa tramos consecutivos observados por encima del umbral. En Sant 
 
 ## Archivos y mapeo
 
-El [pipeline](../tfm_data/pipelines/audit_regional_coverage.py) lee la tabla supervisada, el calendario diario y las predicciones de cada experimento. El [módulo de auditoría](../tfm_data/evaluation/coverage_audit.py) calcula las exclusiones y agregados. No importa modelos ni entrena estimadores.
+El [pipeline](../pm10_data/pipelines/audit_regional_coverage.py) lee la tabla supervisada, el calendario diario y las predicciones de cada experimento. El [módulo de auditoría](../pm10_data/evaluation/coverage_audit.py) calcula las exclusiones y agregados. No importa modelos ni entrena estimadores.
 
 Las entradas de Barcelona son `data/interim/experiments/barcelona/tabla_supervisada.csv`, `diario_2017_2024.csv` del mismo directorio y `output/experiments/barcelona/prueba_2024/predicciones.csv`. Madrid utiliza sus tablas originales en `data/interim/pm10_prediction/` y `data/interim/daily_pollution/`, junto con `output/pm10_final_2024/predicciones_regresion.csv`. Los CSV y ZIP originales conservan la [procedencia del experimento territorial](38_experimentos_madrid_barcelona.md).
 
@@ -85,7 +85,7 @@ En el resumen JSON, `calendar`, `evaluated`, `excluded`, `unknownTarget`, `obser
 ## Reproducción y próximos experimentos
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.audit_regional_coverage
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.audit_regional_coverage
 .\.venv\Scripts\python.exe -m unittest discover -s tests
 ```
 

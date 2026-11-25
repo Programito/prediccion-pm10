@@ -27,5 +27,5 @@ La comparación de las dos logísticas en estas filas ya está documentada. [Res
 La tabla se reproduce desde la raíz con este comando.
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.prepare_pm10_weather
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.prepare_pm10_weather
 ```

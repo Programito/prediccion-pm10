@@ -2,7 +2,7 @@ import unittest
 
 import pandas as pd
 
-from tfm_data.evaluation.station_review import propose_treatment, review_sampling_points
+from pm10_data.evaluation.station_review import propose_treatment, review_sampling_points
 
 
 class TestRevisionPuntos(unittest.TestCase):

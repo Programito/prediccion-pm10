@@ -151,12 +151,12 @@ export function CaseStudies({ loadJson, selected, onSelect, onCharts }: { loadJs
   return <div className="case-workspace">
     <nav className="case-selector" aria-label="Elegir caso de estudio">{report.cases.map((c, index) =>
       <button key={c.id} aria-pressed={item.id === c.id} onClick={() => onSelect(c.id)}><span>{index + 1}</span>{c.title}</button>)}</nav>
-    <p className="muted">{report.scope}. Tres ejemplos para la defensa y una falsa alarma para contrastar el último. El ensayo con el autor sigue pendiente.</p>
+    <p className="muted">{report.scope}. Tres ejemplos de predicción y una falsa alarma para contrastar el último.</p>
     {item.id === 'typical' && <section className="panel case-summary"><h2>Por qué elegimos este día</h2>
       <p>{report.selection.rule}</p><p>{report.selection.candidates} candidatos; mediana: {fmt(report.selection.median)} µg/m³.
         La selección utiliza la concentración observada para ilustrar un caso retrospectivo, no para entrenar o ajustar el modelo.</p></section>}
     <CaseDetail key={item.id} item={item} threshold={report.threshold} onsets={report.onsets} onCharts={onCharts} />
-    <section className="panel case-summary"><h2>Archivos de origen</h2><p>CSV: tablas; JSON: explicaciones y protocolo. El documento «Casos de estudio para la defensa» recoge el guion y las columnas de los extractos.</p>
+    <section className="panel case-summary"><h2>Archivos de origen</h2><p>CSV: tablas; JSON: explicaciones y protocolo. El documento «Casos de estudio de predicción de PM10» recoge el guion y las columnas de los extractos.</p>
       <details><summary>Ver procedencia y huellas de los {report.sources.length} archivos</summary>
         <ul className="case-evidence">{report.sources.map(source => <li key={source.path}><code>{source.path}</code> · {source.format}<br />
           <small>SHA-256: <code>{source.sha256}</code></small></li>)}</ul></details>

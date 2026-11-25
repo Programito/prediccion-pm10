@@ -8,8 +8,8 @@ import numpy as np
 import pandas as pd
 
 from explorer.server import app
-from tfm_data.adapters.sklearn.projections import LDAAdapter, PCAAdapter
-from tfm_data.evaluation.projections import choose_cut, validate_cohorts
+from pm10_data.adapters.sklearn.projections import LDAAdapter, PCAAdapter
+from pm10_data.evaluation.projections import choose_cut, validate_cohorts
 
 
 class ProjectionTests(unittest.TestCase):

@@ -58,7 +58,7 @@ El corte se eligió mirando 2023, por lo que sus cifras describen una comparaci�
 Desde la raíz del proyecto, con la tabla predictiva ya preparada:
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.train_pm10_classification
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.train_pm10_classification
 ```
 
 El comando guarda las [predicciones por estación y fecha](../output/pm10_classification_validation/predicciones_validacion_2023.csv), las métricas, la configuración y el modelo ajustado en `models/pm10/validation_2023/logistica.joblib`.
@@ -66,5 +66,5 @@ El comando guarda las [predicciones por estación y fecha](../output/pm10_classi
 Con las predicciones guardadas, se puede reproducir el barrido:
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.audit_pm10_classification_thresholds
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.audit_pm10_classification_thresholds
 ```

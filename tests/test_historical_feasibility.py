@@ -2,8 +2,8 @@ import unittest
 
 import pandas as pd
 
-from tfm_data.evaluation.historical_feasibility import audit_coordinates, summarize_territorial_continuity, select_constant_points
-from tfm_data.mappers.air import combine_daily_measurements
+from pm10_data.evaluation.historical_feasibility import audit_coordinates, summarize_territorial_continuity, select_constant_points
+from pm10_data.mappers.air import combine_daily_measurements
 
 
 class TestViabilidadHistorica(unittest.TestCase):

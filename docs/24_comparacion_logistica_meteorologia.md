@@ -23,5 +23,5 @@ La mejora de 2023 es pequeña y se observa en el mismo año que se usó para ele
 El experimento se reproduce desde la raíz del proyecto.
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.compare_pm10_weather
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.compare_pm10_weather
 ```

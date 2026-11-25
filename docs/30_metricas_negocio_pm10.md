@@ -2,13 +2,13 @@
 
 ## Decisión que se quiere apoyar
 
-Como caso de uso para el TFM se propone una organización que programa actividades exteriores en los entornos de las tres estaciones del estudio. Un aviso para el día siguiente activaría una revisión anticipada de la programación y la preparación de alternativas. La decisión requiere conocer cuánto cuesta una revisión innecesaria y cuánto cuesta reaccionar tarde al comienzo de un episodio.
+Como caso de uso para la predicción de PM10 se propone una organización que programa actividades exteriores en los entornos de las tres estaciones del estudio. Un aviso para el día siguiente activaría una revisión anticipada de la programación y la preparación de alternativas. La decisión requiere conocer cuánto cuesta una revisión innecesaria y cuánto cuesta reaccionar tarde al comienzo de un episodio.
 
 Este caso de uso es una propuesta de aplicación. Los datos del proyecto contienen mediciones ambientales y predicciones. Para explorar sensibilidad, se normaliza el coste de una falsa alarma a una unidad y se varía el coste relativo de omitir un comienzo. Una organización interesada tendría que aportar sus costes reales de planificación, sus criterios operativos y la relación entre cada estación y sus actividades.
 
 ## Qué se cuenta
 
-Se utilizan las predicciones fijas de 2025 para persistencia y las dos regresiones logísticas. La muestra se restringe a las **891 observaciones de estación y fecha objetivo cuyo día anterior estaba en 27 µg/m³ o menos**. En ellas se observaron **27 comienzos**, definidos por un valor objetivo estrictamente superior a 27 µg/m³. El umbral procede del protocolo estadístico del TFM.
+Se utilizan las predicciones fijas de 2025 para persistencia y las dos regresiones logísticas. La muestra se restringe a las **891 observaciones de estación y fecha objetivo cuyo día anterior estaba en 27 µg/m³ o menos**. En ellas se observaron **27 comienzos**, definidos por un valor objetivo estrictamente superior a 27 µg/m³. El umbral procede del protocolo estadístico del estudio.
 
 | Método | Comienzos detectados | Comienzos omitidos | Falsas alarmas | Avisos emitidos |
 | --- | ---: | ---: | ---: | ---: |
@@ -59,9 +59,9 @@ El proceso utiliza la biblioteca estándar de Python y lee las [predicciones de 
 Desde la raíz, con el entorno Python del proyecto disponible, ejecutar
 
 ```powershell
-.\.venv\Scripts\python.exe -m tfm_data.pipelines.evaluate_pm10_business
+.\.venv\Scripts\python.exe -m pm10_data.pipelines.evaluate_pm10_business
 ```
 
-El [pipeline](../tfm_data/pipelines/evaluate_pm10_business.py) genera el [resumen de avisos](../output/pm10_business_2025/resumen_avisos.csv), los [costes por escenario](../output/pm10_business_2025/escenarios_coste.csv) y la [configuración y huella de la fuente](../output/pm10_business_2025/configuracion.json). Los recuentos coinciden con el contexto `hoy_no_elevado` de las [métricas de clasificación](../output/pm10_weather_test_2025/metricas_por_contexto.csv).
+El [pipeline](../pm10_data/pipelines/evaluate_pm10_business.py) genera el [resumen de avisos](../output/pm10_business_2025/resumen_avisos.csv), los [costes por escenario](../output/pm10_business_2025/escenarios_coste.csv) y la [configuración y huella de la fuente](../output/pm10_business_2025/configuracion.json). Los recuentos coinciden con el contexto `hoy_no_elevado` de las [métricas de clasificación](../output/pm10_weather_test_2025/metricas_por_contexto.csv).
 
 En la ejecución del 19 de noviembre de 2026 se utilizó el Python disponible en el runtime de Codex, porque el entorno `.venv` conserva una ruta a una versión anterior que requiere reparación. Esta incidencia está recogida en la revisión de requisitos.
